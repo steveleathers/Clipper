@@ -1,0 +1,8 @@
+
+.store_listing .map, h2.vendorsearch, #searchzip, hr.storelisting {
+	display:none;
+}
+
+.printbutton {
+	display:none;
+}

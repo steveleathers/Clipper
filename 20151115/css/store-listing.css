@@ -1,0 +1,5 @@
+@import url('store-listing-common.css');
+
+.ie-listfix {
+	display:none;
+}

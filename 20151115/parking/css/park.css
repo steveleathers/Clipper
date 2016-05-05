@@ -1,0 +1,416 @@
+/* 
+---------------------------- 
+LEFT COLUMN LIST HEADERS
+---------------------------- 
+*/
+
+#header.parking {
+
+	border-bottom: 5px solid #F46300;
+	margin: 0;
+
+}
+
+
+#navlistheader
+ {
+	background: transparent url(../images/headers/parkHeader.gif) no-repeat;
+	height: 90px;
+}
+
+
+#pageHeader {
+	z-index: 2;
+	background: transparent url(../images/headers/parkGeneric.gif) no-repeat top left;
+	height: 59px;
+	position: relative;
+}
+
+	
+#leftNavModule li a {
+	padding: 5px 5px 5px 25px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url(../images/bullets/arrow-parking.png) no-repeat 4px 50%;
+	line-height: 14px;
+}
+	
+#leftNavModule li a:hover {
+	color: #0068ac;
+}
+
+		
+#parkRelatedModuleTop {
+	height: 99px;
+	background: url(../images/parkingRelatedTop.jpg) no-repeat top left;
+	margin-bottom:25px;
+}
+
+#parkRelatedModuleBody {
+	background: #F3F1F4 url(../images/global/greyfadeShortBg.gif) repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#parkRelatedModuleBody h2 {
+	font-size:0.75em;
+	font-weight: bold;
+	padding: 3px 0 10px 8px;
+}
+
+#parkRelatedModuleBottom {
+	background: #fff url(../images/greyangleBottomReverse.gif) no-repeat 0 -15px;
+	height: 29px;
+}
+
+#parkRelatedModule li {
+	font-size: .75em;
+	text-indent: -15px;
+	padding: 0 0 5px 15px;
+	max-width: 160px; /*ADD TO FIX BULLETS POINTS IN IE7*/
+	
+}
+
+#parkRelatedModule li a {
+	padding: 5px 5px 5px 15px;
+	color: #545354;
+	text-decoration: none;
+	background: transparent url(../images/bullets/parkingSq.gif) no-repeat 5px 10px;
+}
+
+#parkRelatedModule li a:hover {
+	color: #0068a6;
+}
+
+#parkRelatedModule h1 {
+	height: 8px;
+	background: #fff url(../images/global/genericOrangeBar.gif) repeat-x left bottom;
+	text-indent: -9999px;
+}
+
+/* 
+---------------------------- 
+TABBED NAVIGATION --not using images/javascriwheels
+---------------------------- 
+*/	
+
+ul#tabbed-nav {
+	position: relative;
+	top: 65px;
+	left: 84px;
+	margin: 0;
+	height: 30px;
+	list-style-type: none;
+    display:table;
+	border-spacing: 2px 0px;
+    border-collapse: separate;
+}
+
+ul#tabbed-nav li  {
+display:table-cell;
+background-color:#949b9e;
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+line-height:15px;
+text-align:center;
+height:30px;
+margin:0px; 
+padding:0px 4px;
+position: relative;
+vertical-align:middle;
+width:120px;
+}
+
+
+
+ul#tabbed-nav li.active  {background-color:#F46300;}  /*special color for wheels*/
+ul#tabbed-nav li.active a {color:#fff;}
+
+ul#tabbed-nav li:hover  {background-color:#F46300;color:#fff;} /*special color for wheels*/
+ul#tabbed-nav li:hover  a{background-color:#F46300;color:#fff;} /*special color for wheels*/
+ul#tabbed-nav li  a:hover {color:#fff;}
+
+ul#tabbed-nav li.not-active  {background-color:#949b9e !important;}  /*special color for wheels*/
+ul#tabbed-nav li.not-active a {color:#fff !important;}
+
+ul#tabbed-nav li a {
+    text-decoration:none;
+	 display:block;
+	 vertical-align:middle;
+	color:#fff;
+    font-size:12px;
+	
+}
+
+div.navText {
+    font-size:10px; 
+    margin-top:-2px;
+}
+
+ul#tabbed-nav li ul {
+  position: absolute;
+  top: 30px;
+  left:-240px;
+  width: 300px;
+  visibility:hidden;
+	
+}
+
+ul#tabbed-nav li ul li{
+  background-color:#fff;
+  color:#333;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom:8px solid #F46300; 							/*special color for wheels*/
+  -webkit-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+}
+
+ul#tabbed-nav li ul li div#menu2Container  {
+	z-index: 20;
+	width:384px;
+}
+
+ul#tabbed-nav li ul li div#menu2Container img {
+	float:left;
+	position:relative;
+	width:76px;
+	padding:5px 10px;
+}
+
+div#menu2Container img.active {
+	cursor:default;
+}
+
+div#menu2Container:hover > a img {
+	opacity:.25;
+}
+
+
+div#menu2Container:hover > a img:hover{
+	opacity:1;
+}
+
+div#menu2Container:hover > a img.active:hover{
+	opacity:.25;
+}
+
+ul#tabbed-nav li ul li:hover{
+  background-color:#fff;
+}
+
+ul#tabbed-nav li:hover ul  {
+  opacity: 1;
+  visibility: visible;
+  z-index:3000;
+}
+	
+#menu2Container li {
+	/*background: #dfdfe1;*/
+}
+	
+#menu2Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	font-size:14px;
+	line-height:18px;
+	display: block;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+	background: #fff;
+}
+
+#menu2Container li a:hover {
+	color: #00837a;
+}
+
+#menu1Content {
+	position: absolute;
+	width:368px !important;
+	height:250px !important;
+	background: #fff;
+	-moz-box-shadow: 0 8px 16px #888;
+   -webkit-box-shadow: 0 8px 16px #888;
+   box-shadow: 0 8px 16px #888;
+   margin-left:8px;
+}
+
+
+/* 
+---------------------------- 
+TOP NAV
+---------------------------- 
+*/	
+
+ul#topNav {
+	position: relative;
+	top: 66px;
+	left: 107px;
+	width: 368px;
+	margin: 0;
+	height: 29px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+body.parkhome ul#topNav, 
+body.parkget ul#topNav,
+body.parkvalue ul#topNav,
+body.parkfaq ul#topNav,
+body.parklocations ul#topNav {
+	background: transparent url(../images/ParkNav.gif) no-repeat 0 0;
+}
+
+ul#topNav li a {
+	position: absolute;
+	top: 0;
+	text-indent: -9000px;
+	text-decoration: none;
+	padding: 29px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:22px; /* IE5/Win */
+	background: transparent url(../images/ParkNav.gif) no-repeat;
+}
+
+/* 
+---------------------------- 
+NAV TABS
+---------------------------- 
+*/
+
+body.parkhome li#TLhome a, 
+body.parkget li#TLhome a, 
+body.parkvalue li#TLhome a,
+body.parkfaq li#TLhome a,
+body.parklocations li#TLhome a {
+	background-position: 0 -29px;
+	width: 123px;
+	left: 0;
+}
+
+body.parkhome li#TLhome a:hover, 
+body.parkget li#TLhome a:hover, 
+body.parkvalue li#TLhome a:hover,
+body.parkfaq li#TLhome a:hover,
+body.parklocations li#TLhome a:hover { 
+	background-position: 0 0px; 
+}
+
+body.parkhome li#TLonpark a,  
+body.parkget li#TLonpark a,
+body.parkvalue li#TLonpark a,
+body.parkfaq li#TLonpark a,
+body.parklocations li#TLonpark a {
+	background-position: -123px -29px;
+	width: 123px;
+	left: 123px;
+}
+
+body.parkhome li#TLonpark a:hover, 
+body.parkget li#TLonpark a:hover, 
+body.parkvalue li#TLonpark a:hover,
+body.parkfaq li#TLonpark a:hover,
+body.parklocations li#TLonpark a:hover{
+	background-position: -123px -29px;
+}
+
+body.parkhome li#Other a, 
+body.parkget li#Other a, 
+body.parkvalue li#Other a,
+body.parkfaq li#Other a,
+body.parklocations li#Other a {
+	background-position: -246px -0px;
+	width: 122px;
+	left: 246px;
+}
+
+body.parkhome li#Other a:hover, 
+body.parkget li#Other a:hover, 
+body.parkvalue li#Other a:hover,
+body.parkfaq li#Other a:hover,
+body.parklocations li#Other a:hover {
+	background-position: -246px -58px;
+}
+
+
+/*
+---------------------------- 
+YOU ARE HERE
+---------------------------- 
+*/
+
+body.parkhome li#park a, 
+body.parkget li#get a, 
+body.parkvalue li#value a,
+body.parkfaq li#faq a,
+body.parklocations li#locations a {
+color: #e8721a; 
+}
+
+
+
+
+#menu1Container ul {
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+	background: #FFF;
+	z-index: 20;
+}
+	
+#menu1Container li {
+	/*background: #dfdfe1;*/
+	border-bottom: 1px solid #cfd0d2;
+	border-top: 1px solid #FFF;
+}
+	
+#menu1Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: #E7E7E7;
+}
+	
+#menu1Container li a:hover {
+	color: #0068ac;
+}
+
+ol {
+	list-style:decimal;
+	margin:0px 0px 10px 40px;
+
+}
+
+#parkFAQcontent h4 {
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  font-size: .75em;
+  line-height: 1.5em;
+  color: #000000;
+  width:400px;
+}
+
+#parkFAQcontent h4.first
+{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+

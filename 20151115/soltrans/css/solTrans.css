@@ -1,0 +1,376 @@
+/* 
+---------------------------- 
+LEFT COLUMN LIST HEADERS
+---------------------------- 
+*/
+	
+
+
+
+#navlistheader
+ {
+	background: transparent url(../images/solTransLogo.jpg) no-repeat;
+	height: 90px;
+}
+
+
+#pageHeader {
+	z-index: 2;
+	background: transparent url(../images/solTransBar.jpg) no-repeat top left;
+	height: 59px;
+	position: relative;
+}
+
+	
+#leftNavModule li a {
+	padding: 5px 5px 5px 25px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url(../images/arrow-solTrans.png) no-repeat 4px 50%;
+	line-height: 14px;
+}
+	
+#leftNavModule li a:hover {
+	color: #298f39;
+}
+
+		
+#STTransitRelatedModuleTop {
+	height: 99px;
+	background: url(../images/solTransRelatedTop.jpg) no-repeat top left;
+	margin-bottom:25px;
+}
+
+#STTransitRelatedModuleBody {
+	background: #F3F1F4 url(../../index.html) repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#STTransitRelatedModuleBody h2 {
+	font-size:0.75em;
+	font-weight: bold;
+	padding: 3px 0 10px 8px;
+}
+
+#STTransitRelatedModuleBottom {
+	background: #fff url(../../index.html) no-repeat 0 -15px;
+	height: 29px;
+}
+
+#STTransitRelatedModule li {
+	font-size: .75em;
+	text-indent: -15px;
+	padding: 0 0 5px 15px;
+	max-width: 160px; /*ADD TO FIX BULLETS POINTS IN IE7*/
+	
+}
+
+#STTransitRelatedModule li a {
+	padding: 5px 5px 5px 15px;
+	color: #545354;
+	text-decoration: none;
+	background: transparent url(../../index.html) no-repeat 5px 10px;
+}
+
+#STTransitRelatedModule li a:hover {
+	color: #70b51c;
+}
+
+#STTransitRelatedModule h1 {
+	height: 8px;
+	background: #fff url(../../index.html) repeat-x left bottom;
+	text-indent: -9999px;
+}
+
+#header.solTrans {
+	border-bottom: 5px solid #3f9537;
+}
+
+/* 
+---------------------------- 
+TOP NAV
+---------------------------- 
+*/	
+
+ul#topNav {
+	position: relative;
+	top: 66px;
+	left: 107px;
+	width: 368px;
+	margin: 0;
+	height: 29px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+body.SThome ul#topNav, 
+body.STfares ul#topNav, 
+body.STfaq ul#topNav  {
+	background: transparent url(../images/solTransNav.png) no-repeat 0 0;
+}
+
+ul#topNav li a {
+	position: absolute;
+	top: 0;
+	text-indent: -9000px;
+	text-decoration: none;
+	padding: 29px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:22px; /* IE5/Win */
+	background: transparent url(../images/solTransNav.png) no-repeat;
+}
+
+/* 
+---------------------------- 
+NAV TABS
+---------------------------- 
+*/
+
+body.SThome li#TLhome a, 
+body.STfaq li#TLhome a, 
+body.STfares li#TLhome a {
+	background-position: 0 -29.5px;
+	width: 123px;
+	left: 0;
+}
+
+body.SThome li#TLhome a:hover, 
+body.STfaq li#TLhome a:hover, 
+body.STfares li#TLhome a:hover { 
+	background-position: 0 0px; 
+}
+
+body.SThome li#TLonST a, 
+body.STfaq li#TLonST a, 
+body.STfares li#TLonST a {
+	background-position: -123px -29.5px;
+	width: 123px;
+	left: 123px;
+}
+
+body.SThome li#TLonST a:hover, 
+body.STfaq li#TLonST a:hover, 
+body.STfares li#TLonST a:hover
+{
+	background-position: -123px -29.5px;
+}
+
+body.SThome li#Other a, 
+body.STfaq li#Other a, 
+body.STfares li#Other a
+{
+	background-position: -246px -0px;
+	width: 122px;
+	left: 246px;
+}
+
+body.SThome li#Other a:hover, 
+body.STfaq li#Other a:hover, 
+body.STfares li#Other a:hover
+{
+	background-position: -246px -58px;
+}
+
+
+/*
+---------------------------- 
+YOU ARE HERE
+---------------------------- 
+*/
+
+body.SThome li#howtouse a, 
+body.STfaq li#faq a, 
+body.STfares li#fares a  {
+color: #2b8f39; 
+}
+
+
+
+
+#menu1Container ul {
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+	background: #FFF;
+	z-index: 20;
+}
+	
+#menu1Container li {
+	/*background: #dfdfe1;*/
+	border-bottom: 1px solid #cfd0d2;
+	border-top: 1px solid #FFF;
+}
+	
+#menu1Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: #E7E7E7;
+}
+	
+#menu1Container li a:hover {
+	color: #2b8f39;
+}
+
+/* 
+---------------------------- 
+TABBED NAVIGATION --not using images/javascript
+---------------------------- 
+*/	
+
+ul#tabbed-nav {
+	position: relative;
+	top: 65px;
+	left: 84px;
+	margin: 0;
+	height: 30px;
+	list-style-type: none;
+    display:table;
+	border-spacing: 2px 0px;
+    border-collapse: separate;
+}
+
+ul#tabbed-nav li  {
+display:table-cell;
+background-color:#949b9e;
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+line-height:15px;
+text-align:center;
+height:30px;
+margin:0px; 
+padding:0px 4px;
+position: relative;
+vertical-align:middle;
+width:120px;
+}
+
+
+
+ul#tabbed-nav li.active  {background-color:#3f9537;}  /*special color for caltrian*/
+ul#tabbed-nav li.active a {color:#fff;}
+
+ul#tabbed-nav li:hover  {background-color:#3f9537;color:#fff;} /*special color for caltrian*/
+ul#tabbed-nav li:hover  a{background-color:#3f9537;color:#fff;} /*special color for caltrian*/
+ul#tabbed-nav li  a:hover {color:#fff;}
+
+ul#tabbed-nav li.not-active  {background-color:#949b9e !important;}  /*special color for caltrian*/
+ul#tabbed-nav li.not-active a {color:#fff !important;}
+
+ul#tabbed-nav li a {
+    text-decoration:none;
+	 display:block;
+	 vertical-align:middle;
+	color:#fff;
+    font-size:12px;
+	
+}
+
+div.navText {
+    font-size:10px; 
+    margin-top:-2px;
+}
+
+ul#tabbed-nav li ul {
+  position: absolute;
+  top: 30px;
+  left:-240px;
+  width: 300px;
+  visibility:hidden;
+	
+}
+
+ul#tabbed-nav li ul li{
+  background-color:#fff;
+  color:#333;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom:8px solid #67AD44; 		/*special color for caltrian*/
+  -webkit-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+}
+
+ul#tabbed-nav li ul li div#menu2Container  {
+	z-index: 20;
+	width:384px;
+}
+
+ul#tabbed-nav li ul li div#menu2Container img {
+	float:left;
+	position:relative;
+	width:76px;
+	padding:5px 10px;
+}
+
+div#menu2Container img.active {
+	cursor:default;
+}
+
+div#menu2Container:hover > a img {
+	opacity:.25;
+}
+
+
+div#menu2Container:hover > a img:hover{
+	opacity:1;
+}
+
+div#menu2Container:hover > a img.active:hover{
+	opacity:.25;
+}
+
+ul#tabbed-nav li ul li:hover{
+  background-color:#fff;
+}
+
+ul#tabbed-nav li:hover ul  {
+  opacity: 1;
+  visibility: visible;
+  z-index:3000;
+}
+	
+#menu2Container li {
+	/*background: #dfdfe1;*/
+}
+	
+#menu2Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	font-size:14px;
+	line-height:18px;
+	display: block;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+	background: #fff;
+}
+
+#menu2Container li a:hover {
+	color: #00837a;
+}
+
+#menu1Content {
+	position: absolute;
+	width:368px !important;
+	height:250px !important;
+	background: #fff;
+	-moz-box-shadow: 0 8px 16px #888;
+   -webkit-box-shadow: 0 8px 16px #888;
+   box-shadow: 0 8px 16px #888;
+   margin-left:8px;
+}
+
+h4{line-height:1.5em;color:#505050}

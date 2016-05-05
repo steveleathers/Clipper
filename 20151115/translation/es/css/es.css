@@ -1,0 +1,142 @@
+body.eshome #navlistheader,
+body.esget #navlistheader,
+body.esuse #navlistheader,
+body.espark #navlistheader,
+body.esdownload #navlistheader,
+body.essupport #navlistheader
+ {
+	background: transparent url(../../../images/homepage/headers/square-blue-alt2.gif) no-repeat;
+	height: 73px;
+}
+
+/*pageHeader*/
+body.eshome #pageHeader,
+body.esget #pageHeader,
+body.esuse #pageHeader,
+body.espark #pageHeader,
+body.esdownload #pageHeader,
+body.essupport #pageHeader
+{
+	background: transparent url(../../../images/homepage/headers/headerGenericBlue.png) no-repeat top left;
+	height: 73px;
+	position: relative;
+}
+
+/* topNav */
+body.eshome ul#topNav,
+body.esget ul#topNav,
+body.esuse ul#topNav,
+body.espark ul#topNav,
+body.esdownload ul#topNav,
+body.essupport ul#topNav{
+	background: transparent url(../../../images/homepage/global/navbar.gif) no-repeat 0 -87px; 
+}
+/* home */
+body.eshome li#home a,
+body.esget li#home a,
+body.esuse li#home a,
+body.espark li#home a,
+body.esdownload li#home a,
+body.essupport li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.eshome li#home a:hover,
+body.esget li#home a:hover,
+body.esuse li#home a:hover,
+body.espark li#home a:hover,
+body.esdownload li#home a:hover,
+body.essupport li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.eshome li#about a,
+body.esget li#about a,
+body.esuse li#about a,
+body.espark li#about a,
+body.esdownload li#about a,
+body.essupport li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.eshome li#about a:hover,
+body.esget li#about a:hover,
+body.esuse li#about a:hover,
+body.espark li#about a:hover,
+body.esdownload li#about a:hover,
+body.essupport li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.eshome li#use a,
+body.esget li#use a,
+body.esuse li#use a,
+body.espark li#use a,
+body.esdownload li#use a,
+body.essupport li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.eshome li#use a:hover,
+body.esget li#use a:hover,
+body.esuse li#use a:hover,
+body.espark li#use a:hover,
+body.esdownload li#use a:hover,
+body.essupport li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+
+body.eshome li#get a,
+body.esget li#get a,
+body.esuse li#get a,
+body.espark li#get a,
+body.esdownload li#get a,
+body.essupport li#get a
+{ 
+	background-position: -331px -87px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.eshome li#get a:hover,
+body.esget li#get a:hover,
+body.esuse li#get a:hover,
+body.espark li#get a:hover,
+body.esdownload li#get a:hover,
+body.essupport li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+body.eshome li#eshome,
+body.esget li#esget,
+body.esuse li#esuse,
+body.espark li#espark,
+body.esdownload li#esdownload,
+body.essupport li#essupport {
+	background: #0068a6 url(../../../images/homepage/global/leftnav-color-button.gif) repeat-x top;
+	border-top:1px solid #8ebdd8;
+}
+
+body.eshome li#eshome a,
+body.esget li#esget a,
+body.esuse li#esuse a,
+body.espark li#espark a,
+body.esdownload li#esdownload a,
+body.essupport li#essupport a {
+	 color:#FFFFFF;
+	 background: transparent url(../../../images/homepage/bullets/arrow-white.png) no-repeat 4px 50%;
+}

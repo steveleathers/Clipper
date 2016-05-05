@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+.get{
+	width:560px;
+	margin-left:5px;
+	margin-right:10px;
+	font-weight: normal;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+}
+.get p{
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	font-size:0.75em;
+	color:#333;
+}
+.get li{
+	margin-left:15px;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	font-size:0.75em;
+}
+.get h3{
+	color: #002e6e;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+}
+
+.get h4{
+	color: #002e6e;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	margin-left: -5px;
+	margin-top: 1.5em;
+	font-size: 1.0em;
+}
+.get table{
+	margin-left: 14px;
+	max-width: 427px;
+}
+
+a.get link {
+	color:#fff;
+}
+
+#mostrequested table {
+	border-collapse:collapse;
+	margin-left: 5px;
+}
+#mostrequested {
+	vertical-align: top;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	padding-left: 10px;
+	padding-right: 6px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#mostrequested th{
+	text-align:left;
+	padding-left: 10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	background-color:#bedaea;
+	color:#333;
+	border:1px solid #0068a6;
+	
+}
+.get #mostrequested tr.alt td 
+{
+	color:#000;
+	background-color: #ebf4f8;
+}
+#mostrequested td
+{
+	border:1px solid #0068a6;
+	padding-left: 10px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	vertical-align: top;
+	font-size: 0.75em;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+}
+
+.servicecity p {
+	color: #0068a6;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	max-width: 448px;
+	line-height:0.8em;
+}
+.servicetable p {
+	max-width: 490px;
+}
+.servicetable ul li {
+	max-width: 500px;
+}
+.servicetable th{
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#0068a6;
+	color:#fff;
+	border-left:1px solid #069;
+	border-right:1px solid #069;
+	border-top:1px solid #069;
+}
+
+.servicetable td, .servicetable th {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:4px;
+}
+.servicetable td {
+	border-bottom:1px solid #069;
+	border-left:1px solid #069;
+	border-right:1px solid #069;
+	border-top:none;
+	vertical-align:top;
+}
+.servicetable table {
+	margin-left:10px;
+}
+#inperson td {
+	padding-right: 10px;
+	padding-bottom: 8px;
+}
+#inperson p{
+	max-width: 490px;
+}
+#locationtable th{
+	background-color:#bedaea;
+	border-bottom: 1px solid #069;
+	color:#333;
+	text-align: center;
+}
+#locationtable td{
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	font-size:0.75em;
+	color:#333;
+
+}
+#locationtable {
+	
+}
+/* Not going to use this on Ray Dev 
+.services-li {
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	color: #333;
+	margin-left:-20px;
+	font-size:0.75em;
+	line-height: 1.5em;
+	list-style-type:none;
+	padding: 0 0 10px 7px;
+	background: transparent url(../../../www.clippercard.com/ClipperWeb/images/homepage/bullets/blueSquare.html) no-repeat 0 7px;
+
+}
+*/
+
+/* MIG ADDED CSS */
+
+.services-li {
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	color: #333;
+	margin-left:-20px;
+	font-size:0.75em;
+	line-height: 1.5em;
+	list-style-type:none;
+	padding: 0 0 10px 7px;
+	background: transparent url(../../../images/homepage/bullets/blueSquare.gif) no-repeat 0 7px;
+
+}

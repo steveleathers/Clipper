@@ -1,0 +1,588 @@
+/* 
+---------------------------- 
+LEFT COLUMN LIST HEADERS
+---------------------------- 
+*/
+
+#mainContent ul.standardList {
+padding: 0 0 20px 50px;
+
+}
+
+#mainContent .standardList li {
+	line-height: 1.5em;
+	padding: 0 0 10px 7px;
+	width: 360px;
+	background: transparent url(../../index.html) no-repeat 0 7px;
+	}
+
+#navlistheader
+ {
+	background: transparent url(../images/headers/vtaLogo.jpg) no-repeat;
+	height: 90px;
+}
+
+
+#pageHeader {
+	background: transparent url(../images/headers/vtaGeneric.jpg) no-repeat top left;
+	height: 59px;
+	position: relative;
+}
+	
+#leftNavModule li a {
+	padding: 5px 5px 5px 25px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url(../images/bullets/arrow-vta.png) no-repeat 4px 50%;
+	line-height: 14px;
+}
+	
+#leftNavModule li a:hover {
+	color: #005581;
+}
+
+		
+#ACTransitRelatedModuleTop {
+	height: 99px;
+	background: url(../images/vtaRelatedTop.jpg) no-repeat top left;
+	margin-bottom:25px;
+}
+
+#ACTransitRelatedModuleBody {
+	background: #F3F1F4 url(../../index.html) repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#ACTransitRelatedModuleBody h2 {
+	font-size:0.75em;
+	font-weight: bold;
+	padding: 3px 0 10px 8px;
+}
+
+#ACTransitRelatedModuleBottom {
+	background: #fff url(../images/greyangleBottomReverse.gif) no-repeat 0 -15px;
+	height: 29px;
+}
+
+#ACTransitRelatedModule li {
+	font-size: .75em;
+	text-indent: -15px;
+	padding: 0 0 5px 15px;
+	max-width: 160px; /*ADD TO FIX BULLETS POINTS IN IE7*/
+	
+}
+
+#ACTransitRelatedModule li a {
+	padding: 5px 5px 5px 15px;
+	color: #545354;
+	text-decoration: none;
+	background: transparent url(../../index.html) no-repeat 5px 10px;
+}
+
+#ACTransitRelatedModule li a:hover {
+	color: #0068a6;
+}
+
+#ACTransitRelatedModule h1 {
+	height: 8px;
+	background: #fff url(../../index.html) repeat-x left bottom;
+	text-indent: -9999px;
+}
+
+#header.vta {
+	border-bottom: 5px solid #005983;
+}
+
+
+/* 
+---------------------------- 
+TOP NAV
+---------------------------- 
+*/	
+	
+ul#topNav {
+	position: relative;
+	top: 66px;
+	left: 107px;
+	width: 368px;
+	margin: 0;
+	height: 29px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+body.vtatransition ul#topNav, 
+body.vtahome ul#topNav, 
+body.vtafares ul#topNav, 
+body.vtafaq ul#topNav, 
+body.vtaseniors ul#topNav  {
+	background: transparent url(../images/vtaNav.gif) no-repeat 0 0;
+}
+
+ul#topNav li a {
+	position: absolute;
+	top: 0;
+	text-indent: -9000px;
+	text-decoration: none;
+	padding: 29px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:22px; /* IE5/Win */
+	background: transparent url(../images/vtaNav.gif) no-repeat;
+}
+
+/* 
+---------------------------- 
+NAV TABS
+---------------------------- 
+*/
+body.vtatransition li#TLhome a, 
+body.vtahome li#TLhome a, 
+body.vtafaq li#TLhome a, 
+body.vtafares li#TLhome a,
+body.vtaseniors li#TLhome a {
+	background-position: 0 -29.5px;
+	width: 123px;
+	left: 0;
+}
+
+body.vtatransition li#TLhome a:hover, 
+body.vtahome li#TLhome a:hover, 
+body.vtafaq li#TLhome a:hover, 
+body.vtafares li#TLhome a:hover,
+body.vtaseniors li#TLhome a:hover { 
+	background-position: 0 0px; 
+}
+
+body.vtahome li#TLonvta a,
+body.vtatransition li#TLonvta a,  
+body.vtafaq li#TLonvta a, 
+body.vtafares li#TLonvta a,
+body.vtaseniors li#TLonvta a {
+	background-position: -123px -29.5px;
+	width: 123px;
+	left: 123px;
+}
+
+body.vtahome li#TLonvta a:hover, 
+body.vtatransition li#TLonvta a:hover, 
+body.vtafaq li#TLonvta a:hover, 
+body.vtafares li#TLonvta a:hover,
+body.vtaseniors li#TLonvta a:hover {
+	background-position: -123px -29.5px;
+}
+
+body.vtahome li#Other a, 
+body.vtatransition li#Other a, 
+body.vtafaq li#Other a, 
+body.vtafares li#Other a,
+body.vtaseniors li#Other a {
+	background-position: -246px -0px;
+	width: 122px;
+	left: 246px;
+}
+
+body.vtahome li#Other a:hover, 
+body.vtatransition li#Other a:hover, 
+body.vtafaq li#Other a:hover, 
+body.vtafares li#Other a:hover,
+body.vtaseniors li#Other a:hover {
+	background-position: -246px -58px;
+}
+
+
+
+/*
+---------------------------- 
+YOU ARE HERE
+---------------------------- 
+*/
+
+body.vtahome li#howtouse a, body.vtafaq li#faq a, 
+body.vtafares li#fares a, body.vtaseniors li#seniors a, body.vtatransition li#transition a  {
+color: #005581; 
+}
+
+#menu1Container ul {
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+	background: #FFF;
+	z-index: 20;
+}
+	
+#menu1Container li {
+	/*background: #dfdfe1;*/
+	border-bottom: 1px solid #cfd0d2;
+	border-top: 1px solid #FFF;
+}
+	
+#menu1Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: #E7E7E7;
+}
+	
+#menu1Container li a:hover {
+	color: #005581;
+}
+
+#footer {
+	border-top: 1px solid #dedfe1;
+	position: relative;
+	clear: both;
+	margin: 10px 4px 0 0;
+}
+
+/* CSS for Transition page */
+
+/**/
+div#banner-container {
+	width: 418px;
+	margin: 0 auto;
+}
+div#banner-container div#banner-english {
+	width: 418px;
+	height: 185px;
+	background: url(../images/banner_english.jpg) no-repeat;	
+	display: block;
+}
+div#banner-container div#banner-espanol {
+	width: 418px;
+	height: 185px;
+	background: url(../images/banner_espanol.jpg) no-repeat;	
+	display: none;
+}
+div#banner-container div#banner-chinese {
+	width: 418px;
+	height: 185px;
+	background: url(../images/banner_chinese.jpg) no-repeat;
+	display: none;	
+}
+div#banner-container div#banner-vietnamese {
+	width: 418px;
+	height: 185px;
+	background: url(../images/banner_vietnamese.jpg) no-repeat;
+	display: none;	
+}
+div#banner-container div#banner-korean {
+	width: 418px;
+	height: 185px;
+	background: url(../images/banner_korean.jpg) no-repeat;
+	display: none;	
+}
+/**/
+div#banner-menu {
+	width: 418px;
+	height: 32px;
+	background: url(../images/banner_menu.png) no-repeat;
+	margin: 0 auto;
+	background-position: 0 0;
+}
+div#banner-menu div.menu-option {
+	width: 60px;
+	height: 32px;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+div#banner-menu div#menu-english {
+	width: 50px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+div#banner-menu div#menu-vietnamese {
+	width: 75px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+div#banner-menu div#menu-korean {
+	width: 60px;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/**/
+div#card-container{
+	width: 420px;
+	background: url(../images/passes.png) no-repeat;
+	margin: 0 auto 0 auto;
+	height: 96px;
+}
+div#card-container div.card-box {
+	float: left;
+}
+div.card-box div.card-box {
+	display: block;
+}
+div.card-box div.card-1 {
+	width: 48px;
+	height: 75px;
+	margin: 10px 0 0 30px;
+	cursor: pointer;	
+}
+div.card-box div.card-2 {
+	width: 50px;
+	height: 75px;
+	margin: 10px 0 0 50px;
+	cursor: pointer;	
+}
+div.card-box div.card-3 {
+	width: 70px;
+	height: 50px;
+	margin: 20px 0 0 40px;
+	cursor: pointer;	
+}
+div.card-box div.card-4 {
+	width: 70px;
+	height: 50px;
+	margin: 20px 0 0 35px;
+	cursor: pointer;	
+}
+
+/**/
+div#info-container div.info-box {
+	width: 420px;
+	border: 0px solid #999;
+	cursor: pointer;
+}
+div#info-container div.info-box-1 {
+	display: block;	
+}
+div#info-container div.info-box-2 {
+	display: none;	
+}
+div#info-container div.info-box-3 {
+	display: none;
+}
+div#info-container div.info-box-4 {
+	display: none;
+}
+/**/
+#content-english {
+	display: block;	
+}
+#content-espanol {
+	display: none;	
+}
+#content-chinese {
+	display: none;	
+}
+#content-vietnamese {
+	display: none;	
+}
+#content-korean {
+	display: none;	
+}
+
+/**/
+.info-box {
+	width: 420px;
+	margin: 0 auto;
+}
+.info-box-header {
+	width: 400px;
+	height: 59px;
+	background: url(../images/info-box-header.png) no-repeat;
+	padding: 20px 0 0 20px;
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.info-box-content {
+	padding: 18px;
+	border: 1px solid #c7c7c7;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #505050;
+	line-height: 15px;
+}
+.info-box-content .headertext {
+	font-size: 12px;
+	color: #000;	
+}
+.info-box-content .disclaimer {
+	font-size: 10px;
+	color: #000;
+	font-style: italic;	
+}
+.info-box-content ul {
+	list-style-type: disc;
+	margin: 0 0 0 30px;
+}
+.info-box-content ul li {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #505050;
+	margin: 0;
+}
+
+/* 
+---------------------------- 
+TABBED NAVIGATION --not using images/javascript
+---------------------------- 
+*/	
+
+ul#tabbed-nav {
+	position: relative;
+	top: 65px;
+	left: 84px;
+	margin: 0;
+	height: 30px;
+	list-style-type: none;
+    display:table;
+	border-spacing: 2px 0px;
+    border-collapse: separate;
+}
+
+ul#tabbed-nav li  {
+display:table-cell;
+background-color:#949b9e;
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+line-height:15px;
+text-align:center;
+height:30px;
+margin:0px; 
+padding:0px 4px;
+position: relative;
+vertical-align:middle;
+width:120px;
+}
+
+
+
+ul#tabbed-nav li.active  {background-color:#005983;}  /*special color for caltrian*/
+ul#tabbed-nav li.active a {color:#fff;}
+
+ul#tabbed-nav li:hover  {background-color:#005983;color:#fff;} /*special color for caltrian*/
+ul#tabbed-nav li:hover  a{background-color:#005983;color:#fff;} /*special color for caltrian*/
+ul#tabbed-nav li  a:hover {color:#fff;}
+
+ul#tabbed-nav li.not-active  {background-color:#949b9e !important;}  /*special color for caltrian*/
+ul#tabbed-nav li.not-active a {color:#fff !important;}
+
+ul#tabbed-nav li a {
+    text-decoration:none;
+	 display:block;
+	 vertical-align:middle;
+	color:#fff;
+    font-size:12px;
+	
+}
+
+div.navText {
+    font-size:10px; 
+    margin-top:-2px;
+}
+
+ul#tabbed-nav li ul {
+  position: absolute;
+  top: 30px;
+  left:-240px;
+  width: 300px;
+  visibility:hidden;
+	
+}
+
+ul#tabbed-nav li ul li{
+  background-color:#fff;
+  color:#333;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom:8px solid #005983; 		/*special color for caltrian*/
+  -webkit-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+}
+
+ul#tabbed-nav li ul li div#menu2Container  {
+	z-index: 20;
+	width:384px;
+}
+
+ul#tabbed-nav li ul li div#menu2Container img {
+	float:left;
+	position:relative;
+	width:76px;
+	padding:5px 10px;
+}
+
+div#menu2Container img.active {
+	cursor:default;
+}
+
+div#menu2Container:hover > a img {
+	opacity:.25;
+}
+
+
+div#menu2Container:hover > a img:hover{
+	opacity:1;
+}
+
+div#menu2Container:hover > a img.active:hover{
+	opacity:.25;
+}
+
+ul#tabbed-nav li ul li:hover{
+  background-color:#fff;
+}
+
+ul#tabbed-nav li:hover ul  {
+  opacity: 1;
+  visibility: visible;
+  z-index:3000;
+}
+	
+#menu2Container li {
+	/*background: #dfdfe1;*/
+}
+	
+#menu2Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	font-size:14px;
+	line-height:18px;
+	display: block;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+	background: #fff;
+}
+
+#menu2Container li a:hover {
+	color: #00837a;
+}
+
+#menu1Content {
+	position: absolute;
+	width:368px !important;
+	height:250px !important;
+	background: #fff;
+	-moz-box-shadow: 0 8px 16px #888;
+   -webkit-box-shadow: 0 8px 16px #888;
+   box-shadow: 0 8px 16px #888;
+   margin-left:8px;
+}
+
+h4{line-height:1.5em;color:#505050}
+
+	
+#menu1Container li a:hover {
+	color: #9a6d81;
+}

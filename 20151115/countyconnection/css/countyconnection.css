@@ -1,0 +1,443 @@
+/* 
+---------------------------- 
+LEFT COLUMN LIST HEADERS
+---------------------------- 
+*/
+	
+#navlistheader
+ {
+	background: transparent url(../images/tccLogo.gif) no-repeat;
+	height: 90px;
+}
+#pageHeader {
+	z-index: 2;
+	background: transparent url(../images/tccGeneric.gif) no-repeat top left;
+	height: 59px;
+	position: relative;
+}
+	
+#leftNavModule li a {
+	padding: 5px 5px 5px 25px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url(../images/arrow-tcc.png) no-repeat 4px 50%;
+	line-height: 14px;
+}
+	
+#leftNavModule li a:hover {
+	color: #a10317;  /*special color for tcc*/
+}
+		
+#tccRelatedModuleTop {
+	height: 99px;
+	background: url(../images/tccRelatedTop.jpg) no-repeat top left;
+	margin-bottom:25px;
+}
+#tccRelatedModuleBody {
+	background: #F3F1F4 url(../../index.html) repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+#tccRelatedModuleBody h2 {
+	font-size:0.75em;
+	font-weight: bold;
+	padding: 3px 0 10px 8px;
+}
+#tccRelatedModuleBottom {
+	background: #fff url(../../index.html) no-repeat 0 -15px;
+	height: 29px;
+}
+#tccRelatedModule li {
+	font-size: .75em;
+	text-indent: -15px;
+	padding: 0 0 5px 15px;
+	max-width: 160px; /*ADD TO FIX BULLETS POINTS IN IE7*/
+	
+}
+#tccRelatedModule li a {
+	padding: 5px 5px 5px 15px;
+	color: #545354;
+	text-decoration: none;
+	background: transparent url(../../index.html) no-repeat 5px 10px;
+}
+#tccRelatedModule li a:hover {
+	color: #0068a6;
+}
+#tccRelatedModule h1 {
+	height: 8px;
+	background: #fff url(../../index.html) repeat-x left bottom;
+	text-indent: -9999px;
+}
+
+/* 
+---------------------------- 
+TABBED NAVIGATION --not using images/javascript
+---------------------------- 
+*/	
+
+ul#tabbed-nav {
+	position: relative;
+	top: 65px;
+	left: 84px;
+	margin: 0;
+	height: 30px;
+	list-style-type: none;
+    display:table;
+	border-spacing: 2px 0px;
+    border-collapse: separate;
+}
+
+ul#tabbed-nav li  {
+display:table-cell;
+background-color:#949b9e;
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+line-height:15px;
+text-align:center;
+height:30px;
+margin:0px; 
+padding:0px 4px;
+position: relative;
+vertical-align:middle;
+width:120px;
+}
+
+
+
+ul#tabbed-nav li.active  {background-color:#a10317;}  /*special color for tcc*/
+ul#tabbed-nav li.active a {color:#fff;}
+
+ul#tabbed-nav li:hover  {background-color:#a10317;color:#fff;} /*special color for tcc*/
+ul#tabbed-nav li:hover  a{background-color:#a10317;color:#fff;} /*special color for tcc*/
+ul#tabbed-nav li  a:hover {color:#fff;}
+
+ul#tabbed-nav li.not-active  {background-color:#949b9e !important;}  /*special color for tcc*/
+ul#tabbed-nav li.not-active a {color:#fff !important;}
+
+ul#tabbed-nav li a {
+    text-decoration:none;
+	 display:block;
+	 vertical-align:middle;
+	color:#fff;
+    font-size:12px;
+	
+}
+
+div.navText {
+    font-size:10px; 
+    margin-top:-2px;
+}
+
+ul#tabbed-nav li ul {
+  position: absolute;
+  top: 30px;
+  left:-240px;
+  width: 300px;
+  visibility:hidden;
+	
+}
+
+ul#tabbed-nav li ul li{
+  background-color:#fff;
+  color:#333;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom:8px solid #a10317; 		/*special color for tcc*/
+  -webkit-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+}
+
+ul#tabbed-nav li ul li div#menu2Container  {
+	z-index: 20;
+	width:384px;
+}
+
+ul#tabbed-nav li ul li div#menu2Container img {
+	float:left;
+	position:relative;
+	width:76px;
+	padding:5px 10px;
+}
+
+div#menu2Container img.active {
+	cursor:default;
+}
+
+div#menu2Container:hover > a img {
+	opacity:.25;
+}
+
+
+div#menu2Container:hover > a img:hover{
+	opacity:1;
+}
+
+div#menu2Container:hover > a img.active:hover{
+	opacity:.25;
+}
+
+ul#tabbed-nav li ul li:hover{
+  background-color:#fff;
+}
+
+ul#tabbed-nav li:hover ul  {
+  opacity: 1;
+  visibility: visible;
+  z-index:3000;
+}
+	
+#menu2Container li {
+	/*background: #dfdfe1;*/
+}
+	
+#menu2Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	font-size:14px;
+	line-height:18px;
+	display: block;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+	background: #fff;
+}
+
+#menu2Container li a:hover {
+	color: #00837a;
+}
+
+#menu1Content {
+	position: absolute;
+	width:368px !important;
+	height:250px !important;
+	background: #fff;
+	-moz-box-shadow: 0 8px 16px #888;
+   -webkit-box-shadow: 0 8px 16px #888;
+   box-shadow: 0 8px 16px #888;
+   margin-left:8px;
+}
+
+/* 
+---------------------------- 
+TOP NAV--this is the old way
+---------------------------- 
+*/	
+ul#topNav {
+	position: relative;
+	top: 66px;
+	left: 107px;
+	width: 380px;
+	margin: 0;
+	height: 29px;
+	list-style-type: none;
+	overflow: hidden;
+}
+body.tcchome ul#topNav, 
+body.tccfares ul#topNav, 
+body.tccfaq ul#topNav  {
+	/*background: transparent url(../images/tccNav.gif) no-repeat 0 0;*/
+}
+
+ul#topNav li {
+
+margin-left:4px;
+	
+}
+
+
+ul#topNav li a {
+	position: absolute;
+	top: 0;
+    color:#fff;
+	text-decoration: none;
+	padding: 29px 0 0 0;
+	height: 0px !important; 
+	background-color:#008278;
+	-webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+	height /**/:22px; /* IE5/Win */
+	/*background: transparent url(../images/tccNav.gif) no-repeat;*/
+}
+
+#header.tcc {
+	border-bottom: 5px solid #a10317;   /*special color for bottom border on tcc*/
+}
+
+/* 
+---------------------------- 
+NAV TABS
+---------------------------- 
+*/
+body.tcchome li#TLhome a, 
+body.tccfaq li#TLhome a, 
+body.tccfares li#TLhome a {
+
+	width: 120px;
+	left: 0;
+
+}
+body.tcchome li#TLhome a:hover, 
+body.tccfaq li#TLhome a:hover, 
+body.tccfares li#TLhome a:hover { 
+
+}
+body.tcchome li#TLontcc a, 
+body.tccfaq li#TLontcc a, 
+body.tccfares li#TLontcc a {
+
+	width: 120px;
+	left: 123px;
+}
+body.tcchome li#TLontcc a:hover, 
+body.tccfaq li#TLontcc a:hover, 
+body.tccfares li#TLontcc a:hover
+{
+
+}
+body.tcchome li#Other a, 
+body.tccfaq li#Other a, 
+body.tccfares li#Other a
+{
+
+	width: 120px;
+	left: 246px;
+}
+body.tcchome li#Other a:hover, 
+body.tccfaq li#Other a:hover, 
+body.tccfares li#Other a:hover
+{
+
+}
+/*
+
+.keep-highlighted {
+	background: transparent url(../images/tccNav.gif) no-repeat;
+	background-position: -246px -28px;
+}
+
+---------------------------- 
+YOU ARE HERE
+---------------------------- 
+*/
+	body.tcchome li#howtouse a, 
+	body.tccfaq li#faq a, 
+	body.tccfares li#fares a  {
+	color: #a10317;  /*special color for tcc*/
+	line-height: 14px;
+}
+
+#menu1Container ul {
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+	background: #FFF;
+	z-index: 20;
+}
+	
+#menu1Container li {
+	/*background: #dfdfe1;*/
+	border-bottom: 1px solid #cfd0d2;
+	border-top: 1px solid #FFF;
+}
+	
+#menu1Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: #E7E7E7;
+}
+	
+#menu1Container li a:hover {
+	color: #a10317; /*special color for tcc*/
+}
+
+
+/*
+---------------------------- 
+CODE FOR TABLES
+---------------------------- 
+*/
+
+div.transTables {
+	margin:10px 0px;
+	
+}
+.transTables table.translations {
+	width: 90%;
+	margin-left:20px;
+}
+
+.transTables table.translations th{
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#0068a6;
+	color:#fff;
+	border-left:1px solid #a10317;
+	border-right:1px solid #a10317;
+	border-top:1px solid #a10317;	
+	padding:5px 10px 4px 10px;
+	
+}
+.transTables table.translations td {
+	padding:5px 10px 4px 10px;
+	border-bottom:1px solid #a10317;
+	border-left:1px solid #a10317;
+	border-right:1px solid #a10317;
+	border-top:none;
+	vertical-align:top;
+}
+
+.transTables table.translations td.topBorder {
+	padding:15px 10px 4px 10px;
+	border:1px solid #069;
+}
+
+.transTables table.translations td.transHeader {
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#a10317;
+	color:#fff;
+	border-left:1px solid #a10317;
+	border-right:1px solid #a10317;
+	border-top:1px solid #a10317;	
+}
+
+#mainContent .transTables table.translations p {
+	margin-left:0px;
+	padding-left:0px;
+    width:100%;
+
+}
+
+
+body.translations .servicetable ul li {
+	max-width: 400px;
+}
+
+body.translations .get table{
+	margin-left: 0px;
+	max-width: 427px;
+}
+
+
+
+
+
+
+
+

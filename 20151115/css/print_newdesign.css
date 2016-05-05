@@ -1,0 +1,71 @@
+body {
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	background: white;
+	font-size: 12pt;
+		line-height: 1;
+	}
+	
+	
+a:link, a:visited {
+		color: #520;
+		background: transparent;
+		font-weight: bold;
+		text-decoration: underline;
+		}
+
+strong {
+	font-weight: bold;
+}
+
+.accessNav {
+	display: none;
+}
+
+sup {
+	vertical-align: super;
+	font-size: .375em;
+}
+
+
+
+
+/* 
+---------------------------- 
+STRUCTURE
+---------------------------- 
+*/
+
+#container {
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+}
+
+#wrapper {
+	width: 780px;
+	margin: 0 0 0 12px;
+}
+ 
+#mainContent, #mainContentMap {
+	float: none;
+	width: 100%;
+	border: none;
+}
+
+
+#rightNav, #footer, #header, #leftNav {
+display: none;
+}
+
+
+h1 {
+	font-size: 14pt;
+}
+		
+h2 {
+	font-size: 13pt;
+}
+		
+#headerSearch, #skipto {
+	display: none;
+}

@@ -1,0 +1,1605 @@
+/* 
+---------------------------- 
+MAIN STYLES
+---------------------------- 
+*/
+
+body {
+	background-color: #fff;
+	color: #505050;
+	font-size: 100%;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:center;
+	min-width: 800px;
+}
+indented	{
+	padding-left:40px;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+	color:#0068a6;
+}
+
+li, #mainContent p, #mainContentMap {
+	font-size: 0.75em; 
+}
+
+strong {
+	font-weight: bold;
+	text-align:start;
+	text-wrap:normal;
+}
+
+.accessNav {
+	display: none;
+}
+
+.alignTopLeft {
+text-align:left;
+vertical-align:top;
+}
+
+sup {
+    height: 0;
+    vertical-align: baseline;
+    _vertical-align: bottom;
+    position: relative;
+    bottom: 1ex;
+   	font-size: 0.55em;
+   	_font-size: 0.75em;
+    line-height: 1.75em;
+}
+
+#pad{
+	padding: 0 0 0 10px;
+}
+
+
+
+
+
+
+
+/* 
+---------------------------- 
+STRUCTURE
+---------------------------- 
+*/
+
+#container {
+	width:800px;
+	margin:0 auto;
+	text-align:left;
+	background: #fff url(../images/homepage/global/bodyBg.gif) repeat-y;
+}
+
+#wrapper {
+	width: 780px;
+	margin: 0 0 0 12px;
+}
+ 
+#leftNav {
+	
+	float: left;
+	width: 160px;
+}
+
+#mainContent, #mainContentMap {
+	width: 448px;	
+	float:left;
+}
+
+#rightNav {
+	margin: 0 0 4px 8px;
+	float:left;
+	width: 160px;
+}
+
+#header {
+	z-index: 90;
+	position: relative;
+	margin: 0 4px 0 0;
+	height: 95px;
+	border-bottom: 5px solid #012f6d;
+}
+#header.bart {
+	border-bottom: 5px solid #1f9fed;
+}
+
+#header.actransit {
+	border-bottom: 5px solid #00837a;
+}
+
+#header.goldengate {
+	border-bottom: 5px solid #f24d22;
+}
+
+#header.caltrain {
+	border-bottom: 5px solid #d12531;
+}
+
+#header.muni {
+	border-bottom: 5px solid #c61f51;
+}
+
+#header.sfbf {
+
+	border-bottom: 5px solid #67ad44;
+	margin: 0;
+
+}
+
+#header.parking {
+
+	border-bottom: 5px solid #f57f28;
+	margin: 0;
+
+}
+/*#footer {
+	position: relative;
+	clear: both;
+	border-top: 1px solid #dedfe1;
+}*/
+
+
+
+}---------------------------- 
+HEADER
+---------------------------- 
+*/
+
+
+#header h1 a {
+	height: 86px;
+	margin: 0 0 10px 20px;
+	text-indent: -9999px;
+	background: #fff url(../images/homepage/global/clipperLogo.png) no-repeat;
+}
+
+#header h1 a {
+	height: 86px;
+	margin: 0 0 10px 20px;
+	text-indent: -9999px;
+	background: #fff url(../images/homepage/global/clipperLogo.png) no-repeat;
+}
+
+#header h1 a {
+	float: left;
+	width: 113px;
+	height: 86px;
+	text-decoration: none; /*REMOVES BLUE OUTLINE IN MOZILLA 1.7.12*/
+}
+
+/* 
+---------------------------- 
+SEARCH BOX IN HEADER
+---------------------------- 
+*/
+
+#headerSearch {
+	width: 320px;
+	height: 20px;
+	position: absolute;
+	top: 15px;
+	left: 460px;
+	}
+
+#headerSearch label {
+	margin: 0 5px 0 0;
+	padding: 7px 0 0 0;
+	float: left;
+	color: #706d6e;
+	font-weight: bold;	
+}
+	
+#headerSearch input#searchString {
+	width: 200px;
+	border: 1px solid #464646;
+	font-size: .75em;
+	background: transparent url(../images/homepage/global/searchBoxBg.gif) repeat-x top right;
+}
+
+.buttonSearch {
+	border: none;
+	width: 45px;
+	height: 25px;
+	background: #fff url(../images/homepage/global/btnBg.gif) no-repeat 5px 3px;
+	color:#FFFFFF;
+}
+
+/* 
+---------------------------- 
+SKIP TO NAVIGATION
+---------------------------- 
+*/
+
+#skipto {
+	width: 150px;
+	height: 25px;
+	display: none;
+	position: absolute;
+	top: 15px;
+	left: 140px;
+}
+
+#skipto a {
+	font-size: .75em;}
+
+/* 
+---------------------------- 
+LEFT COLUMN LIST HEADERS
+---------------------------- 
+*/
+	
+/*Image of a card reader for left col
+triggered by body ID*/
+body.wageworks #navlistheader,
+body.commuterchecks #navlistheader,
+body.transitbenefits #navlistheader,
+body.homepage #navlistheader,
+body.seniors #navlistheader, 
+body.whereuseTL #navlistheader, 
+body.useTL #navlistheader, 
+body.howtouse #navlistheader, 
+body.addvalue #navlistheader {
+	background: transparent url(../images/homepage/headers/square-blue-alt2.gif) no-repeat;
+	height: 73px;
+}
+
+/*Image of a bus for left col
+triggered by body ID*/
+
+
+body.getTL #navlistheader,
+body.faq #navlistheader,
+body.agreement #navlistheader,
+body.toolbox #navlistheader,
+body.clipper #navlistheader,
+body.pressroom #navlistheader,
+body.youths #navlistheader, 
+body.autoload #navlistheader, 
+body.benefits #navlistheader, 
+body.whatsTL #navlistheader,
+body.getcardonline #navlistheader,
+body.autoload #navlistheader,
+body.addvalueonline #navlistheader,
+body.cardSignUpEvents #navlistheader,
+body.map #navlistheader,
+body.formsAndPolicies #navlistheader,
+body.registercard #navlistheader
+
+ {
+	background: transparent url(../images/homepage/headers/square-blue-alt2.gif) no-repeat;
+	height: 73px;
+}
+
+/*Image of a bus for center col*/
+body.getTL #pageHeader,
+body.faq #pageHeader,
+body.agreement #pageHeader,
+body.toolbox #pageHeader,
+body.clipper #pageHeader,
+body.pressroom #pageHeader,
+body.youths #pageHeader, 
+body.autoload #pageHeader, 
+body.benefits #pageHeader, 
+body.whatsTL #pageHeader,
+body.getcardonline #pageHeader,
+body.autoload #pageHeader,
+body.addvalueonline #pageHeader,
+body.cardSignUpEvents #pageHeader,
+body.map #pageHeader,
+body.formsAndPolicies #pageHeader,
+body.registercard #pageHeader
+{
+	background: transparent url(../images/homepage/headers/headerGenericBlue.png) no-repeat top left;
+	height: 73px;
+	position: relative;
+}
+
+#pageHeader {
+	background: transparent url(../images/homepage/headers/headerGenericBlue.png) no-repeat top left;
+	height: 73px;
+	position: relative;
+}
+
+#pageHeader h1 {
+	font-size: 1.2em;
+	color: #fff;
+	position: absolute;
+	top: 7px;
+	right: 20px;
+	font-weight: normal;
+}
+
+body.wageworks #pageHeader h1, body.seniors #pageHeader h1 {
+    font-size: 1.2em;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    font-weight: normal;
+
+}
+
+/* IF AN HEADER IS EXTRA LONG, USE SMALLER TEXT*/
+
+/*body.howtouse #pageHeader h1 {
+	font-size: 1.25em;
+	color: #fff;
+	position: absolute;
+	top: 6px;
+	right: 20px;
+	font-weight: normal;
+}
+*/
+
+/* 
+---------------------------- 
+TEXT
+---------------------------- 
+*/
+	
+#mainContent p, #mainContent h2, #mainContent h3, #mainContent h4 {
+	padding: 0 0 10px 20px;
+
+}
+
+#mapLegend p {
+	padding: 0 0 10px 20px;
+}
+
+#faqcontent h4 {
+	padding: 10px 0 0 20px;
+	font-size: 3.5em;
+}
+
+#faqcontent h4.first {
+	padding: 0 0 0 20px;
+}
+
+#pressReleases p {
+	padding: 0 0 5px 20px;
+}
+
+#pressReleases h4 {
+	padding: 5px 0 0 20px;
+	font-weight: bold;
+}
+
+#mainContent h2 {
+	font-weight: normal;
+}
+	
+#mainContent p {
+	line-height: 1.5em;
+	width: 370px;
+}
+#mainContent .moveup {
+	margin: -15px 0 0 0;
+	padding: 0 0 0 20px;
+}
+	
+#mainContent h3 {
+	margin: 10px 0 0 0;
+	font-size:0.875em;
+	color: #002E6E;
+}
+
+.standout {
+	color: #0068a6;
+}
+
+#mainContent a:link {
+	color: #0068a6;
+}
+
+#mainContent h4 {
+	font-size: .75em;
+}
+
+.iconspan {
+	padding: 0 0 0 20px; 
+	font-size: 11px; 
+	color:#0068a6;
+}
+
+.footnote {
+	font-size: .625em;
+}
+
+
+/* 
+---------------------------- 
+LISTS
+---------------------------- 
+*/
+	
+ul#leftNavModule {
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+	background: #E7E7E7 url(../images/homepage/global/greyfadeShortBg.gif) repeat-x;
+}
+	
+#leftNavModule li {
+	/*background: #dfdfe1;*/
+	border-bottom: 1px solid #cfd0d2;
+	border-top: 1px solid #FFF;
+}
+	
+#leftNavModule li a {
+	padding: 5px 5px 5px 25px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url(../images/homepage/bullets/arrow.png) no-repeat 4px 50%;
+}
+	
+#leftNavModule li a:hover {
+	color: #0068a6;
+}
+	
+#leftNavModuleEnd li {
+	background: #fff url(../images/homepage/global/greyangleBottom.gif) no-repeat top left;
+	height: 30px;
+}
+		
+.listHolder {
+	padding: 7px 0 0 10px;
+	float: left;
+	width: 600px;
+}	
+
+ul.horList li {
+	font-size: .625em;
+	float: left;
+	padding: 0 20px 0 0;
+}	
+		
+ul.horList li a {
+	color: #505050;
+	text-decoration: none;
+}
+
+ul.horList li.accessability  {
+	margin: 0 0 0 60px;
+	height: 12px;
+	padding: 0 0 0 15px;
+	background: transparent url(../images/homepage/global/accessability.gif) no-repeat 0 0;
+}
+
+#mainContent ul.subBulletList {
+padding: 0 0 10px 80px;
+
+}
+#mainContent .subBulletList li {
+	line-height: 1.5em;
+	padding: 0 0 10px 7px;
+	width: 360px;
+	background: transparent url(../images/homepage/bullets/blueSquare.gif) no-repeat 0 7px;
+	}
+	
+#mainContent ul.bulletList {
+padding: 0 0 5px 50px;
+
+}
+
+#mainContent .bulletList li {
+	line-height: 1.5em;
+	padding: 0 0 10px 7px;
+	width: 360px;
+	background: transparent url(../images/homepage/bullets/blueSquare.gif) no-repeat 0 7px;
+	}
+	
+
+	
+	
+#contentcolumn_large ul.bulletList {
+padding: 0 0 20px 50px;
+
+}
+
+#contentcolumn_large .bulletList li {
+	line-height: 1.5em;
+	padding: 0 0 10px 7px;
+	width: 360px;
+	background: transparent url(../images/homepage/bullets/blueSquare.gif) no-repeat 0 7px;
+	}
+
+
+
+/* 
+------------------------------------------------- 
+STANDARD GREEN TEXT LIST WITH THREE DOT BULLETS
+------------------------------------------------- 
+*/	
+			
+#mainContent ul.standardList {
+	margin: 0 0 0 40px;
+}
+				
+#mainContent .standardList li {
+	height: 20px;
+}
+				
+#mainContent .standardList li a {
+	padding: 0 0 0 15px;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url(../images/homepage/bullets/arrow.png) no-repeat 0px 3px;
+}
+
+
+
+/* 
+---------------------------- 
+TOP NAV
+---------------------------- 
+*/	
+ul#topNav {
+	position: relative;
+	top: 66px;
+	left: 23px;
+	width: 452px;
+	margin: 0;
+	height: 29px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+body.homepage ul#topNav {
+	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 0;
+}
+
+body.whatsTL ul#topNav ,
+body.clipper ul#topNav {
+	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -29px; 
+}
+
+body.wageworks ul#topNav,
+body.commuterchecks ul#topNav,
+body.transitbenefits ul#topNav,
+body.useTL ul#topNav, 
+body.whereuseTL ul#topNav, 
+body.howtouse ul#topNav, 
+body.addvalue ul#topNav,
+body.seniors ul#topNav { 
+	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -58px; 
+}
+	
+body.getTL ul#topNav ,
+body.getcardonline ul#topNav ,
+body.autoload ul#topNav,
+body.addvalueonline ul#topNav,
+body.map ul#topNav ,
+body.forms ul#topNav{
+	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -87px; 
+}
+
+
+ul#topNav li a {
+	position: absolute;
+	top: 0;
+	text-indent: -9000px;
+	text-decoration: none;
+	padding: 29px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:22px; /* IE5/Win */
+	background: transparent url(../images/homepage/global/navbar.gif) no-repeat;
+}
+
+
+/* 
+---------------------------- 
+GET TAB
+INDEX PAGE NAV
+---------------------------- 
+*/
+
+#announcementFeed {
+	padding: 10px 0 0 0;
+	font-size: 1em;
+	width: 420px;
+}
+
+
+.announcementBarNews {
+	margin: 0 0 0 20px;
+	width: 420px;
+	height: 50px;
+	border-top: 1px dotted #000;
+	
+
+}
+
+.announcementBarNews a {
+	color: #e09302 !important;
+	}
+	
+	
+.announcementBarNews a:hover	{
+	color:#e09302;
+}
+
+.announcementBarNews a:active	{
+	color:#e09302;
+}
+
+.announcementBarNews a:visited	{
+	color:#e09302;
+}
+
+
+.announcementHeader {
+	width: 184px;
+	float: left;
+	padding: 0;
+	margin: 0;
+	}
+
+.widgetSpacer {
+	height: 30px;
+	
+}
+/* 
+---------------------------- 
+GET TAB
+INDEX PAGE NAV
+---------------------------- 
+*/
+
+body.homepage li#home a
+{ 
+	background-position: 0 0px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.homepage li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.homepage li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.homepage li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.homepage li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.homepage li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.homepage li#get a
+{ 
+	background-position: -100px -150px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.homepage li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+
+
+/* 
+---------------------------- 
+ABOUT TAB
+TOP NAV
+---------------------------- 
+*/
+
+body.faq li#home a,
+body.agreement li#home a,
+body.toolbox li#home a,
+body.clipper li#home a,
+body.pressroom li#home a,
+body.whatsTL li#home a { 
+	background-position: 0 -29px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.faq li#home a:hover,
+body.agreement li#home a:hover,
+body.toolbox li#home a:hover,
+body.clipper li#home a:hover,
+body.pressroom li#home a:hover,
+body.whatsTL li#home a:hover { 
+	background-position: 0 0; 
+}
+
+body.faq li#about a,
+body.agreement li#about a,
+body.toolbox li#about a,
+body.clipper li#about a,
+body.pressroom li#about a,
+body.whatsTL li#about a { 
+	background-position: -90px -29px; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.faq li#about a:hover,
+body.agreement li#about a:hover,
+body.toolbox li#about a:hover,
+body.clipper li#about a:hover,
+body.pressroom li#about a:hover,
+body.whatsTL li#about a:hover { 
+	background-position: -90px -29px; 
+}
+
+body.faq li#use a,
+body.agreement li#use a,
+body.toolbox li#use a,
+body.clipper li#use a,
+body.pressroom li#use a,
+body.whatsTL li#use a { 
+	background-position: -210px -29px; 
+	width: 122px; 
+	left: 210px;
+}
+
+body.faq li#use a:hover,
+body.agreement li#use a:hover,  
+body.toolbox li#use a:hover, 
+body.clipper li#use a:hover,
+body.pressroom li#use a:hover, 
+body.whatsTL li#use a:hover { 
+	background-position: -210px -58px; 
+}
+
+body.faq li#get a,
+body.agreement li#get a,
+body.toolbox li#get a,
+body.clipper li#get a,
+body.pressroom li#get a,
+body.whatsTL li#get a { 
+	background-position: -331px -29px; 
+	width: 121px;
+	left: 331px; 
+}
+
+body.faq li#get a:hover,
+body.agreement li#get a:hover,
+body.toolbox li#get a:hover,
+body.clipper li#get a:hover,
+body.pressroom li#get a:hover,
+body.whatsTL li#get a:hover { 
+	background-position: -331px -87px;
+}
+
+
+/* 
+---------------------------- 
+USE TAB
+TOP NAV
+---------------------------- 
+*/
+
+body.wageworks li#home a,
+body.commuterchecks li#home a,
+body.transitbenefits li#home a,
+body.seniors li#home a,
+body.addvalue li#home a,
+body.howtouse li#home a,
+body.useTL li#home a,
+body.whereuseTL li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.wageworks li#home a:hover,
+body.commuterchecks li#home a:hover,
+body.transitbenefits li#home a:hover,
+body.seniors li#home a:hover,
+body.addvalue li#home a:hover,
+body.howtouse li#home a:hover,
+body.useTL li#home a:hover,
+body.whereuseTL li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.wageworks li#about a,
+body.commuterchecks li#about a,
+body.transitbenefits li#about a,
+body.seniors li#about a,
+body.addvalue li#about a,
+body.howtouse li#about a,
+body.useTL li#about a,
+body.whereuseTL li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.wageworks a:hover,
+body.commuterchecks a:hover,
+body.transitbenefits a:hover,
+body.seniors a:hover,
+body.addvalue a:hover,
+body.howtouse li#about a:hover,
+body.useTL li#about a:hover,
+body.whereuseTL li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.wageworks li#use a,
+body.commuterchecks li#use a,
+body.transitbenefits li#use a,
+body.seniors li#use a,
+body.whereuseTL li#use a,
+body.addvalue li#use a,
+body.howtouse li#use a, 
+body.useTL li#use a
+{ 
+	background-position: -210px -58px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.wageworks li#use a:hover,
+body.commuterchecks li#use a:hover,
+body.transitbenefits li#use a:hover,
+body.seniors li#use a:hover,
+body.addvalue li#use a:hover,
+body.howtouse li#use a:hover,
+body.useTL li#use a:hover,
+body.whereuseTL li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.wageworks li#get a,
+body.commuterchecks li#get a,
+body.transitbenefits li#get a,
+body.seniors li#get a,
+body.addvalue li#get a,
+body.howtouse li#get a,
+body.useTL li#get a,
+body.whereuseTL li#get a
+{ 
+	background-position: -100px -150px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.wageworks li#get a:hover,
+body.commuterchecks li#get a:hover,
+body.transitbenefits li#get a:hover,
+body.seniors li#get a:hover,
+body.addvalue li#get a:hover,
+body.howtouse li#get a:hover,
+body.useTL li#get a:hover,
+body.whereuseTL li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+/* 
+---------------------------- 
+GET TAB
+TOP NAV
+---------------------------- 
+*/
+
+body.getTL li#home a,
+body.getcardonline li#home a,
+body.autoload li#home a,
+body.addvalueonline li#home a,
+body.cardSignUpEvents li#home a,
+body.map li#home a,
+body.formsAndPolicies li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.getTL li#home a:hover,
+body.getcardonline li#home a:hover,
+body.autoload li#home a:hover,
+body.addvalueonline li#home a:hover,
+body.cardSignUpEvents li#home a:hover,
+body.map li#home a:hover,
+body.formsAndPolicies li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.getTL li#about a,
+body.getcardonline li#about a,
+body.autoload li#about a,
+body.addvalueonline li#about a,
+body.cardSignUpEvents li#about a,
+body.map li#about a,
+body.formsAndPolicies li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.getTL li#about a:hover,
+body.getcardonline li#about a:hover,
+body.autoload li#about a:hover,
+body.addvalueonline li#about a:hover,
+body.cardSignUpEvents li#about a:hover,
+body.map li#about a:hover,
+body.formsAndPolicies li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.getTL li#use a,
+body.getcardonline li#use a,
+body.autoload li#use a,
+body.addvalueonline li#use a,
+body.cardSignUpEvents li#use a,
+body.map li#use a,
+body.formsAndPolicies li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.getTL li#use a:hover,
+body.getcardonline li#use a:hover,
+body.autoload li#use a:hover,
+body.addvalueonline  a:hover,
+body.cardSignUpEvents  a:hover,
+body.map li#use a:hover,
+body.formsAndPolicies li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.getTL li#get a,
+body.getcardonline li#get a,
+body.autoload li#get a,
+body.addvalueonline li#get a,
+body.cardSignUpEvents li#get a,
+body.map li#get a,
+body.formsAndPolicies li#get a
+{ 
+	background-position: -331px -87px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.getTL li#get a:hover,
+body.getcardonline li#get a:hover,
+body.autoload li#get a:hover,
+body.addvalueonline li#get a:hover,
+body.cardSignUpEvents li#get a:hover,
+body.map li#get a:hover,
+body.formsAndPolicies li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+/* 
+---------------------------- 
+GET TAB
+TOP NAV
+---------------------------- 
+*/
+
+body.One-col li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.One-col li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.One-col li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.One-col li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.One-col li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.One-col li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.One-col li#get a
+{ 
+	background-position: -331px -87px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.One-col li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+/*
+-----
+styles for Two-col
+------
+*/
+body.Two-col li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.Two-col li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.Two-col li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.Two-col li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.Two-col li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.Two-col li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.Two-col li#get a
+{ 
+	background-position: -331px -87px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.Two-col li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+
+
+
+/*
+---------------------------- 
+YOU ARE HERE
+---------------------------- 
+*/
+
+body#accountmanagepage li#accountmanagelink ,body#cardactivationpage li#cardactivationlink ,body#addvaluepage li#addvaluelink ,
+body#autoloadpage li#autoloadlink ,body#registercardpage li#registercardlink ,body#cardvaluepage li#balancelink ,
+body#transactionhistorypage li#transactionhistorylink ,body#loststolenpage li#loststolenlink ,body#deregisterpage li#deregisterlink ,
+body#damagepage li#damagelink ,body.wageworks li#addvalue , body.commuterchecks li#addvalue , body.benefits li#benefits , 
+ body.whereuseTL li#wheretouse, body.faq li#faq, body.agreement li#agreement, body.pressroom li#press, body.toolbox li#toolbox, body.clipper li#clipper, body.howtouse li#howtouse, body.addvalue li#addvalue,
+ body.seniors li#seniors, body.transitbenefits li#transit, body.getcardonline li#getcardonline, body.autoload li#autoload, body.addvalueonline li#addvalueonline, body.cardSignUpEvents li#cardSignUpEvents,
+ body.map li#map,body.formsAndPolicies li#formsAndPolicies {
+	background: #0068a6 url(../images/homepage/global/leftnav-color-button.gif) repeat-x top;
+	border-top:1px solid #8ebdd8;
+}
+
+body#accountmanagepage li#accountmanagelink a,body#cardactivationpage li#cardactivationlink a,body#addvaluepage li#addvaluelink a,
+body#autoloadpage li#autoloadlink a,body#registercardpage li#registercardlink a,body#cardvaluepage li#balancelink a,
+body#transactionhistorypage li#transactionhistorylink a,body#loststolenpage li#loststolenlink a,body#deregisterpage li#deregisterlink a,
+body#damagepage li#damagelink a,body.wageworks li#addvalue a, body.commuterchecks li#addvalue a,   
+ body.benefits li#benefits a,  body.whereuseTL li#wheretouse a, body.faq li#faq a, body.agreement li#agreement a, body.pressroom li#press a,body.toolbox li#toolbox a, body.clipper li#clipper a, body.howtouse li#howtouse a,body.addvalue li#addvalue a,
+ body.seniors li#seniors a,body.transitbenefits li#transit a,body.getcardonline li#getcardonline a, body.autoload li#autoload a, body.addvalueonline li#addvalueonline a, body.cardSignUpEvents li#cardSignUpEvents a,
+ body.map li#map a, body.formsAndPolicies li#formsAndPolicies a {
+	 color:#FFFFFF;
+	 background: transparent url(../images/homepage/bullets/arrow-white.png) no-repeat 4px 50%;
+}
+
+/*
+---------------------------- 
+STYLES BELOW ARE FOR ONE COLUMN AND TWO COLUMN PAGES
+THESE PAGES MOSTLY HOLD FORMS
+---------------------------- 
+*/
+
+/*FORMS*/
+body.Two-col #mainContent .form	{
+	margin:10px 0 10px 20px;
+	
+}
+
+table.body.Two-col #mainContent thead td, 
+.form table thead td,
+.form h2	{
+	
+	padding-left:5px;
+	padding-right:10px;
+	font-weight:bold;
+	height:34px;
+	color:#fff;
+	background: transparent url(../images/homepage/global/detailstableheader.gif) repeat-x 0 0;
+}
+
+body.Two-col #mainContent h1,
+body.One-col #mainContent h1 {
+	color: #002e6e;
+	margin: 10px 0 10px 10px;
+}
+
+.Two-col .page_title,
+.One-col .page_title {
+	height: 26px;
+	color: #FFFFFF;
+	background: transparent url(../images/homepage/global/detailstableheader.gif) repeat-x 0 0;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+.One-col form .page_title {
+	height: 26px;
+	color: #FFFFFF;
+	background: transparent url(../images/homepage/global/detailstableheader.gif) repeat-x 0 0;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+table.body.Two-col #mainContent tbody td,
+.form table tbody td	{
+	padding: 10px 0 10px 10px;
+	font-size: .75em;
+
+}
+table.body.One-col #mainContent tbody td,
+.form table tbody td	{
+	padding: 10px 0 10px 10px;
+	font-size: .75em;
+
+}
+.One-col .form table tbody td{
+padding: 10px 0 10px 10px;
+font-size: .75em;
+} 
+table.fullwidth,.form table	{
+	width:100%;
+	border-collapse:collapse;
+
+}
+.bordered_table { 
+	border-collapse:collapse;
+	margin:10px 0 5px 0;
+	
+}
+
+.bordered_table td { 
+	padding:5px;
+	border:1px solid #cccccc;
+	font-size:12px;
+}
+.bordered_table_new td { 
+	padding:5px;
+	border:1px solid #cccccc;
+	font-size:8px;
+}
+
+/*
+table.body.Two-col #mainContent tbody th	{
+	padding-left:5px;
+	font-weight:bold;
+	vertical-align:top;
+}
+
+table.body.Two-col #mainContent tbody td.buttons	{
+	text-align:right;
+	border: 1px solid black;
+}
+table.body.Two-col #mainContent tbody td ul, table.body.Two-col #mainContent tbody td ul	{
+	list-style-type:none;
+}
+
+table.fullwidth tbody td ul li	{
+	padding:0;
+	margin:0;
+	clear:both;
+}
+
+
+
+*/
+
+
+
+/*
+///////////////////////
+HACKS//////////////////
+USED TO KEEP CONSISTENT FONT SIZE FROM INHERITED CONTENT
+///////////////////////
+
+*/
+
+.One-col table {
+	font-size: 1.4em;
+}
+.tabled_content{
+	font-size: 0.75em;
+	}
+.Two-col .buttonSearch,
+.One-col .buttonSearch {
+	color: #fff;	
+	font-size:12px;	
+}
+
+.Two-col .textinput,
+.Two-col table label, 
+.One-col table label,
+.One-col .textinput,
+.One-col table .textinput,
+.One-col table input,
+.One-col table textarea,
+.One-col table select  {
+	color: #000;	
+	font-size:12px;		
+}
+
+.One-col table select {
+	 padding: 0; 
+}
+
+.One-col table label {
+	padding: 0 0 0 20px;	
+}
+
+.Two-col .formbuttonnew,
+.One-col .formbuttonnew,
+.One-col table .formbuttonnew,
+.addvalueonline .formbuttonnew,
+.getTL .formbuttonnew {
+	font-size: 12px;
+	color:#fff;
+}
+
+
+One-col.form table td .formbuttonnew	{
+	margin:2px 0 0 0;
+	height:20px;
+	border:none;
+	color:#fff;
+	/* background-color:#469c22; */
+	background: #FFFFFF url("../images/new_design/buttons/btn_bg.gif")  repeat-x;
+	font-weight:bold;
+}
+.page_title3 sup {
+	font-size: .5em;
+}
+.h1 sup {
+	font-size: .5em;
+}
+
+.One-col table.fullwidth tbody td,
+.One-col .form table tbody td	{
+	padding:10px 0 2px 10px;
+	font-size:12px;
+}
+
+
+.One-col table.fullwidth thead td,
+.One-col .form table thead td,
+.form h2	{
+	padding-left:5px;
+	padding-right:10px;
+	font-weight:bold;
+	height:34px;
+	color:#fff;
+	font-size: .75em;
+	background: transparent url(../images/homepage/global/detailstableheader.gif) repeat-x 0 0;
+}
+
+
+/*
+END OF HACKS
+*/
+
+
+body.Two-col #mainContent p {
+	width: 600px;
+	margin: 0 3px 0 3px;
+	padding: 10px 0 0 10px;
+	}
+	
+body.One-col #mainContent p {
+	width: 766px;
+	padding: 10px 0 0 10px;
+	}
+body.One-col #mainContent table p {
+	width: 766px;
+	padding: 10px 0 0 10px;
+	}
+
+
+body. One-col #contentcolumn_med form table td .alignTopLeft {
+text-align:left;
+vertical-align:top;
+}
+	
+	
+body.One-col h3, 
+body.Two-col h3 {
+	color: #fff;
+}
+.help_panel {
+	font-size: .75em;
+}
+
+body.Two-col .help_header h3{
+	font-size: 43em;
+	font-color:#FFFFFF;
+}
+body.One-col .help_header h3{
+	font-size: 43em;
+}
+
+body.Two-col .help_header{
+	width:585px;
+	padding:5px 5px 5px 5px;
+	height:20px;
+	background: transparent url(../images/homepage/global/helpheader.gif) repeat-x 0 0;
+	color:#fff;
+	font-weight:bold;
+}
+body.One-col .help_header{
+	width:585px;
+	padding:5px 5px 5px 5px;
+	height:20px;
+	background: transparent url(../images/homepage/global/helpheader.gif) repeat-x 0 0;
+	color:#fff;
+	font-weight:bold;
+}
+
+body.One-col .help_panel,
+body.Two-col .help_panel {
+	width:581px;
+	padding:5px 5px 5px 5px;
+	border-left:2px solid #002e6e;
+	border-right:2px solid #002e6e;
+	font-size: .75em;
+}
+
+.last
+{
+	margin-bottom:10px;
+	border-bottom:2px solid #002e6e;
+}
+
+.help_panel a	{
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}	
+
+body.Two-col #mainContent h3,
+body.One-col #mainContent h3 {
+	padding: 5px 0 5px 10px;
+	
+}
+
+body.Two-col #mainContent {
+	float: left;
+	width: 613px;
+	margin: 0 0 0 3px;
+}
+
+body.One-col #mainContent {
+	float: left;
+	width: 770px;
+}
+
+.form_buttons_right_newDesign	{
+	padding-top:5px;
+	text-align:right;
+	position:relative;
+}
+
+.form_buttons_right_newDesign input	{
+	margin:2px 0 0 0;
+	height:20px;
+	border:none;
+	color:#fff;
+	/* background-color:#469c22; */
+	background: #FFFFFF url(../images/new_design/buttons/btn_bg.gif)  repeat-x;
+	font-weight:bold;
+}
+
+.form_buttons_right_newDesign	{
+	padding-left:5px;
+	padding-right:10px;
+	font-weight:bold;
+	font-size: .75em;
+	height:34px;
+	background: transparent url(../images/homepage/global/detailstableheader.gif) repeat-x 0 0;
+}
+.formbuttonnew	{
+	margin:2px 0 0 0;
+	height:20px;
+	border:none;
+	color:#ffff;
+	/* background-color:#469c22; */
+	background: #FFFFFF url(../images/new_design/buttons/btn_bg.gif)  repeat-x;
+	font-weight:bold;		
+}
+
+.shortnew { 
+	background: transparent url(../images/new_design/buttons/btn_short.gif) no-repeat!important;
+	width: 69px!important;	
+}
+
+ 
+.mediumnew { 
+	background: transparent url(../images/new_design/buttons/btn_medium.gif) no-repeat!important;
+	width: 109px;
+
+}
+
+
+.longnew { 
+	background: transparent url(../images/new_design/buttons/btn_long.gif) no-repeat!important;
+	width: 141px;
+
+}
+
+
+.smallnew { 
+	background: transparent url(../images/new_design/buttons/btn_small.gif) no-repeat!important;
+	width: 35px!important;
+
+}
+
+/*TOOLBOX*/
+.toolboxLogo {
+	float: left;
+	width: 180px;
+	margin: 0 0 10px 20px;
+}
+
+.toolboxLogo p {
+	margin: 0 0 0 -20px;
+	width: 180px !important;
+}
+
+#toolboxcontainer p {
+	padding: 5px 0 0 20px !important;
+}
+
+#toolboxcontainer h2 {
+	padding: 20px 0 0 20px !important;
+}
+
+
+#pressreleasearea h5 {
+	font-size: .75em;
+	padding: 0 0 0 20px !important;
+}
+
+#flashcontentBody {
+	margin: 0 0 10px 20px;
+	width: 427px; 
+	height: 250px
+}
+
+//new styles added for FAQ page
+
+body.faq #mainContent h3 {
+    margin: 20px 0 0 0;
+    font-size:0.875em;
+    color: #449c2d;
+}
+
+body.faq #mainContent h4, body.faq #mainContent h3, body.faq #mainContent p {
+    width: 400px;
+}
+body.faq #mainContent h4 {
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #000;
+
+}
+
+body.faq #mainContent h4 a:hover {
+    text-decoration: underline;
+}
+
+body.faq #mainContent h4 a:visited {
+    color: #666;
+}
+
+table.privacy {
+	 font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+}
+table.privacy  td{
+	font-size:0.60em;
+	padding:5px 0 0 20px;
+	line-height:1.5em;
+}
+#logOffBox {
+	font-size: 10px;
+	width: 150px;
+	position: absolute;
+	left: 630px;
+	top: 50px;
+}
+
+.button150 {
+	cursor: pointer;
+	border: 0;
+	padding: 1px 0 2px 0;
+	color: #FFFFFF;
+	font-weight: bold;
+	background: transparent
+		url("#{resource['images/new_design/buttons:btn_150x20.gif']}") no-repeat;
+	width: 150px;
+}
+
+.button150:hover {
+	background: transparent
+		url("#{resource['images/buttons:btn_150x20_over.gif']}") no-repeat;
+}
+
+#mainContent .bullet2List li {
+    line-height: 1.5em;
+    padding: 0px 0px 10px 7px;
+    width: 360px;
+    background: transparent url("../images/homepage/bullets/greenSquare.gif") no-repeat scroll 0px 7px;
+}
+
+#mainContent .bullet3List li {
+    line-height: 1.5em;
+    padding: 0px 0px 10px 7px;
+    width: 360px;
+    background: transparent url("../images/homepage/bullets/redSquare.gif") no-repeat scroll 0px 7px;
+}

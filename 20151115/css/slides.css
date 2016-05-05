@@ -1,0 +1,162 @@
+#flashNav #carousel {
+	width:586px;
+	height:230px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 2px;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:586px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; /* future proofing */
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:586px;
+	height:230px;
+	display:block;	
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:-220px 0px 0px 534px;
+	width:100px;
+	z-index:500;
+	position:relative;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/carousel/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:170px;
+	left:0;
+	height:30px;
+	padding:5px 20px 0 40px;
+	width:280px;
+	
+}
+
+.caption h3 {
+	font-size:2.3em;
+	font-weight:500;
+	font-family:"soleil", Arial, Helvetica, sans-serif;
+	line-height:32px;
+	letter-spacing:-.05em;
+	color:#ee7821;
+	text-shadow:none;
+}
+
+.caption p {
+	font-size:1.0em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:300;
+	margin-top:10px;
+	line-height:20px;
+	color:#0067ac;
+	text-shadow:none;
+}
+
+.captionRight {
+	z-index:500;
+	position:absolute;
+	bottom:170px;
+	left:243px;
+	height:30px;
+	padding:5px 20px 0 30px;
+	width:270px;
+}
+
+.captionRight h3 {
+	font-size:2.3em;
+	line-height:36px;
+	font-weight:500;
+	letter-spacing:-.03em;
+	font-family:"soleil", Arial, Helvetica, sans-serif;
+	color:#ee7821;
+	text-shadow:none;
+}
+
+.captionRight p {
+	font-size:1.0em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:300;
+	margin-top:10px;
+	line-height:20px;
+	color:#0067ac;
+	text-shadow:none;
+}

@@ -1,0 +1,83 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+* html .clearfix             { zoom: 1; }
+*:first-child+html .clearfix { zoom: 1; }
+
+/* BEGIN STYLING */
+
+.storelabel {
+	color:#000;
+	vertical-align:middle;
+}
+#searchzip {
+	margin:0 0 15px 15px;
+}
+.store_listing span {
+	display:block;
+}
+.store_listing a {
+	text-decoration:none;
+}
+.store_listing a:hover {
+	text-decoration:underline;
+}
+.store_listing {
+	text-align:left;
+	width:425px;
+	list-style:decimal;
+	line-height:1.3em;
+	margin:0 15px;
+	padding:5px 0;
+	font-size:12px;
+}
+	.store_listing:hover {
+		background:#efefef;
+	}
+.store_listing .store_number {
+	float:left;
+	width:25px;
+	text-align:right;
+	margin-right:5px;
+}
+
+.store_listing .store_info {
+	float:left;
+	width:225px;
+}
+.store_listing .store_notes {
+	float:right;
+	width:160px;
+}
+.store_listing .storename {
+	font-weight:bold;
+	font-size:14px;
+	padding-bottom:10px;
+}
+.store_listing address {
+	font-style:normal;
+}
+.store_listing .map {
+	margin:5px 0 5px 15px;
+	padding:6px 0 0;
+	font-size:12px;
+}
+#mainContent .store_listing .store_notes a.storemap:link, #mainContent .store_listing .store_notes a.storemap:visited {
+	color:#fff;
+	padding:2px 5px;
+	background:#002E6E;
+}
+#mainContent .store_listing .store_notes a.storemap:hover {
+	background:#0068A6;
+}
+hr.storelisting {
+	border-top:1px dashed #000;
+	height:1px;
+	width:400px;
+}

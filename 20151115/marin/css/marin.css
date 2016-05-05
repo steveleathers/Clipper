@@ -1,0 +1,382 @@
+/* 
+---------------------------- 
+LEFT COLUMN LIST HEADERS
+---------------------------- 
+*/
+	
+
+
+
+#navlistheader
+ {
+	background: transparent url(../images/headers/mtLogo.jpg) no-repeat;
+	height: 90px;
+}
+
+
+#pageHeader {
+	z-index: 2;
+	background: transparent url(../images/headers/mtGeneric.png) no-repeat top left;
+	height: 59px;
+	position: relative;
+}
+
+	
+#leftNavModule li a {
+	padding: 5px 5px 5px 25px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url(../images/bullets/arrow-marintransit.png) no-repeat 4px 50%;
+}
+	
+#leftNavModule li a:hover {
+	color: #70b51c;
+}
+
+		
+#marinRelatedModuleTop {
+	height: 99px;
+	background: url(../images/marinTransitRelatedTop.jpg) no-repeat top left;
+	margin-bottom:25px;
+}
+
+#marinRelatedModuleBody {
+	background: #F3F1F4 url(../images/global/greyfadeShortBg.gif) repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#marinRelatedModuleBody h2 {
+	font-size:0.75em;
+	font-weight: bold;
+	padding: 3px 0 10px 8px;
+}
+
+#marinRelatedModuleBottom {
+	background: #fff url(../images/greyangleBottomReverse.gif) no-repeat 0 -15px;
+	height: 29px;
+}
+
+#marinRelatedModule li {
+	font-size: .75em;
+	text-indent: -15px;
+	padding: 0 0 5px 15px;
+	max-width: 160px; /*ADD TO FIX BULLETS POINTS IN IE7*/
+	
+}
+
+#marinRelatedModule li a {
+	padding: 5px 5px 5px 15px;
+	color: #545354;
+	text-decoration: none;
+	background: transparent url(../images/bullets/marintransitSq.png) no-repeat 5px 10px;
+}
+
+#marinRelatedModule li a:hover {
+	color: #70b51c;
+}
+
+#marinRelatedModule h1 {
+	height: 8px;
+	background: #fff url(../images/global/genericLtGreenBar.png) repeat-x left bottom;
+	text-indent: -9999px;
+}
+
+/* 
+---------------------------- 
+TABBED NAVIGATION --not using images/javascript
+---------------------------- 
+*/	
+
+ul#tabbed-nav {
+	position: relative;
+	top: 65px;
+	left: 84px;
+	margin: 0;
+	height: 30px;
+	list-style-type: none;
+    display:table;
+	border-spacing: 2px 0px;
+    border-collapse: separate;
+}
+
+ul#tabbed-nav li  {
+display:table-cell;
+background-color:#949b9e;
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+line-height:15px;
+text-align:center;
+height:30px;
+margin:0px; 
+padding:0px 4px;
+position: relative;
+vertical-align:middle;
+width:120px;
+}
+
+
+
+ul#tabbed-nav li.active  {background-color:#70b51c;}  /*special color for caltrian*/
+ul#tabbed-nav li.active a {color:#fff;}
+
+ul#tabbed-nav li:hover  {background-color:#70b51c;color:#fff;} /*special color for caltrian*/
+ul#tabbed-nav li:hover  a{background-color:#70b51c;color:#fff;} /*special color for caltrian*/
+ul#tabbed-nav li  a:hover {color:#fff;}
+
+ul#tabbed-nav li.not-active  {background-color:#949b9e !important;}  /*special color for caltrian*/
+ul#tabbed-nav li.not-active a {color:#fff !important;}
+
+ul#tabbed-nav li a {
+    text-decoration:none;
+	 display:block;
+	 vertical-align:middle;
+	color:#fff;
+    font-size:12px;
+	
+}
+
+div.navText {
+    font-size:10px; 
+    margin-top:-2px;
+}
+
+ul#tabbed-nav li ul {
+  position: absolute;
+  top: 30px;
+  left:-240px;
+  width: 300px;
+  visibility:hidden;
+	
+}
+
+ul#tabbed-nav li ul li{
+  background-color:#fff;
+  color:#333;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom:8px solid #70b51c; 		/*special color for caltrian*/
+  -webkit-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+}
+
+ul#tabbed-nav li ul li div#menu2Container  {
+	z-index: 20;
+	width:384px;
+}
+
+ul#tabbed-nav li ul li div#menu2Container img {
+	float:left;
+	position:relative;
+	width:76px;
+	padding:5px 10px;
+}
+
+div#menu2Container img.active {
+	cursor:default;
+}
+
+div#menu2Container:hover > a img {
+	opacity:.25;
+}
+
+
+div#menu2Container:hover > a img:hover{
+	opacity:1;
+}
+
+div#menu2Container:hover > a img.active:hover{
+	opacity:.25;
+}
+
+ul#tabbed-nav li ul li:hover{
+  background-color:#fff;
+}
+
+ul#tabbed-nav li:hover ul  {
+  opacity: 1;
+  visibility: visible;
+  z-index:3000;
+}
+	
+#menu2Container li {
+	/*background: #dfdfe1;*/
+}
+	
+#menu2Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	font-size:14px;
+	line-height:18px;
+	display: block;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+	background: #fff;
+}
+
+#menu2Container li a:hover {
+	color: #00837a;
+}
+
+#menu1Content {
+	position: absolute;
+	width:368px !important;
+	height:250px !important;
+	background: #fff;
+	-moz-box-shadow: 0 8px 16px #888;
+   -webkit-box-shadow: 0 8px 16px #888;
+   box-shadow: 0 8px 16px #888;
+   margin-left:8px;
+}
+
+
+
+
+
+/* 
+---------------------------- 
+TOP NAV
+---------------------------- 
+*/	
+
+ul#topNav {
+	position: relative;
+	top: 66px;
+	left: 107px;
+	width: 368px;
+	margin: 0;
+	height: 29px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+body.marinhome ul#topNav, 
+body.marinfares ul#topNav, 
+body.marinfaq ul#topNav  {
+	background: transparent url(../images/marinTransitNav.png) no-repeat 0 0;
+}
+
+ul#topNav li a {
+	position: absolute;
+	top: 0;
+	text-indent: -9000px;
+	text-decoration: none;
+	padding: 29px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:22px; /* IE5/Win */
+	background: transparent url(../images/marinTransitNav.png) no-repeat;
+}
+
+/* 
+---------------------------- 
+NAV TABS
+---------------------------- 
+*/
+
+body.marinhome li#TLhome a, 
+body.marinfaq li#TLhome a, 
+body.marinfares li#TLhome a {
+	background-position: 0 -29.5px;
+	width: 123px;
+	left: 0;
+}
+
+body.marinhome li#TLhome a:hover, 
+body.marinfaq li#TLhome a:hover, 
+body.marinfares li#TLhome a:hover { 
+	background-position: 0 0px; 
+}
+
+body.marinhome li#TLonmarin a, 
+body.marinfaq li#TLonmarin a, 
+body.marinfares li#TLonmarin a {
+	background-position: -123px -29.5px;
+	width: 123px;
+	left: 123px;
+}
+
+body.marinhome li#TLonmarin a:hover, 
+body.marinfaq li#TLonmarin a:hover, 
+body.marinfares li#TLonmarin a:hover
+{
+	background-position: -123px -29.5px;
+}
+
+body.marinhome li#Other a, 
+body.marinfaq li#Other a, 
+body.marinfares li#Other a
+{
+	background-position: -246px -0px;
+	width: 122px;
+	left: 246px;
+}
+
+body.marinhome li#Other a:hover, 
+body.marinfaq li#Other a:hover, 
+body.marinfares li#Other a:hover
+{
+	background-position: -246px -58px;
+}
+
+
+/*
+---------------------------- 
+YOU ARE HERE
+---------------------------- 
+*/
+
+body.marinhome li#howtouse a, 
+body.marinfaq li#faq a, 
+body.marinfares li#fares a  {
+color: #70b51c; 
+}
+
+
+
+
+#menu1Container ul {
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+	background: #FFF;
+	z-index: 20;
+	/*height:350px;*/
+}
+	
+#menu1Container li {
+	/*background: #dfdfe1;*/
+	border-bottom: 1px solid #cfd0d2;
+	border-top: 1px solid #FFF;
+}
+	
+#menu1Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: #E7E7E7;
+}
+	
+#menu1Container li a:hover {
+	color: #70b51c;
+}
+#header.marintransit {
+	border-bottom: 5px solid #70b51c;
+}
+
+h4{
+line-height:1.5em;
+color:#505050;
+}

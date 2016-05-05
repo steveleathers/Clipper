@@ -1,0 +1,562 @@
+/*
+--------------------
+MODULES
+--------------------
+*/
+
+/*THIS MODULE HOLDS THE CLIPPER CARD HEADER AND PHONE,
+FAX, AND HOUR INFORMATION
+
+IT APPEARS IN THE LEFT COLUMN*/
+
+/* MIG grabbed CSS from production 3/9/16 */ 
+
+
+#cardInfoModule {
+	padding: 20px 0 0 0;
+}
+
+#cardInfoModule a {
+	color: #545354;
+}
+
+#cardInfoModule h1 {
+	background: #fff url("#{resource['images/global:cardInfoModuleTop.gif']}") no-repeat left top;
+	height: 150px;
+	padding: 0;
+	text-indent: -9999px;
+}
+
+
+#cardInfoModule h2 {
+	font-size:0.75em;
+	font-weight: bold;
+	padding: 3px 0 10px 8px;
+}
+
+#cardInfoModuleBody {
+	background: #F3F1F4 url("#{resource['images/global:greyListBg.gif']}") repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#cardInfoModuleBottom {
+	background: #fff url("#{resource['images/global:greyangleBottom.gif']}") no-repeat 0 -15px;
+	height: 29px;
+	
+}
+
+#cardInfoModule p {
+	padding: 0 0 5px 8px;
+	font-size: .625em;
+}
+
+#cardInfoModule .extraspace {
+	padding: 5px 0 0 8px;
+}
+
+/*
+WIDE MODULE FOR INDEX PAGE
+*/
+
+#cardInfoModuleBodyWide ul {
+	background: #fcc;
+	padding: 0 0 0 10px;
+	position: relative;
+
+}
+
+#cardInfoModuleBodyWide li {
+	padding: 0 10px 5px 0;
+
+}
+
+
+
+#cardInfoModuleBodyWide {
+	height: 100px;
+	position: absolute;
+	width: 598px;
+	margin: -10px 0 0 0;
+	background: #fff url("#{resource['images/global:greyListBgWide.gif']}") repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#cardInfoModuleBodyWide h2 {
+	padding: 15px 0 10px 8px;
+}
+
+#cardInfoModuleBottomWide {
+
+	width: 600px;
+	height: 35px;
+	position: absolute;
+	bottom: 0px;
+	left: -1px;
+	background: #fff url("#{resource['images/global:greyangleBottomWide.gif']}") no-repeat 0 0;
+	
+	
+}
+
+
+/*THIS MODULE HOLDS THE RELATED LINKS MODULE
+
+IT APPEARS IN THE RIGHT COLUMN*/
+
+#relatedLinksModule {
+	margin: -25px 0 0 0;
+}
+
+#relatedLinksModuleBody {
+
+	background: #F3F1F4 url("#{resource['images/global:greyfadeShortBg.gif']}") repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#relatedLinksModuleBody h2 {
+	font-size:0.75em;
+	font-weight: bold;
+	padding: 3px 0 10px 8px;
+}
+
+#relatedLinksModuleBottom {
+	background: #fff url("#{resource['images/global:greyangleBottomReverse.gif']}") no-repeat 0 -15px;
+	height: 29px;
+}
+
+#relatedLinksModule li {
+	font-size: .75em;
+	text-indent: -15px;
+	padding: 0 0 5px 15px;
+	max-width: 160px; /*ADD TO FIX BULLETS POINTS IN IE7*/
+	
+}
+
+#relatedLinksModule li a {
+	padding: 5px 5px 5px 15px;
+	color: #545354;
+	text-decoration: none;
+	background: transparent url("#{resource['images/bullets:blueSquare.gif']}") no-repeat 5px 10px;
+}
+
+#relatedLinksModule li a:hover {
+	color: #0068a6;
+}
+
+#relatedLinksModule h1 {
+	height: 8px;
+	background: #fff url("#{resource['images/global:genericBlueBar.gif']}") repeat-x left bottom;
+	text-indent: -9999px;
+}
+
+/*END OF RELATED LINKS MODULE*/
+
+/*********************************************************
+FOR ROLLOVER MYCLIPPER
+*********************************************************/
+
+
+h1#mytranslinkModuleRollover,
+h1#myclipperModuleRollover  {
+	height: 34px;
+	text-indent: -9999px;
+	background: #fff url("#{resource['images/global:myTrans.gif']}") no-repeat;
+	
+}
+
+/*MY CLIPPER
+#mytranslinkModuleRollover,
+#myclipperModuleRollover {
+	position: relative;
+	top: -34px;
+}*/
+
+/*********************************************************
+
+/*MY CLIPPER*/
+#mytranslinkModuleLoggedIn, #mytranslinkModule,
+#myclipperModuleLoggedIn, #myclipperModule {
+	position: relative;
+	top: -34px;
+}
+
+#mytranslinkModule legend,
+#myclipperModule legend {
+	display: none;
+}
+
+#mytranslinkModuleLoggedIn h1, #mytranslinkModule h1,
+#myclipperModuleLoggedIn h1, #myclipperModule h1 {
+	height: 34px;
+	text-indent: -9999px;
+	background: #fff url("#{resource['images/global:myTrans.gif']}")
+}
+
+#mytranslinkModuleBody,
+#myclipperModuleBody {
+	background: #0068a5 url("#{resource['images/global:mytransitBg.jpg']}") repeat-x bottom left;
+	border-left: 1px solid #63686b;
+	border-right: 1px solid #63686b;
+}
+
+#mytranslinkModuleBody input#username,
+#myclipperModuleBody input#username {	
+	font-size: .75em;	
+}
+
+#mytranslinkModuleBody input#password,
+#myclipperModuleBody input#password {	
+	font-size: .75em;	
+}
+
+#loginrolloverbox h2, 
+#mytranslinkModuleLoggedIn h2,
+#myclipperModuleLoggedIn h2 {
+	/*background: transparent url(../images/global/welcomeTo.gif) no-repeat 0 0;
+	height: 39px;*/
+	text-indent: -9999px;
+}
+
+#mytranslinkModuleLoggedIn h2,
+#myclipperModuleLoggedIn h2 {
+	/*background: transparent url(../images/global/welcomeTo.gif) no-repeat 0 0;
+	height: 39px;*/
+	text-indent: -9999px;
+}
+
+#mytranslinkModuleBodyBottom,
+#myclipperModuleBodyBottom {
+	background: #fff url("#{resource['images/global:mytransitBottom.jpg']}") no-repeat 0 0;
+	height: 29px;
+}
+
+#mytranslinkModule p,
+#myclipperModule p {
+
+	padding: 0 0 10px 10px;
+	color: #fff;
+	font-size: .75em;
+	}
+	
+#loginrolloverbox ul,
+#mytranslinkModuleLoggedIn ul,
+#myclipperModuleLoggedIn ul {
+	padding: 10px 5px 5px 10px;
+	
+}
+
+#loginrolloverbox li, 
+#mytranslinkModuleLoggedIn li,
+#myclipperModuleLoggedIn li {
+	padding: 0 0 10px 0;
+
+}
+
+#loginrolloverbox li a,
+#mytranslinkModuleLoggedIn li a, 
+#myclipperModuleLoggedIn li a {
+	padding: 5px 5px 5px 25px;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+	background: transparent url("#{resource['images/bullets:arrow-white.png']}") no-repeat 4px 50%;
+}
+
+#mytranslinkModuleLoggedIn ul,	
+#myclipperModuleLoggedIn ul {
+	padding: 10px 5px 5px 10px;
+	
+}
+
+#mytranslinkModuleLoggedIn li,
+#myclipperModuleLoggedIn li {
+	padding: 0 0 10px 0;
+
+}
+
+#mytranslinkModuleLoggedIn li a,
+#myclipperModuleLoggedIn li a {
+	padding: 5px 5px 5px 15px;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+	background: transparent url("#{resource['images/bullets:loggedIn.gif']}") no-repeat 5px 10px;
+}
+	
+/* 
+---------------------------- 
+FORM FOR LOGIN MODULE
+---------------------------- 
+*/	
+fieldset {
+	padding: 10px 0 0 0;
+}
+
+#myBox label {
+	color: #fff;
+	font-size: .75em;
+	padding: 0 0 0 10px;	
+}
+/*input {
+	width: 130px;
+	margin: 0 0 0 0;
+	border: 1px solid #464646;
+}*/
+	
+input.login  {
+	width: 130px;
+	margin: 5px 0 10px 10px;
+	border: 1px solid #464646;
+}
+
+.formSmall a:link,
+.formSmall a:visited,
+.formSmall a:active,
+.formSmall a:hover {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.buttonLogin {
+	height: 21px;
+	width: 44px;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	font-size: 0.65em;
+	border: none;
+	background: transparent url("#{resource['images/buttons:formbutton-login.gif']}") no-repeat;
+	color: #000000;
+}
+
+	
+/*END OF MY CLIPPER*/
+
+
+/*THIS MODULE HOLDS THE RELATED LINKS MODULE
+
+IT APPEARS IN THE RIGHT COLUMN*/
+
+#infoBox {
+	padding: 15px 0 0 0;
+	
+}
+#infoBoxBody {
+	background: #F3F1F4 url("#{resource['images/global:greyfadeShortBg.gif']}") repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#infoBoxBody h2 {
+	font-size:0.625em;
+	font-weight: bold;
+	padding: 5px 0 10px 8px;
+}
+
+#infoBoxBodyBottom {
+	background: #fff url("#{resource['images/global:greyangleBottomReverse.gif']}") no-repeat 0 -15px;
+	height: 29px;
+}
+
+#infoBox p {
+	font-size: .725em;
+	padding: 3px 0 2px 10px;
+}
+
+#infoBoxBody a {
+	padding: 5px 0 0 0;
+	color: #ffa222;
+
+}
+
+#infoBoxModule a:hover {
+	color: #449c2d;
+}
+
+#infoBox h1 {
+	height: 8px;
+	background: #fff url("#{resource['images/global:infoBoxTop.gif']}") repeat-x left bottom;
+	text-indent: -9999px;
+}
+
+/*END OF RELATED LINKS MODULE*/
+
+
+
+/*END OF INFO BOX MODULE*/
+
+
+
+/*AGENCIES*/
+
+
+.agencylist ul, .agencynamelist ul {
+	float: left;
+	padding: 0 0 0 20px;
+	width: 428px;
+	
+}
+
+.agencylist li, .agencynamelist li {
+	font-size: .75em;
+
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+.agencylist li {
+	/*padding: 0 0 0 10px;*/
+}
+
+.agencynamelist li {
+	margin: 0 auto;
+	text-align: center;
+	width: 102px;
+	margin: 0 0 10px 0;
+}
+
+.agencylist a {
+	
+	text-decoration: none; /*REMOVES GREEN LINE IN MOZILLA*/
+	display: block;
+	width: 102px;
+	height: 77px;
+	text-indent: -9999px;
+}
+
+.agencyName a {
+	
+	width: 102px;
+	color: #449c2d;
+	height: 20px;
+	text-decoration: underline;
+}
+
+.transitIcon .gg {
+	background: #fff url("#{resource['images/logos:gg.jpg']}") no-repeat;
+	height: 77px
+}
+
+.transitIcon .ac {
+	background: #fff url("#{resource['images/logos:ac.jpg']}") no-repeat;
+	height: 77px
+}
+
+.transitIcon .dumbarton {
+	background: #fff url("#{resource['images/logos:db.jpg']}") no-repeat;
+	height: 77px
+}
+
+.transitIcon .muni {
+	background: #fff url("#{resource['images/logos:muni.jpg']}") no-repeat;
+	height: 77px
+}
+
+.transitIcon .bart {
+	background: #fff url("#{resource['images/logos:bart.jpg']}") no-repeat;
+	height: 77px
+}
+
+.transitIcon .caltrain {
+	background: #fff url("#{resource['images/logos:caltrain.jpg']}") no-repeat;
+	height: 77px
+}
+
+/*
+----------------------------------------------
+AGENCY SLIDER EFFECT - Modified 1/14/15 by RAB
+----------------------------------------------
+*/
+
+#agencyWrap {
+	width:320px;
+	margin:10px 5px 5px 20px;
+}
+
+#agencyOrderPage {
+	width:263px;
+	margin:0px 0px 10px 20px;
+}
+
+#agencyUsePage {
+	width:402px;
+	margin:10px 5px 5px 20px;
+}
+
+#columns {
+  display: inline;
+}
+
+div#columns.columns_order .figure {
+	display: inline-block;
+	background: #fff;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 3px 0px 0px 0px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+	opacity: 1;
+	/* -webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease; */
+  	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div#columns.columns_4 .figure {
+	display: inline-block;
+	background: #fff;
+	border: 2px solid #FAFAFA;
+	box-shadow: 0 1px 0px rgba(34, 25, 25, 0.4);
+	margin: 0px 3px 8px 0px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+	/* background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9); */
+	/* -webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease; */
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div#columns.columns_4 .figure img {
+   width:70px;
+   height:50px;
+   margin-bottom: 0px;
+   opacity: 1;
+   padding: 4px;
+}
+
+
+div#columns.columns_order .figure img {
+	width: 70px;
+  	height: 50px;
+	margin-bottom: 0px;
+}
+
+div#columns .figure img:hover{
+	-webkit-transform: scale(1.3);
+	-moz-transform:scale(1.3);
+	transform: scale(1.3); 
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+div#columns:hover .figure:not(:hover) {
+	opacity: 0.3;
+}
+
+div#columns a {
+	cursor:pointer;
+}
+
+/* ----- END SCROLL OVER EFFECT ----- */

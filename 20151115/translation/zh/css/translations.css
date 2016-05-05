@@ -1,0 +1,56 @@
+div.transTables {
+	margin:10px 0px;
+	
+}
+.transTables table.translations {
+	width: 90%;
+	margin-left:20px;
+}
+.transTables table.translations th{
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#0068a6;
+	color:#fff;
+	border-left:1px solid #069;
+	border-right:1px solid #069;
+	border-top:1px solid #069;	
+	padding:5px 10px 4px 10px;
+	
+}
+.transTables table.translations td {
+	padding:5px 10px 4px 10px;
+	border-bottom:1px solid #069;
+	border-left:1px solid #069;
+	border-right:1px solid #069;
+	border-top:none;
+	vertical-align:top;
+}
+
+.transTables table.translations td.transHeader {
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#0068a6;
+	color:#fff;
+	border-left:1px solid #069;
+	border-right:1px solid #069;
+	border-top:1px solid #069;	
+}
+
+#mainContent .transTables table.translations p {
+	margin-left:0px;
+	padding-left:0px;
+    width:100%;
+
+}
+
+
+body.translations .servicetable ul li {
+	max-width: 400px;
+}
+
+body.translations .get table{
+	margin-left: 0px;
+	max-width: 427px;
+}
+
+

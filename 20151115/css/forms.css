@@ -1,0 +1,38 @@
+div.formsTables {
+	margin:10px 0px;
+	
+}
+.formsTables .formstable {
+	width: 90%;
+	margin-left:20px;
+}
+.formsTables .formstable th{
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#0068a6;
+	color:#fff;
+	border-left:1px solid #069;
+	border-right:1px solid #069;
+	border-top:1px solid #069;	
+	padding:5px 10px 4px 10px;
+	
+}
+.formsTables .formstable td {
+	padding:5px 10px 4px 10px;
+	border-bottom:1px solid #069;
+	border-left:1px solid #069;
+	border-right:1px solid #069;
+	border-top:none;
+	vertical-align:top;
+
+
+}
+
+.formsTables .formstable td p {
+	margin-left:-20px;
+
+}
+
+
+
+

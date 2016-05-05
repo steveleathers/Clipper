@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+	<title>Clipper Home</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta property="og:image" content="https://www.clippercard.com/ClipperWeb/images/homepage/global/clipperLogoLarge.png"/>
+
+<style type="text/css" media="screen">	
+	@import url(css/homepage_master.css);
+</style>
+	
+ <link rel="shortcut icon" 
+      type="image/x-icon" 
+      href="images/common/favicon.ico"/>
+
+<link rel="stylesheet" type="text/css" media="print" href="css/print_newdesign.css" />
+	
+	<!--start of carousel -->
+	<link rel="stylesheet" type="text/css" href="css/slides.css" />
+	<!--end of carousel -->
+	
+	<script type="text/javascript" src="js/general.js"></script>
+	<script type="text/javascript" src="js/swfobject.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	 
+	<script type="text/javascript" src="js/switchcontent.js" ></script>
+	
+	<!-- start of carousel -->
+	<script type="text/javascript" src="//use.typekit.net/nwz6joh.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="js/slides.min.jquery.js"></script>
+	<!--end of carousel -->
+	
+	<script type="text/javascript" src="js/switchicon.js">
+	/***********************************************
+	* Switch Content script II (icon based)- © Dynamic Drive (www.dynamicdrive.com)
+	* Requires switchcontent.js and included before this file!
+	* Visit http://www.dynamicdrive.com/ for full source code
+	***********************************************/
+	</script>
+	
+</head>
+
+<body id="threeColLayout" class="homepage" />
+  <div id="container">
+	<div id="wrapper">
+		<!-- STARTS HEADER -->
+        <div id="header">
+            <div id="skipto"><a href="#mainContent" class="skip_nav" accesskey="z">Skip to Content</a></div>
+            
+            <div id="headerSearch">
+				<form name="search" method="post" action="search.do">
+					<label for="search" id="searchString">Search</label>				
+            		<input type="text" name="searchString" id="searchString" />
+					<input type="submit" value="Go" class="buttonSearch" />
+				</form>
+    		</div>    	
+            
+           
+
+            <h1><a href="index.do">Clipper</a></h1>
+
+            <ul id="topNav">
+                <li id="home"><a href="index.do" accesskey="1" title="Home page">home</a></li>
+				<li id="about"><a href="whatsTranslink.do" accesskey="2" title="About Clipper page">About Clipper</a></li>
+				<li id="use"><a href="useTranslink.do" accesskey="3" title="How to use Clipper page">Use Clipper</a></li>
+				<li id="get"><a href="getTranslink.do" accesskey="4" title="How to get Clipper page">Get Clipper</a></li>
+			</ul>			
+			 
+            <script type="text/javascript">
+
+			$(document).ready(function() {
+			 // hides the slickbox as soon as the DOM is ready
+			 // (a little sooner than page load)
+			
+			  $('#myBox').hide();
+			 // shows the slickbox on clicking the noted link
+			  $('a#box-show').click(function() {
+				$('#myBox').show('slow');
+				return false;
+			  });
+			 
+			  // shows the slickbox on clicking the noted link
+			  $('a#box-show').click(function() {
+				$('#myBox').show('slow');
+				return false;
+			  });
+			  
+			 // hides the slickbox on clicking the noted link
+			  $('a#box-hide').click(function() {
+				$('#myBox').slideToggle('fast');
+				return false;
+			  });
+			
+			 // toggles the slickbox on clicking the noted link
+			  $('a#box-toggle').click(function() {
+				$('#myBox').slideToggle(400);
+				return false;
+			  });
+			});		
+			
+           //resizes iframe
+			//$('headeriFrame').load(function() {
+			//	  this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
+			//	});
+
+
+			
+			//$('.headeriFrame').css('height', $(window).height()+'px');
+			
+						
+
+			/*function autoResize(id){
+			    var newheight;
+			    var newwidth;
+
+			    if(document.getElementById){
+			        newheight=document.getElementById(id).contentWindow.document.body.scrollHeight;
+			        newwidth=document.getElementById(id).contentWindow.document.body.scrollWidth;
+			    }
+
+			    document.getElementById(id).height= (newheight) + "px";
+			    document.getElementById(id).width= (newwidth) + "px";
+			}*/
+							
+			
+			</script>
+			<div id="myRollover">		
+					
+					
+						 <a href="#" id="box-toggle" ><h1 id="mytranslinkModuleRollover">Login</h1></a>
+						 	<div id="myBox">								
+			                  <!-- <div id="mytranslinkModuleBody">-->
+			                  <iframe id="headeriFrame" width="160" scrolling="no" frameborder="0" height="205" allowTransparency="true"
+							src="../ClipperCard/loginFrame.jsf"></iframe>
+									
+									
+			                      <!--   <form name="LoginForm" method="post" action="login.do">
+			                      		 
+			                        <div class="form">
+										<p></p>
+									</div>            
+			                            <fieldset>
+			                                <legend>My Clipper</legend>			            
+			                                    <p>Secure Login</p>
+			                                    <label for="username" >Email Address:</label>				
+			                                    <input type="text" name="username" id="username" />
+			                                    <label for="password" >Password:</label>
+			                                    <input type="password" AUTOCOMPLETE="off" name="password" id="password" />
+			                                    <p class="formSmall"><a href="forgottenPassword.do" accesskey="y" title="Forgot your password?">Forgot your password?</a></p>
+			                            </fieldset>
+										<input type="submit" value="Login" class="buttonLogin" />    
+									</form> 	-->
+								</div>
+								<!-- END MY TRANSLINK MODULE -->
+								<!--<div id="mytranslinkModuleBodyBottom"></div>
+								</div>	-->
+					
+										
+			
+          	</div>	
+        </div><!-- /end #header -->
+
+
+
+
+
+<!-- FLASH NAV-->
+<div id="flashNav">
+	<div id="leftNav">
+		<ul id="leftNavModule">
+			<!--<li>&nbsp;</li>-->
+			<li id="ordercard"><a href="getTranslink.do" accesskey="a"
+				title="Order a Clipper card">Order a Clipper Card</a></li>
+			<li id="getclipperdiscounts"><a href="discounts/index.do"
+				accesskey="b" title="Get Clipper discounts">Get Clipper
+					discounts</a></li>
+			<li id="addvalue"><a href="../ClipperCard/manage.jsf"
+				accesskey="c" title="Add value online">Add value online</a></li>
+			<li id="ordercard"><a href="../ClipperCard/register.jsf"
+				accesskey="d" title="Register a Card">Register a card</a></li>
+			<li id="addvalue"><a
+				href="getTranslinkRegisterForAutoloadInfo.do" accesskey="e"
+				title="Set up Autoload">Set up Autoload</a></li>
+			<li id="find"><a href="map.do" accesskey="f"
+				title="Find retail locations">Find retail locations</a></li>
+			<li id="applytransitbenefits"><a href="transitbenefits.do"
+				accesskey="g" title="Apply Transit Benefits">Apply transit
+					benefits</a></li>
+			<li id="parkWithClipper"><a href="parking/index.do"
+				accesskey="h" title="Park with Clipper">Park with Clipper</a></li>
+			<li id="faq"><a href="faq.do" accesskey="i" title="Clipper FAQ">Clipper
+					FAQ</a></li>
+			<li id="customersupport"><a href="damagedCard.do" accesskey="j"
+				title="Clipper Support">Customer support</a></li>
+		</ul>
+	</div>
+
+	<!--this is where carousel goes -->
+	<script>
+		$(function() {
+			$('#slides').slides({
+				preload : true,
+				preloadImage : 'imgage/carousel/loading.gif',
+				play : 6500,
+				pause : 2500,
+				hoverPause : true,
+
+			});
+		});
+	</script>
+	<!--this is where carousel goes -->
+
+
+		<div id="carousel">
+		<div id="slides">
+			<div class="slides_container">
+
+				<div class="slide">
+					<a title="Sonoma" target="_blank"><img
+						src="images/carousel/frangela.jpg" width="586" height="230"
+						alt="Slide 1"></a>
+					<div class="captionRight" style="left: 245px; width: 300px;">
+					<h3 style="color: #0067ac;">Sonoma County transit riders!</h3>
+					<p style="color:#ee7821;">Now use Clipper on more buses:</p>
+						<ul style="list-style: disc;color: #ee7821;margin-left:20px;">
+							<li style="font-size:.9em;"><p style="color:#ee7821;margin-top:3px;line-height:1.4em;">Petaluma Transit</p></li>
+							<li style="font-size:.9em;"><p style="color:#ee7821;margin:0px;line-height:1.4em;">Santa Rosa CityBus</p></li>
+							<li style="font-size:.9em;"><p style="color:#ee7821;margin:0px;line-height:1.4em;">Sonoma County Transit</p></li>
+						</ul>
+						<p style="color: #0067ac;"><a>
+							Find your agency below.
+						</a>
+						</p>
+						</div>
+				</div>
+				<div class="slide">
+					<a title="East Bay" target="_blank"><img
+						src="images/carousel/EB_.jpg" width="586" height="230"
+						alt="Slide 2"></a>
+					<div class="captionRight" style="left: 220px; width: 300px;">
+					<h3 style="color: #0067ac;">Connect to more <br>of the East Bay!</h3>
+					<p style="color:#ee7821;">Clipper is now available on:</p>
+		            <ul style="list-style: disc;color: #ee7821;margin-left:20px;">
+		              <li style="font-size:.8em;"><p style="color:#ee7821;margin-top:3px;line-height:1.3em;">County Connection</p></li>
+		              <li style="font-size:.8em;"><p style="color:#ee7821;margin:0px;line-height:1.3em;">Tri Delta Transit</p></li>
+		              <li style="font-size:.8em;"><p style="color:#ee7821;margin:0px;line-height:1.3em;">WestCAT</p></li>
+		              <li style="font-size:.8em;"><p style="color:#ee7821;margin:0px;line-height:1.3em;">Wheels</p></li>
+		            </ul>
+		            <p style="color: #0067ac;font-size:.9em; margin-top:.5em;"><a>
+		              Choose an agency below for more information.
+		            </a>
+		            </p>
+						</div>
+				</div>
+				<div class="slide">
+					<a title="Youth and Seniors" target="_blank"><img src="images/carousel/youth.jpg" 		width="586" height="230" alt="Slide 2"></a>
+					<div class="captionRight">
+						<h3 style="color: #0067ac;">Apply Anytime!</h3>
+						<p style="color: #ee7821;">Now it's even easier to get discount Youth and Senior Clipper cards.</p>
+						<p><a href="https://www.clippercard.com/discounts/index.do">Apply by email today</a></p>
+					</div>
+				</div>
+			
+				</div>
+			<!--closes slide_container -->
+		</div>
+		<!--closes slides -->
+	</div>
+
+
+	<!--closes carousel -->
+
+</div>
+<div id="orangeBar"></div>
+<!-- END FLASH NAV-->
+
+
+
+ 
+
+
+
+
+
+<!-- START CENTER COLUMN -->
+<div id="mainContent">
+	<div id="leftColumn">
+		<!--PROMO BOX-->
+		<div class="promoBox">
+			<a href="discounts/index.do"><img
+				src="images/homepage/swap/Clipper_PromoButton1.png"
+				alt="Get a Discount Clipper card" /></a>
+		</div>		
+		<!--END PROMO BOX-->
+		<!--PROMO BOX-->
+		<div class="promoBox">
+			<a target="_new" href="http://www.futureofclipper.com"><img
+				src="images/homepage/swap/Clipper_PromoButton2.png"
+				alt="Future of Clipper" /></a>
+		</div>
+		<!--END PROMO BOX-->
+		<!--PROMO BOX-->
+		<div class="promoBox">
+			<a href="/clipperdirect/index.do"><img
+				src="images/homepage/swap/Clipper_PromoButton3.png"
+				alt="Clipper Direct" /></a>
+		</div>
+		<!--END PROMO BOX-->		
+		<!--PROMO BOX-->
+		<div class="promoBox">
+			<a target="_new" href="http://www.transit.511.org "><img
+				src="images/homepage/swap/Clipper_PromoButton4.png" alt="" /></a>
+		</div>
+		<!--END PROMO BOX-->
+	</div>
+
+	<div id="centerColumn">
+		<div id="newsBar">
+			<div class="header">Announcements</div>
+			<div class="dots"></div>
+			<div id="announcements">
+				<div class="box">
+<p>Caltrain fares are changing effective February 28. <a href="/ClipperWeb/caltrain/index.do">Learn more</a>.</p>
+</div>
+<div class="dots"></div>
+
+
+
+			<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="rightColumn">
+		<div id="agencyBar">
+			<div class="header">Participating Agencies</div>
+			<div class="dots"></div>
+			<div id="agencyWrap">
+				<div id="columns" class="columns_3">
+					<div class="figure">
+						<a href="actransit/index.do"><img
+							src="images/homepage/logos/acTransitLogo.jpg" alt="AC Transit"></a>
+					</div>
+					<div class="figure">
+						<a href="bart/index.do"><img
+							src="images/homepage/logos/bartLogo.jpg" alt="BART"></a>
+					</div>
+					<div class="figure">
+						<a href="caltrain/index.do"><img
+							src="images/homepage/logos/calTrainLogo.jpg" alt="CalTrain"></a>
+					</div>
+					<div class="figure">
+						<a href="citycoach/index.do"><img
+							src="images/homepage/logos/cityCoach.jpg" alt="Vacaville CityCoach"></a>
+					</div>
+					<!-- <div class="figure">
+						<a href="riovista/index.do"><img
+							src="images/homepage/logos/deltaBreeze.jpg" alt="Rio Vista Delta Breeze"></a>
+					</div>-->
+					<div class="figure">
+            			<a href="countyconnection/index.do"><img src="images/homepage/logos/tccLogo.jpg" alt="County Connection"></a>
+           			</div> 
+					<div class="figure">
+						<a href="fast/index.do"><img
+							src="images/homepage/logos/fastLogo.jpg" alt="FAST"></a>
+					</div>
+					<div class="figure">
+						<a href="goldenGate/index.do"><img
+							src="images/homepage/logos/ggbLogo.jpg"
+							alt="Golden Gate Transit and Ferry"></a>
+					</div>
+					<div class="figure">
+						<a href="marin/index.do"><img
+							src="images/homepage/logos/marinLogo.jpg" alt="Marin Transit"></a>
+					</div>
+					<div class="figure">
+						<a href="muni/index.do"><img
+							src="images/homepage/logos/sfmtaLogo.jpg"
+							alt="San Francisco Municipal Transportation Agency"></a>
+					</div>
+					<div class="figure">
+						<a href="petaluma/index.do"><img
+							src="images/homepage/logos/ptLogo.jpg"
+							alt="Petaluma Transit"></a>
+					</div>
+					<div class="figure">
+						<a href="samtrans/index.do"><img
+							src="images/homepage/logos/stLogo.jpg" alt="Sam Trans"></a>
+					</div>
+					<div class="figure">
+						<a href="sfbay/index.do"><img
+							src="images/homepage/logos/sfbfLogo.jpg" alt="San Francisco Bay Ferry"></a>
+					</div>
+					<div class="figure">
+						<a href="santaRosa/index.do"><img
+							src="images/homepage/logos/SantaRosaWebLogo.jpg" alt="Santa Rosa"></a>
+					</div>
+					<!-- Begin MIG added HTML 3/10/16 --> 
+					<div class="figure">
+						<a href="smart/index.do"><img
+							src="images/homepage/logos/smartLogo.jpg" alt="SMART"></a>
+					</div>
+					<!-- End MIG added HTML 3/10/16 --> 
+					<div class="figure">
+						<a href="soltrans/index.do"><img
+							src="images/homepage/logos/solTransLogo.jpg" alt="SolTrans"></a>
+					</div>
+
+					<div class="figure">
+						<a href="sonoma/index.do"><img
+							src="images/homepage/logos/sctLogo.jpg" alt="Sonoma County Transit"></a>
+					</div>
+					<div class="figure">
+            			<a href="trideltatransit/index.do"><img 
+            				src="images/homepage/logos/tdtLogo.jpg" alt="Tri Delta Transit"></a>
+           				</div>
+					<div class="figure">
+						<a href="napavine/index.do"><img
+							src="images/homepage/logos/vineLogo.jpg" alt="Napa VINE"></a>
+					</div>
+					<div class="figure">
+						<a href="vta/index.do"><img src="images/homepage/logos/vtaLogo.jpg"
+							alt="VTA"></a>
+					</div>
+					  <div class="figure">
+            			<a href="westcat/index.do"><img src="images/homepage/logos/wcLogo.jpg" alt="Westcat"></a>
+           				</div>
+           				<div class="figure">
+            			<a href="wheels/index.do"><img src="images/homepage/logos/wheelsLogo.jpg" alt="Wheels"></a>
+           				</div> 
+					<div class="figure">
+						<a href="parking/index.do"><img
+							src="images/homepage/logos/parkClipper.jpg" alt="Park Clipper"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+
+		</div>
+	</div>
+</div>
+<!-- END MAIN CONTENT-->
+
+<!-- STARTS FOOTER -->
+        <div class="clear"></div>
+        <div id="newsFooter">
+            <div class="customerServiceBox">
+              	Clipper Customer<br />Service Center
+           	</div>
+            <div class="box">
+                <p><span class="title">Phone:</span> 877.878.8883<br />
+                <span class="title">Fax:</span> 925.686.8221</p>
+            </div>
+            <div class="box middle">
+                <p><span class="title">TDD/TTY:</span> 711 or 800.735.2929<br />
+                <span class="title">Email:</span> <a href="mailto:custserv@clippercard.com">custserv@clippercard.com</a></p>
+            </div>
+            <div class="box">
+                <p><span class="title">M - F:</span> 6 a.m. - 8 p.m.<br />
+                <span class="title">Sat - Sun:</span> 8 a.m. - 5 p.m.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="footermain">
+        	<div id="footerLogo">
+                <a class="logo" href="http://www.511.org/" target="_new">Clipper</a>            
+            </div>
+            <div class="listHolder">
+                <ul>	
+                    <li><a href="es/index.do">Espa&ntilde;ol</a></li>
+                	<li><a href="zh/index.do"><img src="images/homepage/global/chineseFooter.jpg" border="0" /></a></li>
+                </ul>
+                <div id="accessibility">
+					<div class="icon"><img src="images/homepage/global/icon_accessibility.png" /></div>
+		        	<div class="text"><a href="accessibility.do">Accessibility</a></div>
+                </div>
+            </div>
+            <div class="listHolder">
+                <ul>	
+                	<li><a href="privacy.do">Privacy</a></li>
+                	<li><a href="faq.do">Clipper FAQ</a></li>
+                	<li><a href="pressRoom.do">Media</a></li>
+                	<li><a href="download.do">Forms</a></li>
+                	<li><a href="agreement.do">Cardholder Agreement</a></li>
+                	<li><a target=_new" href="downloads/Clipper_terms_of_use_11.14.12.pdf">Website Terms of Use</a></li>
+                	<li><a href="sitemap.do">Site Map</a></li>
+                	<li><a href="/ClipperCard/contactUs.jsf">Contact Us</a></li>
+                </ul>            
+            </div>
+            <div class="listHolder">
+            	<ul>
+            	<li class="socialIcons"><a target="_new" href="http://www.facebook.com/BayAreaClipper"><img src="images/homepage/global/icon_facebook.png" /></a></li>
+                <li class="socialIcons"><a target="_new" href="http://twitter.com/bayareaclipper"><img src="images/homepage/global/Twitter.png" /></a></li>
+                <li class="socialIcons"><a target="_new" href="https://www.youtube.com/channel/UCtpEI_08Af5ffdSrPEY08BQ"><img src="images/homepage/global/YouTube.png"/></a></li>
+            	</ul>            
+            </div>
+            <div class="clear"></div>
+               
+        </div>   
+      <!-- END footer -->
+        
+        <!-- END footer -->
+
+	</div> <!--closes wrapper -->
+	<div id="bottomShadow">&nbsp;</div><!-- /end #bottomShadow -->
+</div> <!--closes container -->
+<div id="copyright"><p>&copy;2010-2016, Metropolitan Transportation Commission. All rights reserved.</p></div>
+
+<!-- google analytics code for clipper card.com -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5015075-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+

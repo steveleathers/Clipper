@@ -1,0 +1,537 @@
+/* 
+---------------------------- 
+LEFT COLUMN LIST HEADERS
+---------------------------- 
+*/
+	
+
+
+
+#navlistheader
+ {
+	background: transparent url(../images/headers/discountsHeader.gif) no-repeat;
+	height: 90px;
+}
+
+
+#pageHeader {
+	z-index: 2;
+	background: transparent url(../images/headers/discountsGeneric.gif) no-repeat top left;
+	height: 59px;
+	position: relative;
+}
+
+	
+#leftNavModule li a {
+	padding: 5px 5px 5px 25px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url(../images/bullets/arrow-discounts.png) no-repeat 4px 50%;
+	line-height: 14px;
+}
+	
+#leftNavModule li a:hover {
+	color: #0068ac;
+}
+
+		
+#discountsRelatedModuleTop {
+	height: 99px;
+	background: url(../images/discountsRelatedTop2.jpg) no-repeat top left;
+	margin-bottom:25px;
+}
+
+#discountsRelatedModuleBody {
+	background: #F3F1F4 url(../images/global/greyfadeShortBg.gif) repeat-x;
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+}
+
+#discountsRelatedModuleBody h2 {
+	font-size:0.75em;
+	font-weight: bold;
+	padding: 3px 0 10px 8px;
+}
+
+#discountsRelatedModuleBottom {
+	background: #fff url(../images/greyangleBottomReverse.gif) no-repeat 0 -15px;
+	height: 29px;
+}
+
+#discountsRelatedModule li {
+	font-size: .75em;
+	text-indent: -15px;
+	padding: 0 0 5px 15px;
+	max-width: 160px; /*ADD TO FIX BULLETS POINTS IN IE7*/
+	
+}
+
+#discountsRelatedModule li a {
+	padding: 5px 5px 5px 15px;
+	color: #545354;
+	text-decoration: none;
+	background: transparent url(../images/bullets/discountsSq.gif) no-repeat 5px 10px;
+}
+
+#discountsRelatedModule li a:hover {
+	color: #0068a6;
+}
+
+#discountsRelatedModule h1 {
+	height: 8px;
+	background: #fff url(../images/global/genericBlueBar.gif) repeat-x left bottom;
+	text-indent: -9999px;
+}
+
+
+
+/* 
+---------------------------- 
+TOP NAV
+---------------------------- 
+*/	
+
+ul#topNav {
+	position: relative;
+	top: 66px;
+	left: 107px;
+	width: 368px;
+	margin: 0;
+	height: 29px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+body.discountshome ul#topNav, 
+body.discountsyouth ul#topNav,
+body.discountssenior ul#topNav,
+body.discountsrtc ul#topNav,
+body.discountslocations ul#topNav,
+body.discountsfaq ul#topNav  {
+	background: transparent url(../images/DiscountsNav.gif) no-repeat 0 0;
+}
+
+ul#topNav li a {
+	position: absolute;
+	top: 0;
+	text-indent: -9000px;
+	text-decoration: none;
+	padding: 29px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:22px; /* IE5/Win */
+	background: transparent url(../images/DiscountsNav.gif) no-repeat;
+}
+
+#header.discounts {
+	border-bottom: 5px solid #1188CF;
+}
+
+/* 
+---------------------------- 
+NAV TABS
+---------------------------- 
+*/
+
+body.discountshome li#TLhome a, 
+body.discountsfaq li#TLhome a, 
+body.discountsyouth li#TLhome a,
+body.discountssenior li#TLhome a,
+body.discountsrtc li#TLhome a,
+body.discountslocations li#TLhome a{
+	background-position: 0 -29px;
+	width: 123px;
+	left: 0;
+}
+
+body.discountshome li#TLhome a:hover, 
+body.discountsfaq li#TLhome a:hover, 
+body.discountsyouth li#TLhome a:hover,
+body.discountssenior li#TLhome a:hover,
+body.discountsrtc li#TLhome a:hover,
+body.discountslocations li#TLhome a:hover { 
+	background-position: 0 0px; 
+}
+
+body.discountshome li#TLondiscounts a, 
+body.discountsfaq li#TLondiscounts a, 
+body.discountsyouth li#TLondiscounts a,
+body.discountssenior li#TLondiscounts a,
+body.discountsrtc li#TLondiscounts a,
+body.discountslocations li#TLondiscounts a {
+	background-position: -123px -29px;
+	width: 123px;
+	left: 123px;
+}
+
+body.discountshome li#TLondiscounts a:hover, 
+body.discountsfaq li#TLondiscounts a:hover, 
+body.discountsyouth li#TLondiscounts a:hover,
+body.discountssenior li#TLondiscounts a:hover,
+body.discountsrtc li#TLondiscounts a:hover,
+body.discountslocations li#TLondiscounts a:hover{
+	background-position: -123px -29px;
+}
+
+body.discountshome li#Other a, 
+body.discountsfaq li#Other a, 
+body.discountsyouth li#Other a,
+body.discountssenior li#Other a,
+body.discountsrtc li#Other a,
+body.discountslocations li#Other a {
+	background-position: -246px -0px;
+	width: 122px;
+	left: 246px;
+}
+
+body.discountshome li#Other a:hover, 
+body.discountsfaq li#Other a:hover, 
+body.discountsyouth li#Other a:hover,
+body.discountssenior li#Other a:hover,
+body.discountsrtc li#Other a:hover,
+body.discountslocations li#Other a:hover {
+	background-position: -246px -58px;
+}
+
+
+/*
+---------------------------- 
+YOU ARE HERE
+---------------------------- 
+*/
+
+body.discountshome li#discounts a, 
+body.discountsfaq li#faq a, 
+body.discountsyouth li#youth a,
+body.discountssenior li#senior a,
+body.discountsrtc li#rtc a,
+body.discountslocations li#locations a {
+color: #0068ac; 
+}
+
+
+
+
+#menu1Container ul {
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+	background: #FFF;
+	z-index: 20;
+}
+	
+#menu1Container li {
+	/*background: #dfdfe1;*/
+	border-bottom: 1px solid #cfd0d2;
+	border-top: 1px solid #FFF;
+}
+	
+#menu1Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: #E7E7E7;
+}
+	
+#menu1Container li a:hover {
+	color: #0068ac;
+}
+
+ol {
+	list-style:decimal;
+	margin:0px 0px 10px 40px;
+
+}
+
+#discountsFAQcontent h4 {
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  font-size: .75em;
+  line-height: 1.5em;
+  color: #000000;
+  width:400px;
+}
+
+#discountsFAQcontent h4.first
+{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+#locationstable {
+	border: 1px solid #cccccc;
+	width: 400px;
+	padding: 0;
+	margin: 0 0 20px 20px;
+}
+
+#locationstable table {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#locationstable td {
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+
+#locationstable td.last {
+	border-right: none;
+}
+
+#locationstable td.bottom {
+    border-bottom: none;
+}
+
+#locationstable p {
+    width: auto;
+	padding: 0;
+	margin: 0;
+}
+
+#locationstable p.title {
+
+	font-size: 12px;
+	color: #084181;	
+	font-weight: bold;
+	margin: 0 0 10px 0;
+
+}
+
+#locationstable td.header {
+	font-size: 13px;
+	color: #084181;	
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+#locationstable table, #table p.body {
+
+	font-size: 12px;
+	color: #424242;
+
+}
+
+
+#locationstable table th {
+
+	font-size: 13px;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:left;
+	background-color:#1187cf;
+	color:#fff;
+	padding: 10px 10px 5px 4px;
+}
+#locationstable .youthsenior {
+	background-color:#e5e5e5;
+	text-align:center;
+	color: #003366;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+#locationstable table td, #locations table th {
+
+	padding: 10px 10px 5px 4px;
+}
+
+#locationstable td.center {
+
+	text-align: center;	
+}
+
+h4{
+line-height:1.5em;
+color:#505050;
+}
+/*
+.locationtable {
+	width: 100%;
+}
+
+.locationtable td, .servicetable th {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:4px;
+}
+.locationtable td {
+	border-bottom:1px solid #069;
+	border-left:1px solid #069;
+	border-right:1px solid #069;
+	border-top:none;
+	vertical-align:top;
+}
+*/
+
+/* BEGINNING ADD CSS APRIL 2015 */
+
+
+/* 
+---------------------------- 
+TABBED NAVIGATION --not using images/javascript
+---------------------------- 
+*/	
+
+ul#tabbed-nav {
+	position: relative;
+	top: 65px;
+	left: 84px;
+	margin: 0;
+	height: 30px;
+	list-style-type: none;
+    display:table;
+	border-spacing: 2px 0px;
+    border-collapse: separate;
+}
+
+ul#tabbed-nav li  {
+display:table-cell;
+background-color:#949b9e;
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+line-height:15px;
+text-align:center;
+height:30px;
+margin:0px; 
+padding:0px 4px;
+position: relative;
+vertical-align:middle;
+width:120px;
+}
+
+
+
+ul#tabbed-nav li.active  {background-color:#1188CF;}  /*special color for tcc*/
+ul#tabbed-nav li.active a {color:#fff;}
+
+ul#tabbed-nav li:hover  {background-color:#1188CF;color:#fff;} /*special color for tcc*/
+ul#tabbed-nav li:hover  a{background-color:#1188CF;color:#fff;} /*special color for tcc*/
+ul#tabbed-nav li  a:hover {color:#fff;}
+
+ul#tabbed-nav li.not-active  {background-color:#949b9e !important;}  /*special color for tcc*/
+ul#tabbed-nav li.not-active a {color:#fff !important;}
+
+ul#tabbed-nav li a {
+    text-decoration:none;
+	 display:block;
+	 vertical-align:middle;
+	color:#fff;
+    font-size:12px;
+	
+}
+
+div.navText {
+    font-size:10px; 
+    margin-top:-2px;
+}
+
+ul#tabbed-nav li ul {
+  position: absolute;
+  top: 30px;
+  left:-240px;
+  width: 300px;
+  visibility:hidden;
+	
+}
+
+ul#tabbed-nav li ul li{
+  background-color:#fff;
+  color:#333;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom:8px solid #1188CF; 		/*special color for tcc*/
+  -webkit-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 30px -5px rgba(0,0,0,0.75);
+}
+
+ul#tabbed-nav li ul li div#menu2Container  {
+	z-index: 20;
+	width:384px;
+}
+
+ul#tabbed-nav li ul li div#menu2Container img {
+	float:left;
+	position:relative;
+	width:76px;
+	padding:5px 10px;
+}
+
+div#menu2Container img.active {
+	cursor:default;
+}
+
+div#menu2Container:hover > a img {
+	opacity:.25;
+}
+
+
+div#menu2Container:hover > a img:hover{
+	opacity:1;
+}
+
+div#menu2Container:hover > a img.active:hover{
+	opacity:.25;
+}
+
+ul#tabbed-nav li ul li:hover{
+  background-color:#fff;
+}
+
+ul#tabbed-nav li:hover ul  {
+  opacity: 1;
+  visibility: visible;
+  z-index:3000;
+}
+	
+#menu2Container li {
+	/*background: #dfdfe1;*/
+}
+	
+#menu2Container li a {
+	padding: 5px 5px 5px 5px;
+	color:#000;
+	font-size:14px;
+	line-height:18px;
+	display: block;
+	text-decoration:none;
+	border-bottom:1px solid #ccc;
+	background: #fff;
+}
+
+#menu2Container li a:hover {
+	color: #00837a;
+}
+
+#menu1Content {
+	position: absolute;
+	width:368px !important;
+	height:250px !important;
+	background: #fff;
+	-moz-box-shadow: 0 8px 16px #888;
+   -webkit-box-shadow: 0 8px 16px #888;
+   box-shadow: 0 8px 16px #888;
+   margin-left:8px;
+}
+
+/
+
+
+
