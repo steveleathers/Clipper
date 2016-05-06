@@ -501,6 +501,8 @@ padding: 0 0 5px 50px;
 #mainContent ol {
 	list-style-type: decimal;
 	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	line-height: 1.5em;
+	padding: 0 0 10px 35px;
 }
 
 
