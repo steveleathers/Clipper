@@ -1,10 +1,10 @@
-/* 
----------------------------- 
+/*
+----------------------------
 MAIN STYLES
----------------------------- 
+----------------------------
 */
 
-/* MIG grabbed CSS from production 3/10/16 */ 
+/* MIG grabbed CSS from production 3/10/16 */
 
 
 body {
@@ -27,7 +27,7 @@ a:hover {
 }
 
 li, #mainContent p, #mainContentMap {
-	font-size: 0.75em; 
+	font-size: 0.75em;
 }
 
 strong {
@@ -66,10 +66,10 @@ sup {
 
 
 
-/* 
----------------------------- 
+/*
+----------------------------
 STRUCTURE
----------------------------- 
+----------------------------
 */
 
 #container {
@@ -83,15 +83,15 @@ STRUCTURE
 	width: 780px;
 	margin: 0 0 0 12px;
 }
- 
+
 #leftNav {
-	
+
 	float: left;
 	width: 160px;
 }
 
 #mainContent, #mainContentMap {
-	width: 448px;	
+	width: 448px;
 	float:left;
 }
 
@@ -149,9 +149,9 @@ STRUCTURE
 
 
 
-}---------------------------- 
+}----------------------------
 HEADER
----------------------------- 
+----------------------------
 */
 
 
@@ -176,10 +176,10 @@ HEADER
 	text-decoration: none; /*REMOVES BLUE OUTLINE IN MOZILLA 1.7.12*/
 }
 
-/* 
----------------------------- 
+/*
+----------------------------
 SEARCH BOX IN HEADER
----------------------------- 
+----------------------------
 */
 
 #headerSearch {
@@ -195,9 +195,9 @@ SEARCH BOX IN HEADER
 	padding: 7px 0 0 0;
 	float: left;
 	color: #706d6e;
-	font-weight: bold;	
+	font-weight: bold;
 }
-	
+
 #headerSearch input#searchString {
 	width: 200px;
 	border: 1px solid #464646;
@@ -213,10 +213,10 @@ SEARCH BOX IN HEADER
 	color:#FFFFFF;
 }
 
-/* 
----------------------------- 
+/*
+----------------------------
 SKIP TO NAVIGATION
----------------------------- 
+----------------------------
 */
 
 #skipto {
@@ -231,22 +231,22 @@ SKIP TO NAVIGATION
 #skipto a {
 	font-size: .75em;}
 
-/* 
----------------------------- 
+/*
+----------------------------
 LEFT COLUMN LIST HEADERS
----------------------------- 
+----------------------------
 */
-	
+
 /*Image of a card reader for left col
 triggered by body ID*/
 body.wageworks #navlistheader,
 body.commuterchecks #navlistheader,
 body.transitbenefits #navlistheader,
 body.homepage #navlistheader,
-body.seniors #navlistheader, 
-body.whereuseTL #navlistheader, 
-body.useTL #navlistheader, 
-body.howtouse #navlistheader, 
+body.seniors #navlistheader,
+body.whereuseTL #navlistheader,
+body.useTL #navlistheader,
+body.howtouse #navlistheader,
 body.addvalue #navlistheader {
 	background: transparent url(../images/homepage/headers/square-blue-alt2.gif) no-repeat;
 	height: 73px;
@@ -262,9 +262,9 @@ body.agreement #navlistheader,
 body.toolbox #navlistheader,
 body.clipper #navlistheader,
 body.pressroom #navlistheader,
-body.youths #navlistheader, 
-body.autoload #navlistheader, 
-body.benefits #navlistheader, 
+body.youths #navlistheader,
+body.autoload #navlistheader,
+body.benefits #navlistheader,
 body.whatsTL #navlistheader,
 body.getcardonline #navlistheader,
 body.autoload #navlistheader,
@@ -286,9 +286,9 @@ body.agreement #pageHeader,
 body.toolbox #pageHeader,
 body.clipper #pageHeader,
 body.pressroom #pageHeader,
-body.youths #pageHeader, 
-body.autoload #pageHeader, 
-body.benefits #pageHeader, 
+body.youths #pageHeader,
+body.autoload #pageHeader,
+body.benefits #pageHeader,
 body.whatsTL #pageHeader,
 body.getcardonline #pageHeader,
 body.autoload #pageHeader,
@@ -340,12 +340,12 @@ body.wageworks #pageHeader h1, body.seniors #pageHeader h1 {
 }
 */
 
-/* 
----------------------------- 
+/*
+----------------------------
 TEXT
----------------------------- 
+----------------------------
 */
-	
+
 #mainContent p, #mainContent h2, #mainContent h3, #mainContent h4 {
 	padding: 0 0 10px 20px;
 
@@ -376,7 +376,7 @@ TEXT
 #mainContent h2 {
 	font-weight: normal;
 }
-	
+
 #mainContent p {
 	line-height: 1.5em;
 	width: 370px;
@@ -385,7 +385,7 @@ TEXT
 	margin: -15px 0 0 0;
 	padding: 0 0 0 20px;
 }
-	
+
 #mainContent h3 {
 	margin: 10px 0 0 0;
 	font-size:0.875em;
@@ -405,8 +405,8 @@ TEXT
 }
 
 .iconspan {
-	padding: 0 0 0 20px; 
-	font-size: 11px; 
+	padding: 0 0 0 20px;
+	font-size: 11px;
 	color:#0068a6;
 }
 
@@ -415,24 +415,24 @@ TEXT
 }
 
 
-/* 
----------------------------- 
+/*
+----------------------------
 LISTS
----------------------------- 
+----------------------------
 */
-	
+
 ul#leftNavModule {
 	border-left: 1px solid #cfd0d2;
 	border-right: 1px solid #cfd0d2;
 	background: #E7E7E7 url(../images/homepage/global/greyfadeShortBg.gif) repeat-x;
 }
-	
+
 #leftNavModule li {
 	/*background: #dfdfe1;*/
 	border-bottom: 1px solid #cfd0d2;
 	border-top: 1px solid #FFF;
 }
-	
+
 #leftNavModule li a {
 	padding: 5px 5px 5px 25px;
 	color:#000;
@@ -441,28 +441,28 @@ ul#leftNavModule {
 	/*border-bottom:1px solid #FFF;*/
 	background: transparent url(../images/homepage/bullets/arrow.png) no-repeat 4px 50%;
 }
-	
+
 #leftNavModule li a:hover {
 	color: #0068a6;
 }
-	
+
 #leftNavModuleEnd li {
 	background: #fff url(../images/homepage/global/greyangleBottom.gif) no-repeat top left;
 	height: 30px;
 }
-		
+
 .listHolder {
 	padding: 7px 0 0 10px;
 	float: left;
 	width: 600px;
-}	
+}
 
 ul.horList li {
 	font-size: .625em;
 	float: left;
 	padding: 0 20px 0 0;
-}	
-		
+}
+
 ul.horList li a {
 	color: #505050;
 	text-decoration: none;
@@ -485,7 +485,7 @@ padding: 0 0 10px 80px;
 	width: 360px;
 	background: transparent url(../images/homepage/bullets/blueSquare.gif) no-repeat 0 7px;
 	}
-	
+
 #mainContent ul.bulletList {
 padding: 0 0 5px 50px;
 
@@ -497,10 +497,13 @@ padding: 0 0 5px 50px;
 	width: 360px;
 	background: transparent url(../images/homepage/bullets/blueSquare.gif) no-repeat 0 7px;
 	}
-	
 
-	
-	
+#mainContent ol {
+	list-style-type: decimal;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+}
+
+
 #contentcolumn_large ul.bulletList {
 padding: 0 0 20px 50px;
 
@@ -515,20 +518,20 @@ padding: 0 0 20px 50px;
 
 
 
-/* 
-------------------------------------------------- 
+/*
+-------------------------------------------------
 STANDARD GREEN TEXT LIST WITH THREE DOT BULLETS
-------------------------------------------------- 
-*/	
-			
+-------------------------------------------------
+*/
+
 #mainContent ul.standardList {
 	margin: 0 0 0 40px;
 }
-				
+
 #mainContent .standardList li {
 	height: 20px;
 }
-				
+
 #mainContent .standardList li a {
 	padding: 0 0 0 15px;
 	/*border-bottom:1px solid #FFF;*/
@@ -537,11 +540,11 @@ STANDARD GREEN TEXT LIST WITH THREE DOT BULLETS
 
 
 
-/* 
----------------------------- 
+/*
+----------------------------
 TOP NAV
----------------------------- 
-*/	
+----------------------------
+*/
 ul#topNav {
 	position: relative;
 	top: 66px;
@@ -559,27 +562,27 @@ body.homepage ul#topNav {
 
 body.whatsTL ul#topNav ,
 body.clipper ul#topNav {
-	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -29px; 
+	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -29px;
 }
 
 body.wageworks ul#topNav,
 body.commuterchecks ul#topNav,
 body.transitbenefits ul#topNav,
-body.useTL ul#topNav, 
-body.whereuseTL ul#topNav, 
-body.howtouse ul#topNav, 
+body.useTL ul#topNav,
+body.whereuseTL ul#topNav,
+body.howtouse ul#topNav,
 body.addvalue ul#topNav,
-body.seniors ul#topNav { 
-	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -58px; 
+body.seniors ul#topNav {
+	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -58px;
 }
-	
+
 body.getTL ul#topNav ,
 body.getcardonline ul#topNav ,
 body.autoload ul#topNav,
 body.addvalueonline ul#topNav,
 body.map ul#topNav ,
 body.forms ul#topNav{
-	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -87px; 
+	background: transparent url(../images/homepage/global/navbar.gif) no-repeat 0 -87px;
 }
 
 
@@ -590,17 +593,17 @@ ul#topNav li a {
 	text-decoration: none;
 	padding: 29px 0 0 0;
 	overflow: hidden;
-	height: 0px !important; 
+	height: 0px !important;
 	height /**/:22px; /* IE5/Win */
 	background: transparent url(../images/homepage/global/navbar.gif) no-repeat;
 }
 
 
-/* 
----------------------------- 
+/*
+----------------------------
 GET TAB
 INDEX PAGE NAV
----------------------------- 
+----------------------------
 */
 
 #announcementFeed {
@@ -615,15 +618,15 @@ INDEX PAGE NAV
 	width: 420px;
 	height: 50px;
 	border-top: 1px dotted #000;
-	
+
 
 }
 
 .announcementBarNews a {
 	color: #e09302 !important;
 	}
-	
-	
+
+
 .announcementBarNews a:hover	{
 	color:#e09302;
 }
@@ -646,70 +649,70 @@ INDEX PAGE NAV
 
 .widgetSpacer {
 	height: 30px;
-	
+
 }
-/* 
----------------------------- 
+/*
+----------------------------
 GET TAB
 INDEX PAGE NAV
----------------------------- 
+----------------------------
 */
 
 body.homepage li#home a
-{ 
-	background-position: 0 0px; 
-	width: 90px; 
-	left: 0; 
+{
+	background-position: 0 0px;
+	width: 90px;
+	left: 0;
 }
 
 body.homepage li#home a:hover
-{ 
-	background-position: 0 0px; 
+{
+	background-position: 0 0px;
 }
 
 body.homepage li#about a
-{ 
-	background-position: -90px -0; 
-	width: 122px; 
-	left: 90px; 
+{
+	background-position: -90px -0;
+	width: 122px;
+	left: 90px;
 }
 
 body.homepage li#about a:hover
-{ 
-	background-position: -90px -29px; 
+{
+	background-position: -90px -29px;
 }
 
 body.homepage li#use a
-{ 
-	background-position: -210px -0px; 
-	width: 122px; 
-	left: 210px; 
+{
+	background-position: -210px -0px;
+	width: 122px;
+	left: 210px;
 }
 
 body.homepage li#use a:hover
-{ 
-	background-position: -210px -58px; 
+{
+	background-position: -210px -58px;
 }
 
 body.homepage li#get a
-{ 
-	background-position: -100px -150px; 
-	left: 331px; 
+{
+	background-position: -100px -150px;
+	left: 331px;
 	width: 121px;
 }
 
 body.homepage li#get a:hover
-{ 
-	background-position: -331px -87px; 
+{
+	background-position: -331px -87px;
 }
 
 
 
-/* 
----------------------------- 
+/*
+----------------------------
 ABOUT TAB
 TOP NAV
----------------------------- 
+----------------------------
 */
 
 body.faq li#home a,
@@ -717,10 +720,10 @@ body.agreement li#home a,
 body.toolbox li#home a,
 body.clipper li#home a,
 body.pressroom li#home a,
-body.whatsTL li#home a { 
-	background-position: 0 -29px; 
-	width: 90px; 
-	left: 0; 
+body.whatsTL li#home a {
+	background-position: 0 -29px;
+	width: 90px;
+	left: 0;
 }
 
 body.faq li#home a:hover,
@@ -728,8 +731,8 @@ body.agreement li#home a:hover,
 body.toolbox li#home a:hover,
 body.clipper li#home a:hover,
 body.pressroom li#home a:hover,
-body.whatsTL li#home a:hover { 
-	background-position: 0 0; 
+body.whatsTL li#home a:hover {
+	background-position: 0 0;
 }
 
 body.faq li#about a,
@@ -737,10 +740,10 @@ body.agreement li#about a,
 body.toolbox li#about a,
 body.clipper li#about a,
 body.pressroom li#about a,
-body.whatsTL li#about a { 
-	background-position: -90px -29px; 
-	width: 122px; 
-	left: 90px; 
+body.whatsTL li#about a {
+	background-position: -90px -29px;
+	width: 122px;
+	left: 90px;
 }
 
 body.faq li#about a:hover,
@@ -748,8 +751,8 @@ body.agreement li#about a:hover,
 body.toolbox li#about a:hover,
 body.clipper li#about a:hover,
 body.pressroom li#about a:hover,
-body.whatsTL li#about a:hover { 
-	background-position: -90px -29px; 
+body.whatsTL li#about a:hover {
+	background-position: -90px -29px;
 }
 
 body.faq li#use a,
@@ -757,19 +760,19 @@ body.agreement li#use a,
 body.toolbox li#use a,
 body.clipper li#use a,
 body.pressroom li#use a,
-body.whatsTL li#use a { 
-	background-position: -210px -29px; 
-	width: 122px; 
+body.whatsTL li#use a {
+	background-position: -210px -29px;
+	width: 122px;
 	left: 210px;
 }
 
 body.faq li#use a:hover,
-body.agreement li#use a:hover,  
-body.toolbox li#use a:hover, 
+body.agreement li#use a:hover,
+body.toolbox li#use a:hover,
 body.clipper li#use a:hover,
-body.pressroom li#use a:hover, 
-body.whatsTL li#use a:hover { 
-	background-position: -210px -58px; 
+body.pressroom li#use a:hover,
+body.whatsTL li#use a:hover {
+	background-position: -210px -58px;
 }
 
 body.faq li#get a,
@@ -777,10 +780,10 @@ body.agreement li#get a,
 body.toolbox li#get a,
 body.clipper li#get a,
 body.pressroom li#get a,
-body.whatsTL li#get a { 
-	background-position: -331px -29px; 
+body.whatsTL li#get a {
+	background-position: -331px -29px;
 	width: 121px;
-	left: 331px; 
+	left: 331px;
 }
 
 body.faq li#get a:hover,
@@ -788,16 +791,16 @@ body.agreement li#get a:hover,
 body.toolbox li#get a:hover,
 body.clipper li#get a:hover,
 body.pressroom li#get a:hover,
-body.whatsTL li#get a:hover { 
+body.whatsTL li#get a:hover {
 	background-position: -331px -87px;
 }
 
 
-/* 
----------------------------- 
+/*
+----------------------------
 USE TAB
 TOP NAV
----------------------------- 
+----------------------------
 */
 
 body.wageworks li#home a,
@@ -808,10 +811,10 @@ body.addvalue li#home a,
 body.howtouse li#home a,
 body.useTL li#home a,
 body.whereuseTL li#home a
-{ 
-	background-position: 0 -58px; 
-	width: 90px; 
-	left: 0; 
+{
+	background-position: 0 -58px;
+	width: 90px;
+	left: 0;
 }
 
 body.wageworks li#home a:hover,
@@ -822,8 +825,8 @@ body.addvalue li#home a:hover,
 body.howtouse li#home a:hover,
 body.useTL li#home a:hover,
 body.whereuseTL li#home a:hover
-{ 
-	background-position: 0 0px; 
+{
+	background-position: 0 0px;
 }
 
 body.wageworks li#about a,
@@ -834,10 +837,10 @@ body.addvalue li#about a,
 body.howtouse li#about a,
 body.useTL li#about a,
 body.whereuseTL li#about a
-{ 
-	background-position: -90px -0; 
-	width: 122px; 
-	left: 90px; 
+{
+	background-position: -90px -0;
+	width: 122px;
+	left: 90px;
 }
 
 body.wageworks a:hover,
@@ -848,8 +851,8 @@ body.addvalue a:hover,
 body.howtouse li#about a:hover,
 body.useTL li#about a:hover,
 body.whereuseTL li#about a:hover
-{ 
-	background-position: -90px -29px; 
+{
+	background-position: -90px -29px;
 }
 
 body.wageworks li#use a,
@@ -858,12 +861,12 @@ body.transitbenefits li#use a,
 body.seniors li#use a,
 body.whereuseTL li#use a,
 body.addvalue li#use a,
-body.howtouse li#use a, 
+body.howtouse li#use a,
 body.useTL li#use a
-{ 
-	background-position: -210px -58px; 
-	width: 122px; 
-	left: 210px; 
+{
+	background-position: -210px -58px;
+	width: 122px;
+	left: 210px;
 }
 
 body.wageworks li#use a:hover,
@@ -874,8 +877,8 @@ body.addvalue li#use a:hover,
 body.howtouse li#use a:hover,
 body.useTL li#use a:hover,
 body.whereuseTL li#use a:hover
-{ 
-	background-position: -210px -58px; 
+{
+	background-position: -210px -58px;
 }
 
 body.wageworks li#get a,
@@ -886,9 +889,9 @@ body.addvalue li#get a,
 body.howtouse li#get a,
 body.useTL li#get a,
 body.whereuseTL li#get a
-{ 
-	background-position: -100px -150px; 
-	left: 331px; 
+{
+	background-position: -100px -150px;
+	left: 331px;
 	width: 121px;
 }
 
@@ -900,15 +903,15 @@ body.addvalue li#get a:hover,
 body.howtouse li#get a:hover,
 body.useTL li#get a:hover,
 body.whereuseTL li#get a:hover
-{ 
-	background-position: -331px -87px; 
+{
+	background-position: -331px -87px;
 }
 
-/* 
----------------------------- 
+/*
+----------------------------
 GET TAB
 TOP NAV
----------------------------- 
+----------------------------
 */
 
 body.getTL li#home a,
@@ -918,10 +921,10 @@ body.addvalueonline li#home a,
 body.cardSignUpEvents li#home a,
 body.map li#home a,
 body.formsAndPolicies li#home a
-{ 
-	background-position: 0 -58px; 
-	width: 90px; 
-	left: 0; 
+{
+	background-position: 0 -58px;
+	width: 90px;
+	left: 0;
 }
 
 body.getTL li#home a:hover,
@@ -931,8 +934,8 @@ body.addvalueonline li#home a:hover,
 body.cardSignUpEvents li#home a:hover,
 body.map li#home a:hover,
 body.formsAndPolicies li#home a:hover
-{ 
-	background-position: 0 0px; 
+{
+	background-position: 0 0px;
 }
 
 body.getTL li#about a,
@@ -942,10 +945,10 @@ body.addvalueonline li#about a,
 body.cardSignUpEvents li#about a,
 body.map li#about a,
 body.formsAndPolicies li#about a
-{ 
-	background-position: -90px -0; 
-	width: 122px; 
-	left: 90px; 
+{
+	background-position: -90px -0;
+	width: 122px;
+	left: 90px;
 }
 
 body.getTL li#about a:hover,
@@ -955,8 +958,8 @@ body.addvalueonline li#about a:hover,
 body.cardSignUpEvents li#about a:hover,
 body.map li#about a:hover,
 body.formsAndPolicies li#about a:hover
-{ 
-	background-position: -90px -29px; 
+{
+	background-position: -90px -29px;
 }
 
 body.getTL li#use a,
@@ -966,10 +969,10 @@ body.addvalueonline li#use a,
 body.cardSignUpEvents li#use a,
 body.map li#use a,
 body.formsAndPolicies li#use a
-{ 
-	background-position: -210px -0px; 
-	width: 122px; 
-	left: 210px; 
+{
+	background-position: -210px -0px;
+	width: 122px;
+	left: 210px;
 }
 
 body.getTL li#use a:hover,
@@ -979,8 +982,8 @@ body.addvalueonline  a:hover,
 body.cardSignUpEvents  a:hover,
 body.map li#use a:hover,
 body.formsAndPolicies li#use a:hover
-{ 
-	background-position: -210px -58px; 
+{
+	background-position: -210px -58px;
 }
 
 body.getTL li#get a,
@@ -990,9 +993,9 @@ body.addvalueonline li#get a,
 body.cardSignUpEvents li#get a,
 body.map li#get a,
 body.formsAndPolicies li#get a
-{ 
-	background-position: -331px -87px; 
-	left: 331px; 
+{
+	background-position: -331px -87px;
+	left: 331px;
 	width: 121px;
 }
 
@@ -1003,63 +1006,63 @@ body.addvalueonline li#get a:hover,
 body.cardSignUpEvents li#get a:hover,
 body.map li#get a:hover,
 body.formsAndPolicies li#get a:hover
-{ 
-	background-position: -331px -87px; 
+{
+	background-position: -331px -87px;
 }
 
-/* 
----------------------------- 
+/*
+----------------------------
 GET TAB
 TOP NAV
----------------------------- 
+----------------------------
 */
 
 body.One-col li#home a
-{ 
-	background-position: 0 -58px; 
-	width: 90px; 
-	left: 0; 
+{
+	background-position: 0 -58px;
+	width: 90px;
+	left: 0;
 }
 
 body.One-col li#home a:hover
-{ 
-	background-position: 0 0px; 
+{
+	background-position: 0 0px;
 }
 
 body.One-col li#about a
-{ 
-	background-position: -90px -0; 
-	width: 122px; 
-	left: 90px; 
+{
+	background-position: -90px -0;
+	width: 122px;
+	left: 90px;
 }
 
 body.One-col li#about a:hover
-{ 
-	background-position: -90px -29px; 
+{
+	background-position: -90px -29px;
 }
 
 body.One-col li#use a
-{ 
-	background-position: -210px -0px; 
-	width: 122px; 
-	left: 210px; 
+{
+	background-position: -210px -0px;
+	width: 122px;
+	left: 210px;
 }
 
 body.One-col li#use a:hover
-{ 
-	background-position: -210px -58px; 
+{
+	background-position: -210px -58px;
 }
 
 body.One-col li#get a
-{ 
-	background-position: -331px -87px; 
-	left: 331px; 
+{
+	background-position: -331px -87px;
+	left: 331px;
 	width: 121px;
 }
 
 body.One-col li#get a:hover
-{ 
-	background-position: -331px -87px; 
+{
+	background-position: -331px -87px;
 }
 
 /*
@@ -1068,66 +1071,66 @@ styles for Two-col
 ------
 */
 body.Two-col li#home a
-{ 
-	background-position: 0 -58px; 
-	width: 90px; 
-	left: 0; 
+{
+	background-position: 0 -58px;
+	width: 90px;
+	left: 0;
 }
 
 body.Two-col li#home a:hover
-{ 
-	background-position: 0 0px; 
+{
+	background-position: 0 0px;
 }
 
 body.Two-col li#about a
-{ 
-	background-position: -90px -0; 
-	width: 122px; 
-	left: 90px; 
+{
+	background-position: -90px -0;
+	width: 122px;
+	left: 90px;
 }
 
 body.Two-col li#about a:hover
-{ 
-	background-position: -90px -29px; 
+{
+	background-position: -90px -29px;
 }
 
 body.Two-col li#use a
-{ 
-	background-position: -210px -0px; 
-	width: 122px; 
-	left: 210px; 
+{
+	background-position: -210px -0px;
+	width: 122px;
+	left: 210px;
 }
 
 body.Two-col li#use a:hover
-{ 
-	background-position: -210px -58px; 
+{
+	background-position: -210px -58px;
 }
 
 body.Two-col li#get a
-{ 
-	background-position: -331px -87px; 
-	left: 331px; 
+{
+	background-position: -331px -87px;
+	left: 331px;
 	width: 121px;
 }
 
 body.Two-col li#get a:hover
-{ 
-	background-position: -331px -87px; 
+{
+	background-position: -331px -87px;
 }
 
 
 
 
 /*
----------------------------- 
+----------------------------
 YOU ARE HERE
----------------------------- 
+----------------------------
 */
 
 body#accountmanagepage li#accountmanagelink ,body#cardactivationpage li#cardactivationlink ,body#addvaluepage li#addvaluelink ,
 body#autoloadpage li#autoloadlink ,body#registercardpage li#registercardlink ,body#cardvaluepage li#balancelink ,
 body#transactionhistorypage li#transactionhistorylink ,body#loststolenpage li#loststolenlink ,body#deregisterpage li#deregisterlink ,
-body#damagepage li#damagelink ,body.wageworks li#addvalue , body.commuterchecks li#addvalue , body.benefits li#benefits , 
+body#damagepage li#damagelink ,body.wageworks li#addvalue , body.commuterchecks li#addvalue , body.benefits li#benefits ,
  body.whereuseTL li#wheretouse, body.faq li#faq, body.agreement li#agreement, body.pressroom li#press, body.toolbox li#toolbox, body.clipper li#clipper, body.howtouse li#howtouse, body.addvalue li#addvalue,
  body.seniors li#seniors, body.transitbenefits li#transit, body.getcardonline li#getcardonline, body.autoload li#autoload, body.addvalueonline li#addvalueonline, body.cardSignUpEvents li#cardSignUpEvents,
  body.map li#map,body.formsAndPolicies li#formsAndPolicies {
@@ -1138,7 +1141,7 @@ body#damagepage li#damagelink ,body.wageworks li#addvalue , body.commuterchecks 
 body#accountmanagepage li#accountmanagelink a,body#cardactivationpage li#cardactivationlink a,body#addvaluepage li#addvaluelink a,
 body#autoloadpage li#autoloadlink a,body#registercardpage li#registercardlink a,body#cardvaluepage li#balancelink a,
 body#transactionhistorypage li#transactionhistorylink a,body#loststolenpage li#loststolenlink a,body#deregisterpage li#deregisterlink a,
-body#damagepage li#damagelink a,body.wageworks li#addvalue a, body.commuterchecks li#addvalue a,   
+body#damagepage li#damagelink a,body.wageworks li#addvalue a, body.commuterchecks li#addvalue a,
  body.benefits li#benefits a,  body.whereuseTL li#wheretouse a, body.faq li#faq a, body.agreement li#agreement a, body.pressroom li#press a,body.toolbox li#toolbox a, body.clipper li#clipper a, body.howtouse li#howtouse a,body.addvalue li#addvalue a,
  body.seniors li#seniors a,body.transitbenefits li#transit a,body.getcardonline li#getcardonline a, body.autoload li#autoload a, body.addvalueonline li#addvalueonline a, body.cardSignUpEvents li#cardSignUpEvents a,
  body.map li#map a, body.formsAndPolicies li#formsAndPolicies a {
@@ -1147,22 +1150,22 @@ body#damagepage li#damagelink a,body.wageworks li#addvalue a, body.commutercheck
 }
 
 /*
----------------------------- 
+----------------------------
 STYLES BELOW ARE FOR ONE COLUMN AND TWO COLUMN PAGES
 THESE PAGES MOSTLY HOLD FORMS
----------------------------- 
+----------------------------
 */
 
 /*FORMS*/
 body.Two-col #mainContent .form	{
 	margin:10px 0 10px 20px;
-	
+
 }
 
-table.body.Two-col #mainContent thead td, 
+table.body.Two-col #mainContent thead td,
 .form table thead td,
 .form h2	{
-	
+
 	padding-left:5px;
 	padding-right:10px;
 	font-weight:bold;
@@ -1209,24 +1212,24 @@ table.body.One-col #mainContent tbody td,
 .One-col .form table tbody td{
 padding: 10px 0 10px 10px;
 font-size: .75em;
-} 
+}
 table.fullwidth,.form table	{
 	width:100%;
 	border-collapse:collapse;
 
 }
-.bordered_table { 
+.bordered_table {
 	border-collapse:collapse;
 	margin:10px 0 5px 0;
-	
+
 }
 
-.bordered_table td { 
+.bordered_table td {
 	padding:5px;
 	border:1px solid #cccccc;
 	font-size:12px;
 }
-.bordered_table_new td { 
+.bordered_table_new td {
 	padding:5px;
 	border:1px solid #cccccc;
 	font-size:8px;
@@ -1275,28 +1278,28 @@ USED TO KEEP CONSISTENT FONT SIZE FROM INHERITED CONTENT
 	}
 .Two-col .buttonSearch,
 .One-col .buttonSearch {
-	color: #fff;	
-	font-size:12px;	
+	color: #fff;
+	font-size:12px;
 }
 
 .Two-col .textinput,
-.Two-col table label, 
+.Two-col table label,
 .One-col table label,
 .One-col .textinput,
 .One-col table .textinput,
 .One-col table input,
 .One-col table textarea,
 .One-col table select  {
-	color: #000;	
-	font-size:12px;		
+	color: #000;
+	font-size:12px;
 }
 
 .One-col table select {
-	 padding: 0; 
+	 padding: 0;
 }
 
 .One-col table label {
-	padding: 0 0 0 20px;	
+	padding: 0 0 0 20px;
 }
 
 .Two-col .formbuttonnew,
@@ -1355,7 +1358,7 @@ body.Two-col #mainContent p {
 	margin: 0 3px 0 3px;
 	padding: 10px 0 0 10px;
 	}
-	
+
 body.One-col #mainContent p {
 	width: 766px;
 	padding: 10px 0 0 10px;
@@ -1370,9 +1373,9 @@ body. One-col #contentcolumn_med form table td .alignTopLeft {
 text-align:left;
 vertical-align:top;
 }
-	
-	
-body.One-col h3, 
+
+
+body.One-col h3,
 body.Two-col h3 {
 	color: #fff;
 }
@@ -1424,12 +1427,12 @@ body.Two-col .help_panel {
 	color:#000;
 	font-weight:bold;
 	text-decoration:none;
-}	
+}
 
 body.Two-col #mainContent h3,
 body.One-col #mainContent h3 {
 	padding: 5px 0 5px 10px;
-	
+
 }
 
 body.Two-col #mainContent {
@@ -1474,30 +1477,30 @@ body.One-col #mainContent {
 	color:#ffff;
 	/* background-color:#469c22; */
 	background: #FFFFFF url(../images/new_design/buttons/btn_bg.gif)  repeat-x;
-	font-weight:bold;		
+	font-weight:bold;
 }
 
-.shortnew { 
+.shortnew {
 	background: transparent url(../images/new_design/buttons/btn_short.gif) no-repeat!important;
-	width: 69px!important;	
+	width: 69px!important;
 }
 
- 
-.mediumnew { 
+
+.mediumnew {
 	background: transparent url(../images/new_design/buttons/btn_medium.gif) no-repeat!important;
 	width: 109px;
 
 }
 
 
-.longnew { 
+.longnew {
 	background: transparent url(../images/new_design/buttons/btn_long.gif) no-repeat!important;
 	width: 141px;
 
 }
 
 
-.smallnew { 
+.smallnew {
 	background: transparent url(../images/new_design/buttons/btn_small.gif) no-repeat!important;
 	width: 35px!important;
 
@@ -1531,7 +1534,7 @@ body.One-col #mainContent {
 
 #flashcontentBody {
 	margin: 0 0 10px 20px;
-	width: 427px; 
+	width: 427px;
 	height: 250px
 }
 
@@ -1608,9 +1611,9 @@ table.privacy  td{
 }
 
 /*
----------------------------- 
+----------------------------
 MIG ADDED STYLES NOV 2015
----------------------------- 
+----------------------------
 */
 
 #mainContent h2{
@@ -1669,9 +1672,9 @@ div.gradient .bullet {
 }
 
 /*
---------------------------------- 
+---------------------------------
 MIG ADDED - GET Super Bowl Promo
---------------------------------- 
+---------------------------------
 */
 
 div.superBowl {
@@ -1752,4 +1755,3 @@ div.superBowl h2.second {
 }
 
 .superBowlButton:hover{opacity:0.7}
-
