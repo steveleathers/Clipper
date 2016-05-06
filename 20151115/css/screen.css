@@ -509,6 +509,9 @@ padding: 0 0 5px 50px;
 	padding-bottom: 20px;
 }
 
+#mainContent .olLift{
+	padding-top: -25px;
+}
 #contentcolumn_large ul.bulletList {
 padding: 0 0 20px 50px;
 
