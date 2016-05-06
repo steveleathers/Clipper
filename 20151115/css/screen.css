@@ -498,14 +498,14 @@ padding: 0 0 5px 50px;
 	background: transparent url(../images/homepage/bullets/blueSquare.gif) no-repeat 0 7px;
 	}
 
-#mainContent ol .faqol{
+#mainContent ol.faqol {
 	list-style-type: decimal;
 	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
 	line-height: 1.2em;
 	padding: 0 0 30px 35px;
 }
 
-#mainContent ol li .faqol{
+#mainContent ol li {
 	padding-bottom: 20px;
 }
 
