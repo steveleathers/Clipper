@@ -1,0 +1,386 @@
+/*********************************************************
+FOR ROLLOVER MYCLIPPER
+*********************************************************/
+#myRollover1, #myRollover2 {
+	width: 160px;
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	cursor:pointer;
+}
+
+h1#mytranslinkModuleRollover,
+h1#myclipperModuleRollover  {
+	height: 34px;
+	background: #fff url("/ClipperCard/javax.faces.resource/login.jpg.jsf?ln=images/global") no-repeat;
+	color: #FFFFFF;
+	text-indent: -9999px;
+	
+}
+
+h1#myclipperModuleRolloverLoggedIn  {
+	height: 34px;
+	background: #fff url("/ClipperCard/javax.faces.resource/myClipper.jpg.jsf?ln=images/global") no-repeat;
+	color: #FFFFFF;
+	text-indent: -9999px;
+	
+}
+
+h1#myclipperLoggedIn  {
+	height: 34px;
+	background: #fff url("/ClipperCard/javax.faces.resource/myClipper_active.jpg.jsf?ln=images/global") no-repeat;
+	color: #FFFFFF;
+	text-indent: -9999px;
+	
+}
+
+/*MY CLIPPER
+#mytranslinkModuleRollover,
+#myclipperModuleRollover {
+	position: relative;
+	top: -34px;
+}*/
+
+/*********************************************************
+
+/*MY CLIPPER*/
+body#myClipperPage #myclipperModuleLoggedIn, body#myClipperPage #myclipperModule {
+	position: relative;
+	top: 0px;
+}
+
+#myRollover1 legend, #myRollover2 legend, 
+#mytranslinkModule legend,
+#myclipperModule legend {
+	display: none;
+}
+
+#mytranslinkModuleLoggedIn h1, #mytranslinkModule h1,
+#myclipperModuleLoggedIn h1, #myclipperModule h1 {
+	height: 34px;
+	text-indent: -9999px;
+	background: #fff url(../images/global/mytrans.jpg)
+}
+
+#mytranslinkModuleBody,
+.myclipperModuleBody {
+	background: #0068a5 url("/ClipperCard/javax.faces.resource/mytransitBg.jpg.jsf?ln=images/global") repeat-x bottom left;
+	border-left: 1px solid #63686b;
+	border-right: 1px solid #63686b;
+}
+
+#mytranslinkModuleBody input#username,
+#myclipperModuleBody input#username {	
+	font-size: .75em;	
+}
+
+#mytranslinkModuleBody input#password,
+#myclipperModuleBody input#password {	
+	font-size: .75em;	
+}
+
+#loginrolloverbox h2, 
+#mytranslinkModuleLoggedIn h2,
+#myclipperModuleLoggedIn h2 {
+	/*background: transparent url(../images/global/welcomeTo.gif) no-repeat 0 0;
+	height: 39px;*/
+	text-indent: -9999px;
+}
+
+#mytranslinkModuleLoggedIn h2,
+#myclipperModuleLoggedIn h2 {
+	/*background: transparent url(../images/global/welcomeTo.gif) no-repeat 0 0;
+	height: 39px;*/
+	text-indent: -9999px;
+}
+
+#mytranslinkModuleBodyBottom,
+.myclipperModuleBodyBottom {
+	background: url("/ClipperCard/javax.faces.resource/mytransitBottom.png.jsf?ln=images/global") no-repeat 0 0;
+	height: 20px;
+}
+
+#mytranslinkModule p,
+#myclipperModule p,
+#myRollover1 p, #myRollover2 p{
+
+	padding: 0 0 10px 10px;
+	color: #fff;
+	font-size: .75em;
+	}
+	
+#loginrolloverbox ul,
+#mytranslinkModuleLoggedIn ul,
+#myclipperModuleLoggedIn ul,
+#myLoggedInBox ul {
+	padding: 10px 5px 5px 10px;
+	
+}
+
+#loginrolloverbox li, 
+#mytranslinkModuleLoggedIn li,
+#myclipperModuleLoggedIn li,
+#myLoggedInBox li {
+	padding: 0 0 10px 0;
+
+}
+
+#loginrolloverbox li a,
+#mytranslinkModuleLoggedIn li a, 
+#myclipperModuleLoggedIn li a,
+#myLoggedInBox li a {
+	padding: 5px 5px 5px 25px;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+	background: transparent url("/ClipperCard/javax.faces.resource/arrow-white.png.jsf?ln=images/bullets") no-repeat 4px 50%;
+}
+
+#mytranslinkModuleLoggedIn ul,	
+#myclipperModuleLoggedIn ul,
+#myLoggedInBox ul {
+	padding: 10px 5px 5px 10px;
+	
+}
+
+#mytranslinkModuleLoggedIn li a,
+#myclipperModuleLoggedIn li a,
+#myLoggedInBox li a {
+	padding: 5px 5px 5px 15px;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+	background: transparent url("/ClipperCard/javax.faces.resource/loggedIn.gif.jsf?ln=images/bullets") no-repeat 5px 10px;
+}
+/*END OF MY CLIPPER*/
+
+/*BLUE BOX*/
+#blueBox .boxHeader {
+	width: 224px;
+	height: 113px;
+	background-image: url("/ClipperCard/javax.faces.resource/blueBoxHeader.gif.jsf?ln=images/global");
+	background-repeat:no-repeat;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+.blueBoxTitle {
+	overflow:hidden;
+	224px;	
+}
+
+#blueBox .boxHeader .title {
+	margin: 0;
+}
+
+#blueBox #newCard {
+	margin-top: 30px;
+}
+
+#blueBox #cardName {
+	
+}
+
+#blueBox #cardNumber {
+	
+}
+
+#blueBox .cardNameText {
+	font-size: .75em;	
+	color: #FFF;
+}
+
+#blueBox .boxHeader .button,
+#blueBox .boxBody .button {
+	height: 27px;
+	width: 84px;
+	
+	margin-top: 0;
+}
+
+.checkout{
+	background: url("/ClipperCard/javax.faces.resource/btn_checkout.png.jsf?ln=images/buttons") no-repeat;
+}
+.cancel{
+	background: url("/ClipperCard/javax.faces.resource/btn_cancel.png.jsf?ln=images/buttons") no-repeat;
+}
+	
+
+#blueBox .boxHeader .button {
+	margin-top: 20px;
+}
+
+#blueBox .boxHeader .button a,
+#blueBox .boxBody .button a {
+	height: 27px;
+	width: 84px;
+	display: block;
+}
+
+#blueBox .boxBody {
+	width: 214px;
+	background-image: url("/ClipperCard/javax.faces.resource/blueBoxBody.gif.jsf?ln=images/global");
+	background-repeat:no-repeat;
+	padding: 10px;
+}
+
+#blueBox .boxFooter {
+	width: 234px;
+	height: 22px;
+	background-image: url("/ClipperCard/javax.faces.resource/blueBoxFooter.gif.jsf?ln=images/global");
+	background-repeat:no-repeat;
+}
+
+#blueBox div.totalAmount {
+	float:right;	
+}
+
+#blueBox hr {
+	height: 1px;
+	background-color: #999999;
+	color: #999999;
+	margin: 14px 0 8px 0;
+	border: none;
+	width: 200px;
+}
+
+
+.cart .itemName,
+.cart .itemDescription,
+.cart .totalName {
+	float:left;
+}
+
+.cart .amount,
+.cart div.itemValue,
+.cart div.changeLink {
+	float:right;
+}
+
+.cart .itemName,
+.cart .itemDescription,
+.cart .totalName {width: 160px;}
+/*.cart .itemValue {width: 50px;}*/
+
+/*TRANSIT MENU*/
+#transitMenu {
+	margin: 0px;
+	width: 100px;
+	padding: 5px;
+	background: #e6e6e6;
+	float: left;
+	overflow: hidden;
+}
+
+#transitMenu li {
+	padding: 5px;
+	width: 90px;
+	background-image: #e6e6e6;
+}
+
+#transitMenu li:hover {
+	background-color: #8c8c8c;
+	color: #FFF;
+}
+
+#transitMenu li a {
+	display: block;
+	text-decoration:none;
+	color: #333333;
+}
+
+
+#transitMenu li .transitButton {
+	display: block;
+	background-color: transparent;
+	cursor: pointer;
+	color: #505050;
+}
+
+#mainContent .transitContent {
+	text-align: left;
+	width: 234px;
+	float: left;
+}
+
+#mainContent #transitBox {
+	background:#FFF;
+	width:236px;
+	border-left: 1px solid #dbdcde;
+	padding:5px;
+	text-align:left;
+	float: left;
+}
+
+#mainContent #transitBox .productBox {
+	width:214px;
+	/* [disabled]height:160px; */
+	overflow:auto;
+	background:#e6e6e6;
+	padding:10px;
+	min-height: 160px;
+}
+
+#mainContent #transitBox .productBox .radioDiv {
+	margin-left: 0;
+	margin-bottom: 5px;
+	width: 200px;
+}
+
+#mainContent #transitBox .productBox .radioDiv .radioQuestion {
+	margin-left: 5px;
+	width: 170px;
+}
+
+#mainContent #transitBox .productBox .radioDiv .textQuestion {
+	width: 80px;	
+}
+
+#mainContent #transitBox .productBox .radioDiv .textAnswer {
+	width: 80px;	
+}
+
+#mainContent .transitImage {
+	float: left;
+	margin: 0 4px 5px 0;
+	display:block;
+	cursor: pointer;
+}
+#mainContent .transitImage img{
+	border:none;
+	outline:none;
+}
+input[type='radio']{
+	border:none;
+	outline:none;
+	background-color:transparent;
+}
+
+.cardID {
+	width: 290px;
+	position: relative;
+	overflow: hidden;
+}
+	
+.plus {
+	float:right;
+	width:10px;
+	height:10px;
+	cursor: pointer;
+	position: relative;
+}
+
+.loginLine{
+	float:left;
+	clear:left;
+	margin-bottom:3px;
+}
+.loginLine div{
+	font-size:.75em;
+	width:140px;
+	float:left;
+}
+.loginLine .valMsg{
+	width:10px;
+	margin-top:-2px;
+}

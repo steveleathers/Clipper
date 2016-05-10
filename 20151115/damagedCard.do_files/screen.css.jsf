@@ -1,0 +1,1528 @@
+/* 
+---------------------------- 
+MAIN STYLES
+---------------------------- 
+*/
+
+body {
+	background-color: #fff;
+	color: #505050;
+	font-size: 100%;
+	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
+	text-align:center;
+	min-width: 800px;
+	line-height:1;
+}
+
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+	color:#0068a6;
+}
+
+li, #mainContent p, #mainContent label, #mainContentMap {
+	font-size: 0.75em; 
+}
+
+strong {
+	font-weight: bold;
+	text-align:start;
+	text-wrap:normal;
+}
+
+.accessNav {
+	display: none;
+}
+
+.alignTopLeft {
+text-align:left;
+vertical-align:top;
+}
+
+sup {
+    height: 0;
+    vertical-align: baseline;
+    _vertical-align: bottom;
+    position: relative;
+    bottom: 1ex;
+   	font-size: 0.55em;
+   	_font-size: 0.75em;
+    line-height: 1.75em;
+}
+
+/* 
+---------------------------- 
+STRUCTURE
+---------------------------- 
+*/
+
+#container {
+	width:800px;
+	margin:0 auto;
+	text-align:left;
+	background: #fff url("/ClipperCard/javax.faces.resource/bodyBg.gif.jsf?ln=images/global") repeat-y;
+}
+
+#wrapper {
+	width: 780px;
+	margin: 0 0 0 10px;
+}
+ 
+#leftNav {
+	
+	float: left;
+	width: 160px;
+}
+
+#mainContent, #mainContentMap {
+	width: 448px;	
+	float:left;
+}
+
+#rightNav {
+	margin: 0 0 4px 8px;
+	float:left;
+	width: 160px;
+}
+
+#header {
+	z-index: 90;
+	position: relative;
+	margin: 0 4px 0 0;
+	height: 95px;
+	border-bottom: 5px solid #012f6d;
+}
+
+#header.bart {
+	border-bottom: 5px solid #1f9fed;
+}
+
+#header.samTrans {
+	border-bottom: 5px solid #0C5798;
+}
+
+#header.vta {
+	border-bottom: 5px solid #005581;
+}
+
+#header.actransit {
+	border-bottom: 5px solid #00837a;
+}
+
+#header.goldengate {
+	border-bottom: 5px solid #f24d22;
+}
+
+#header.caltrain {
+	border-bottom: 5px solid #d12531;
+}
+
+#header.muni {
+	border-bottom: 5px solid #c61f51;
+}
+
+#footer {
+	position: relative;
+	clear: both;
+	border-top: 1px solid #dedfe1;
+}
+
+/*
+---------------------------- 
+FOOTER ITEMS
+---------------------------- 
+*/
+
+/*#footerTagLine{
+	background: #fff url(../images/global/footerTagLine.gif) no-repeat 15px 0;
+	height: 12px;
+	margin: 0 0 10px 0;
+}*/
+
+/*#footerMain {
+	height: 41px;
+	padding: 0 0 2px 0;
+	background: #fff url(../images/global/footerBg.gif) repeat-x;
+}
+
+#bottomShadow {
+	background: #fff url(../images/global/bottomShadow.gif) no-repeat;
+}
+
+#footerRight {
+	background: transparent url(../images/global/footerR.gif) no-repeat bottom right;
+	position: absolute;
+	right: 0;
+	bottom: 2px;
+	height: 41px;
+	width: 1px;
+}
+
+#footer h1 {
+	float: left;
+	width: 100px;
+	height: 41px;
+	margin: 0 0 10px 0px;
+	text-indent: -9999px;
+	background: #fff url(../images/global/footerLogo.gif) no-repeat;
+}
+
+#footer h1 a {
+	float: left;
+	width: 100px;
+	height: 41px;
+	text-decoration: none;
+}*/
+
+/* 
+---------------------------- 
+HEADER
+---------------------------- 
+*/
+
+
+#header h1 a {
+	height: 86px;
+	margin: 0 0 10px 20px;
+	text-indent: -9999px;
+	background: #fff url("/ClipperCard/javax.faces.resource/clipperLogo.gif.jsf?ln=images/global") no-repeat;
+}
+
+#header h1 a {
+	float: left;
+	width: 113px;
+	height: 86px;
+	text-decoration: none; /*REMOVES BLUE OUTLINE IN MOZILLA 1.7.12*/
+}
+
+/* 
+---------------------------- 
+SEARCH BOX IN HEADER
+---------------------------- 
+*/
+
+#headerSearch {
+	width: 320px;
+	height: 20px;
+	position: absolute;
+	top: 15px;
+	left: 460px;
+	}
+
+#headerSearch label {
+	margin: 0 5px 0 0;
+	padding: 7px 0 0 0;
+	float: left;
+	color: #706d6e;
+	font-weight: bold;	
+	font-size:.75em;
+}
+	
+#headerSearch input#searchString {
+	width: 200px;
+	border: 1px solid #464646;
+	font-size: .75em;
+	background: transparent url("/ClipperCard/javax.faces.resource/searchBoxBg.gif.jsf?ln=images/global") repeat-x top right;
+}
+
+.buttonSearch {
+	border: none;
+	width: 45px;
+	height: 25px;
+	background: #fff url("/ClipperCard/javax.faces.resource/btnBg.gif.jsf?ln=images/global") no-repeat 5px 3px;
+	color: #FFFFFF;
+}
+
+/* 
+---------------------------- 
+SKIP TO NAVIGATION
+---------------------------- 
+*/
+
+#skipto {
+	width: 150px;
+	height: 25px;
+	display: none;
+	position: absolute;
+	top: 15px;
+	left: 140px;
+}
+
+#skipto a {
+	font-size: .75em;}
+
+/* 
+---------------------------- 
+LEFT COLUMN LIST HEADERS
+---------------------------- 
+*/
+	
+/*Image of a card reader for left col
+triggered by body ID*/
+body.wageworks #navlistheader,
+body.commuterchecks #navlistheader,
+body.transitbenefits #navlistheader,
+body.homepage #navlistheader,
+body.seniors #navlistheader, 
+body.whereuseTL #navlistheader, 
+body.useTL #navlistheader, 
+body.howtouse #navlistheader, 
+body.addvalue #navlistheader {
+	background: transparent url("/ClipperCard/javax.faces.resource/square-blue.gif.jsf?ln=images/headers") no-repeat;
+	height: 73px;
+}
+
+/*Image of a bus for left col
+triggered by body ID*/
+
+body.myClipper #navlistheader,
+body.getTL #navlistheader,
+body.faq #navlistheader,
+body.toolbox #navlistheader,
+body.pressroom #navlistheader,
+body.youths #navlistheader, 
+body.autoload #navlistheader, 
+body.benefits #navlistheader, 
+body.whatsTL #navlistheader,
+body.getcardonline #navlistheader,
+body.autoload #navlistheader,
+body.addvalueonline #navlistheader,
+body.registercard #navlistheader
+ {
+	background: transparent url("/ClipperCard/javax.faces.resource/square-blue-alt2.gif.jsf?ln=images/headers") no-repeat;
+	height: 73px;
+}
+
+/*Image of a bus for center col*/
+body.myClipper #pageHeader,
+body.getTL #pageHeader,
+body.faq #pageHeader,
+body.toolbox #pageHeader,
+body.pressroom #pageHeader,
+body.youths #pageHeader, 
+body.autoload #pageHeader, 
+body.benefits #pageHeader, 
+body.whatsTL #pageHeader,
+body.getcardonline #pageHeader,
+body.autoload #pageHeader,
+body.addvalueonline #pageHeader,
+body.registercard #pageHeader
+{
+	background: transparent url("/ClipperCard/javax.faces.resource/headerGenericBlue.png.jsf?ln=images/headers") no-repeat top left;
+	height: 73px;
+	position: relative;
+}
+
+#pageHeader {
+	background: transparent url("/ClipperCard/javax.faces.resource/headerGenericBlue.png.jsf?ln=images/headers") no-repeat top left;
+	height: 73px;
+	position: relative;
+}
+
+#pageHeader h1 {
+	font-size: 1.2em;
+	color: #fff;
+	position: absolute;
+	top: 7px;
+	right: 20px;
+	font-weight: normal;
+}
+
+body.wageworks #pageHeader h1, body.seniors #pageHeader h1 {
+    font-size: 1.2em;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    font-weight: normal;
+
+}
+
+/* IF AN HEADER IS EXTRA LONG, USE SMALLER TEXT*/
+
+/*body.howtouse #pageHeader h1 {
+	font-size: 1.25em;
+	color: #fff;
+	position: absolute;
+	top: 6px;
+	right: 20px;
+	font-weight: normal;
+}
+*/
+
+/* 
+---------------------------- 
+TEXT
+---------------------------- 
+*/
+	
+#mainContent p, #mainContent h2, #mainContent h3, #mainContent h4 {
+	padding: 0 0 10px 20px;
+
+}
+
+#mapLegend p {
+	padding: 0 0 10px 20px;
+}
+
+#faqcontent h4 {
+	padding: 10px 0 0 20px;
+	font-size: 3.5em;
+}
+
+#faqcontent h4.first {
+	padding: 0 0 0 20px;
+}
+
+#pressReleases p {
+	padding: 0 0 5px 20px;
+}
+
+#pressReleases h4 {
+	padding: 5px 0 0 20px;
+	font-weight: bold;
+}
+
+#mainContent h2 {
+	font-weight: normal;
+}
+	
+#mainContent p {
+	line-height: 1.5em;
+	width: 370px;
+}
+#mainContent .moveup {
+	margin: -15px 0 0 0;
+	padding: 0 0 0 20px;
+}
+	
+#mainContent h3 {
+	margin: 10px 0 0 0;
+	font-size:0.875em;
+	color: #449c2d;
+}
+
+.standout {
+	color: #0068a6;
+}
+
+#mainContent a:link {
+	color: #0068a6;
+}
+
+#mainContent h4 {
+	font-size: .75em;
+}
+
+.iconspan {
+	padding: 0 0 0 20px; 
+	font-size: 11px; 
+	color:#449c2d;
+}
+
+.footnote {
+	font-size: .625em;
+}
+
+
+/* 
+---------------------------- 
+LISTS
+---------------------------- 
+*/
+	
+ul#leftNavModule {
+	border-left: 1px solid #cfd0d2;
+	border-right: 1px solid #cfd0d2;
+	background: #E7E7E7 url("/ClipperCard/javax.faces.resource/greyfadeShortBg.gif.jsf?ln=images/global") repeat-x;
+}
+	
+#leftNavModule li {
+	/*background: #dfdfe1;*/
+	border-bottom: 1px solid #cfd0d2;
+	border-top: 1px solid #FFF;
+}
+	
+#leftNavModule li a {
+	padding: 5px 5px 5px 25px;
+	color:#000;
+	display: block;
+	text-decoration:none;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url("/ClipperCard/javax.faces.resource/arrow.png.jsf?ln=images/bullets") no-repeat 4px 50%;
+}
+#leftNavModule li.navSelected a, #leftNavModule li.navSelected a:hover  {
+	color: #FFFFFF;
+	background: transparent url("/ClipperCard/javax.faces.resource/arrow-white.png.jsf?ln=images/bullets") no-repeat 4px 50%;
+}
+	
+#leftNavModule li a:hover {
+	color: #0068a6;
+}
+
+#leftNavModuleEnd {
+	margin: 0 0 10px 0;
+}
+	
+#leftNavModuleEnd li {
+	background: #fff url("/ClipperCard/javax.faces.resource/greyangleBottom.gif.jsf?ln=images/global") no-repeat top left;
+	height: 30px;
+}
+		
+.listHolder {
+	padding: 7px 0 0 10px;
+	float: left;
+	width: 660px;
+}	
+
+ul.horList li {
+	font-size: .625em;
+	float: left;
+	padding: 0 20px 0 0;
+}	
+		
+ul.horList li a {
+	color: #505050;
+	text-decoration: none;
+}
+
+ul.horList li.accessability  {
+	margin: 0 0 0 60px;
+	height: 12px;
+	padding: 0 0 0 15px;
+	background: transparent url("/ClipperCard/javax.faces.resource/accessability.gif.jsf?ln=images/global") no-repeat 0 0;
+}
+
+#mainContent ul.subBulletList {
+padding: 0 0 10px 80px;
+
+}
+#mainContent .subBulletList li {
+	line-height: 1.5em;
+	padding: 0 0 10px 7px;
+	width: 360px;
+	background: transparent url("/ClipperCard/javax.faces.resource/blueSquare.gif.jsf?ln=images/bullets") no-repeat 0 7px;
+	}
+	
+#mainContent ul.bulletList {
+padding: 0 0 20px 50px;
+
+}
+
+#mainContent .bulletList li {
+	line-height: 1.5em;
+	padding: 0 0 10px 7px;
+	width: 360px;
+	background: transparent url("/ClipperCard/javax.faces.resource/blueSquare.gif.jsf?ln=images/bullets") no-repeat 0 7px;
+	}
+	
+#contentcolumn_large ul.bulletList {
+padding: 0 0 20px 50px;
+
+}
+
+#contentcolumn_large .bulletList li {
+	line-height: 1.5em;
+	padding: 0 0 10px 7px;
+	width: 360px;
+	background: transparent url("/ClipperCard/javax.faces.resource/blueSquare.gif.jsf?ln=images/bullets") no-repeat 0 7px;
+	}
+
+
+
+/* 
+------------------------------------------------- 
+STANDARD GREEN TEXT LIST WITH THREE DOT BULLETS
+------------------------------------------------- 
+*/	
+			
+#mainContent ul.standardList {
+	margin: 0 0 0 40px;
+}
+				
+#mainContent .standardList li {
+	height: 20px;
+}
+				
+#mainContent .standardList li a {
+	padding: 0 0 0 5px;
+	color:#449c2d;
+	/*border-bottom:1px solid #FFF;*/
+	background: transparent url("/ClipperCard/javax.faces.resource/arrow.png.jsf?ln=images/bullets") no-repeat 0px 5px;
+}
+
+
+
+/* 
+---------------------------- 
+TOP NAV
+---------------------------- 
+*/	
+ul#topNav {
+	position: relative;
+	top: 66px;
+	left: 23px;
+	width: 452px;
+	margin: 0;
+	height: 29px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+body.homepage ul#topNav {
+	background: transparent url("/ClipperCard/javax.faces.resource/navbar.gif.jsf?ln=images/global") no-repeat 0 0; 
+}
+
+body.whatsTL ul#topNav {
+	background: transparent url("/ClipperCard/javax.faces.resource/navbar.gif.jsf?ln=images/global") no-repeat 0 -29px; 
+}
+
+body.wageworks ul#topNav,
+body.commuterchecks ul#topNav,
+body.transitbenefits ul#topNav,
+body.useTL ul#topNav, 
+body.whereuseTL ul#topNav, 
+body.howtouse ul#topNav, 
+body.addvalue ul#topNav,
+body.seniors ul#topNav { 
+	background: transparent url("/ClipperCard/javax.faces.resource/navbar.gif.jsf?ln=images/global") no-repeat 0 -58px; 
+}
+	
+body.myClipper ul#topNav,
+body.getTL ul#topNav  {
+	background: transparent url("/ClipperCard/javax.faces.resource/navbar.gif.jsf?ln=images/global") no-repeat 0 -87px;
+	z-index: 9999;
+}
+	
+
+ul#topNav li a {
+	position: absolute;
+	top: 0;
+	text-indent: -9000px;
+	text-decoration: none;
+	padding: 29px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:22px; /* IE5/Win */
+	background: transparent url("/ClipperCard/javax.faces.resource/navbar.gif.jsf?ln=images/global") no-repeat;
+}
+
+
+/* 
+---------------------------- 
+GET TAB
+INDEX PAGE NAV
+---------------------------- 
+*/
+
+#announcementFeed {
+	padding: 10px 0 0 0;
+	font-size: 1em;
+	width: 420px;
+}
+
+
+.announcementBarNews {
+	margin: 0 0 0 20px;
+	width: 420px;
+	height: 50px;
+	border-top: 1px dotted #000;
+	
+
+}
+
+.announcementBarNews a {
+	color: #e09302 !important;
+	}
+	
+	
+.announcementBarNews a:hover	{
+	color:#e09302;
+}
+
+.announcementBarNews a:active	{
+	color:#e09302;
+}
+
+.announcementBarNews a:visited	{
+	color:#e09302;
+}
+
+
+.announcementHeader {
+	width: 184px;
+	float: left;
+	padding: 0;
+	margin: 0;
+	}
+
+.widgetSpacer {
+	height: 30px;
+	
+}
+/* 
+---------------------------- 
+GET TAB
+INDEX PAGE NAV
+---------------------------- 
+*/
+
+body.homepage li#home a
+{ 
+	background-position: 0 0px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.homepage li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.homepage li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.homepage li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.homepage li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.homepage li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.homepage li#get a
+{ 
+	background-position: -100px -150px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.homepage li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+
+
+/* 
+---------------------------- 
+ABOUT TAB
+TOP NAV
+---------------------------- 
+*/
+
+body.faq li#home a,
+body.toolbox li#home a,
+body.pressroom li#home a,
+body.whatsTL li#home a { 
+	background-position: 0 -29px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.faq li#home a:hover,
+body.toolbox li#home a:hover,
+body.pressroom li#home a:hover,
+body.whatsTL li#home a:hover { 
+	background-position: 0 0; 
+}
+
+body.faq li#about a,
+body.toolbox li#about a,
+body.pressroom li#about a,
+body.whatsTL li#about a { 
+	background-position: -90px -29px; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.faq li#about a:hover,
+body.toolbox li#about a:hover,
+body.pressroom li#about a:hover,
+body.whatsTL li#about a:hover { 
+	background-position: -90px -29px; 
+}
+
+body.faq li#use a,
+body.toolbox li#use a,
+body.pressroom li#use a,
+body.whatsTL li#use a { 
+	background-position: -210px -29px; 
+	width: 122px; 
+	left: 210px;
+}
+
+body.faq li#use a:hover, 
+body.toolbox li#use a:hover, 
+body.pressroom li#use a:hover, 
+body.whatsTL li#use a:hover { 
+	background-position: -210px -58px; 
+}
+
+body.faq li#get a,
+body.toolbox li#get a,
+body.pressroom li#get a,
+body.whatsTL li#get a { 
+	background-position: -331px -29px; 
+	width: 121px;
+	left: 331px; 
+}
+
+body.faq li#get a:hover,
+body.toolbox li#get a:hover,
+body.pressroom li#get a:hover,
+body.whatsTL li#get a:hover { 
+	background-position: -331px -87px;
+}
+
+
+/* 
+---------------------------- 
+USE TAB
+TOP NAV
+---------------------------- 
+*/
+
+body.wageworks li#home a,
+body.commuterchecks li#home a,
+body.transitbenefits li#home a,
+body.seniors li#home a,
+body.addvalue li#home a,
+body.howtouse li#home a,
+body.useTL li#home a,
+body.whereuseTL li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.wageworks li#home a:hover,
+body.commuterchecks li#home a:hover,
+body.transitbenefits li#home a:hover,
+body.seniors li#home a:hover,
+body.addvalue li#home a:hover,
+body.howtouse li#home a:hover,
+body.useTL li#home a:hover,
+body.whereuseTL li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.wageworks li#about a,
+body.commuterchecks li#about a,
+body.transitbenefits li#about a,
+body.seniors li#about a,
+body.addvalue li#about a,
+body.howtouse li#about a,
+body.useTL li#about a,
+body.whereuseTL li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.wageworks a:hover,
+body.commuterchecks a:hover,
+body.transitbenefits a:hover,
+body.seniors a:hover,
+body.addvalue a:hover,
+body.howtouse li#about a:hover,
+body.useTL li#about a:hover,
+body.whereuseTL li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.wageworks li#use a,
+body.commuterchecks li#use a,
+body.transitbenefits li#use a,
+body.seniors li#use a,
+body.whereuseTL li#use a,
+body.addvalue li#use a,
+body.howtouse li#use a, 
+body.useTL li#use a
+{ 
+	background-position: -210px -58px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.wageworks li#use a:hover,
+body.commuterchecks li#use a:hover,
+body.transitbenefits li#use a:hover,
+body.seniors li#use a:hover,
+body.addvalue li#use a:hover,
+body.howtouse li#use a:hover,
+body.useTL li#use a:hover,
+body.whereuseTL li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.wageworks li#get a,
+body.commuterchecks li#get a,
+body.transitbenefits li#get a,
+body.seniors li#get a,
+body.addvalue li#get a,
+body.howtouse li#get a,
+body.useTL li#get a,
+body.whereuseTL li#get a
+{ 
+	background-position: -100px -150px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.wageworks li#get a:hover,
+body.commuterchecks li#get a:hover,
+body.transitbenefits li#get a:hover,
+body.seniors li#get a:hover,
+body.addvalue li#get a:hover,
+body.howtouse li#get a:hover,
+body.useTL li#get a:hover,
+body.whereuseTL li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+/* 
+---------------------------- 
+GET TAB
+TOP NAV
+---------------------------- 
+*/
+body.myClipper li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.getTL li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.getTL li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.getTL li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.getTL li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.getTL li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.getTL li#get a
+{ 
+	background-position: -331px -87px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.getTL li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+/* 
+---------------------------- 
+GET TAB
+TOP NAV
+---------------------------- 
+*/
+
+body.One-col li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.One-col li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.One-col li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.One-col li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.One-col li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.One-col li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.One-col li#get a
+{ 
+	background-position: -331px -87px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.One-col li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+/*
+-----
+styles for Two-col
+------
+*/
+body.Two-col li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.Two-col li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.Two-col li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.Two-col li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.Two-col li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.Two-col li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.Two-col li#get a
+{ 
+	background-position: -331px -87px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.Two-col li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+
+
+
+/*
+---------------------------- 
+YOU ARE HERE
+---------------------------- 
+*/
+
+body#accountmanagepage li#accountmanagelink,
+body#cardactivationpage li#cardactivationlink,
+body#addvaluepage li#addvaluelink,
+body#autoloadpage li#autoloadlink,
+body#registercardpage li#registercardlink,
+body#balancepage li#balancelink,
+body#transactionhistorypage li#transactionhistorylink,
+body#loststolenpage li#loststolenlink,
+body#deregisterpage li#deregisterlink,
+body#damagepage li#damagelink,
+body.wageworks li#addvalue,
+body.commuterchecks li#addvalue,
+body.transitbenefits li#transit,
+body.faq li#faq,
+body.toolbox li#toolbox, 
+body.pressroom li#press,
+body.howtouse li#howtouse,
+body.seniors li#seniors,
+body.autoload li#autoload, 
+body.benefits li#benefits, 
+body.addvalue li#addvalue, 
+body.whereuseTL li#wheretouse {
+	background: #0068a6 url("/ClipperCard/javax.faces.resource/leftnav-color-button.gif.jsf?ln=images/global") repeat-x top;
+	border-top:1px solid #8ebdd8;
+}
+
+body#accountmanagepage li#accountmanagelink a,
+body#cardactivationpage li#cardactivationlink a,
+body#addvaluepage li#addvaluelink a,
+body#autoloadpage li#autoloadlink a,
+body#registercardpage li#registercardlink a,
+body#balancepage li#balancelink a,
+body#transactionhistorypage li#transactionhistorylink a,
+body#loststolenpage li#loststolenlink a,
+body#deregisterpage li#deregisterlink a,
+body#damagepage li#damagelink a,
+body.wageworks li#addvalue a,
+body.commuterchecks li#addvalue a,
+body.transitbenefits li#transit a,
+body.faq li#faq a,
+body.toolbox li#toolbox a, 
+body.pressroom li#press a,
+body.howtouse li#howtouse a,
+body.seniors li#seniors a,
+body.autoload li#autoload a, 
+body.benefits li#benefits a, 
+body.addvalue li#addvalue a, 
+body.whereuseTL li#wheretouse a {
+	color: #FFFFFF;
+	background: transparent url("/ClipperCard/javax.faces.resource/arrow-white.png.jsf?ln=images/bullets") no-repeat 4px 50%;
+}
+
+/*
+---------------------------- 
+STYLES BELOW ARE FOR ONE COLUMN AND TWO COLUMN PAGES
+THESE PAGES MOSTLY HOLD FORMS
+---------------------------- 
+*/
+
+/*FORMS*/
+body.Two-col #mainContent .form	{
+	margin:10px 0 10px 20px;
+	
+}
+
+table.body.Two-col #mainContent thead td, 
+.form table thead td,
+.form h2	{
+	
+	padding-left:5px;
+	padding-right:10px;
+	font-weight:bold;
+	height:34px;
+	color:#358912;
+	background: transparent url("/ClipperCard/javax.faces.resource/detailstableheader.gif.jsf?ln=images/global") repeat-x 0 0;
+}
+
+body.Two-col #mainContent h1,
+body.One-col #mainContent h1 {
+	color: #002e6e;
+	margin: 10px 0 10px 10px;
+}
+
+.Two-col .page_title,
+.One-col .page_title {
+	height: 26px;
+	color: #FFFFFF;
+	background: transparent url("/ClipperCard/javax.faces.resource/detailstableheader.gif.jsf?ln=images/global") repeat-x 0 0;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.One-col form .page_title {
+	height: 26px;
+	color: #358912;
+	background: transparent url("/ClipperCard/javax.faces.resource/detailstableheader.gif.jsf?ln=images/global") repeat-x 0 0;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+
+
+table.body.Two-col #mainContent tbody td,
+.form table tbody td	{
+	padding: 10px 0 10px 10px;
+	font-size: .75em;
+
+}
+table.body.One-col #mainContent tbody td,
+.form table tbody td	{
+	padding: 10px 0 10px 10px;
+	font-size: .75em;
+
+}
+.One-col .form table tbody td{
+padding: 10px 0 10px 10px;
+font-size: .75em;
+} 
+table.fullwidth,.form table	{
+	width:100%;
+	border-collapse:collapse;
+}
+
+/*
+table.body.Two-col #mainContent tbody th	{
+	padding-left:5px;
+	font-weight:bold;
+	vertical-align:top;
+}
+
+table.body.Two-col #mainContent tbody td.buttons	{
+	text-align:right;
+	border: 1px solid black;
+}
+table.body.Two-col #mainContent tbody td ul, table.body.Two-col #mainContent tbody td ul	{
+	list-style-type:none;
+}
+
+table.fullwidth tbody td ul li	{
+	padding:0;
+	margin:0;
+	clear:both;
+}
+
+
+
+*/
+
+
+
+/*
+///////////////////////
+HACKS//////////////////
+USED TO KEEP CONSISTENT FONT SIZE FROM INHERITED CONTENT
+///////////////////////
+
+*/
+
+
+.One-col table {
+	font-size: 1.4em;
+}
+
+.Two-col .buttonSearch,
+.Two-col .textinput,
+.Two-col table label, 
+.One-col table label,
+.One-col .buttonSearch,  
+.One-col .textinput,
+.One-col table .textinput,
+.One-col table input,
+.One-col table textarea,
+.One-col table select  {
+	color: #FFFFFF;
+	font-size:12px;
+}
+
+.One-col table select {
+	 padding: 0; 
+}
+
+.One-col table label {
+	padding: 0 0 0 20px;	
+}
+
+.Two-col .formbuttonnew,
+.One-col .formbuttonnew,
+.One-col table .formbuttonnew,
+.getTL .formbuttonnew {
+	font-size: 12px;
+	color:#fff;
+}
+
+
+One-col.form table td .formbuttonnew	{
+	margin:2px 0 0 0;
+	height:20px;
+	border:none;
+	color:#fff;
+	/* background-color:#469c22; */
+	background: #FFFFFF url("/ClipperCard/javax.faces.resource/btn_bg.gif.jsf?ln=images/buttons")  repeat-x;
+	font-weight:bold;
+}
+
+.page_title3 sup {
+	font-size: .5em;
+}
+.h1 sup {
+	font-size: .5em;
+}
+
+.One-col table.fullwidth tbody td,
+.One-col .form table tbody td	{
+	padding:10px 0 3px 10px;
+	font-size:12px;
+}
+
+
+.One-col table.fullwidth thead td,
+.One-col .form table thead td,
+.form h2	{
+	padding-left:5px;
+	padding-right:10px;
+	font-weight:bold;
+	height:34px;
+	color:#FFFFFF;
+	font-size: 1em;
+	background: transparent url("/ClipperCard/javax.faces.resource/detailstableheader.gif.jsf?ln=images/global") repeat-x 0 0;
+}
+
+
+/*
+END OF HACKS
+*/
+
+
+body.Two-col #mainContent p {
+	width: 600px;
+	margin: 0 3px 0 3px;
+	padding: 10px 0 0 10px;
+	}
+	
+body.One-col #mainContent p {
+	width: 766px;
+	padding: 10px 0 0 10px;
+	}
+body.One-col #mainContent table p {
+	width: 766px;
+	padding: 10px 0 0 10px;
+	}
+
+
+body. One-col #contentcolumn_med form table td .alignTopLeft {
+text-align:left;
+vertical-align:top;
+}
+	
+body.One-col h3, 
+body.Two-col h3 {
+	color: #fff;
+}
+.help_panel {
+	font-size: .75em;
+}
+
+body.Two-col .help_header h3{
+	font-size: 43em;
+	font-color:#FFFFFF;
+}
+body.One-col .help_header h3{
+	font-size: 43em;
+}
+
+body.Two-col .help_header{
+	width:585px;
+	padding:5px 5px 5px 5px;
+	height:20px;
+	background: transparent url("/ClipperCard/javax.faces.resource/helpheader.gif.jsf?ln=images/global") repeat-x 0 0;
+	color:#fff;
+	font-weight:bold;
+}
+body.One-col .help_header{
+	width:585px;
+	padding:5px 5px 5px 5px;
+	height:20px;
+	background: transparent url("/ClipperCard/javax.faces.resource/helpheader.gif.jsf?ln=images/global") repeat-x 0 0;
+	color:#fff;
+	font-weight:bold;
+}
+
+body.One-col .help_panel,
+body.Two-col .help_panel {
+	width:581px;
+	padding:5px 5px 5px 5px;
+	border-left:2px solid #002e6e;
+	border-right:2px solid #002e6e;
+	font-size: 0.75em;
+}
+
+.last
+{
+	margin-bottom:10px;
+	border-bottom:2px solid #002e6e;
+}
+
+.help_panel a	{
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}	
+
+body.Two-col #mainContent h3,
+body.One-col #mainContent h3 {
+	padding: 5px 0 5px 10px;
+}
+
+body.Two-col #mainContent {
+	float: left;
+	width: 613px;
+	margin: 0 0 0 3px;
+}
+
+body.One-col #mainContent {
+	float: left;
+	width: 770px;
+}
+
+.form_buttons_right_newDesign	{
+	padding-top:5px;
+	text-align:right;
+	position:relative;
+}
+
+.form_buttons_right_newDesign input	{
+	margin:2px 0 0 0;
+	height:20px;
+	border:none;
+	color:#fff;
+	/* background-color:#469c22; */
+	background: #FFFFFF url("/ClipperCard/javax.faces.resource/btn_bg.gif.jsf?ln=images/buttons")  repeat-x;
+	font-weight:bold;
+}
+
+.form_buttons_right_newDesign	{
+	padding-left:5px;
+	padding-right:10px;
+	font-weight:bold;
+	font-size: .75em;
+	height:34px;
+	color:#358912;
+	background: transparent url("/ClipperCard/javax.faces.resource/detailstableheader.gif.jsf?ln=images/global") repeat-x 0 0;
+}
+.formbuttonnew	{
+	margin:2px 0 0 0;
+	height:20px;
+	border:none;
+	color:#ffffff;
+	/* background-color:#469c22; */
+	background: #FFFFFF url("/ClipperCard/javax.faces.resource/btn_bg.gif.jsf?ln=images/buttons")  repeat-x;
+	font-weight:bold;
+}
+
+.shortnew {
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_short.gif.jsf?ln=images/buttons") no-repeat!important;
+	width: 69px!important;
+}
+ 
+.mediumnew { 
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_medium.gif.jsf?ln=images/buttons") no-repeat!important;
+	width: 109px;
+}
+
+.longnew { 
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_long.gif.jsf?ln=images/buttons") no-repeat!important;
+	width: 141px;
+}
+
+.smallnew { 
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_small.gif.jsf?ln=images/buttons") no-repeat!important;
+	width: 35px!important;
+}
+
+/*TOOLBOX*/
+.toolboxLogo {
+	float: left;
+	width: 180px;
+	margin: 0 0 10px 20px;
+}
+
+.toolboxLogo p {
+	margin: 0 0 0 -20px;
+	width: 180px !important;
+}
+
+#toolboxcontainer p {
+	padding: 5px 0 0 20px !important;
+}
+
+#toolboxcontainer h2 {
+	padding: 20px 0 0 20px !important;
+}
+
+
+#pressreleasearea h5 {
+	font-size: .75em;
+	padding: 0 0 0 20px !important;
+}
+
+#flashcontentBody {
+	margin: 0 0 10px 20px;	
+	width: 427px; height: 250px;
+}
+
+//new styles added for FAQ page
+
+body.faq #mainContent h3 {
+    margin: 20px 0 0 0;
+    font-size:0.875em;
+    color: #449c2d;
+}
+
+body.faq #mainContent h4, body.faq #mainContent h3, body.faq #mainContent p {
+    width: 400px;
+}
+body.faq #mainContent h4 {
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #000;
+
+}
+
+body.faq #mainContent h4 a:hover {
+    text-decoration: underline;
+}
+
+body.faq #mainContent h4 a:visited {
+    color: #666;
+}
+
+#logOffBox {
+	font-size: 10px;
+	width: 150px;
+	position: absolute;
+	left: 630px;
+	top: 50px;
+}
+
+.linkSpan{
+	color: #0068a6;
+	text-decoration:underline;
+	cursor:pointer;
+}

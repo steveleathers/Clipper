@@ -1,0 +1,223 @@
+/*MAINCONTENT*/
+#mainContent {
+	/*font-size: .75em;*/
+}
+
+#mainContent .stepHeader p {
+	color: #FFF;
+	font-size: .75em;
+	padding: 0 0 0 20px;
+}
+
+#mainContent .stepHeader a {
+	color: #FFF;
+	font-size: .75em;
+}
+
+#mainContent .subDiv .linkDiv a {
+	font-size: .75em;
+}
+
+#mainContent .contentSubHeader p {
+	color: #002e6e;
+	font-size: 1em;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+#mainContent .greyText {
+	color: #333333;
+	font-size: .75em;
+}
+
+#mainContent .greyBold {
+	color: #333333;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+#mainContent span.question {
+	font-size: .70em;
+	color: #333333;
+}
+
+#mainContent .fieldHeader,
+#mainContent .fieldName,
+#mainContent .fieldData,
+#mainContent span.bodyText {
+	font-size: .75em;
+	line-height: 1.25;	
+}
+
+#mainContent span.subText {
+	font-size: .65em;
+	line-height: 1.25;	
+}
+
+#mainContent .errorText {
+	font-size: .75em;
+	line-height: 1.25;	
+	color: #FF0000;
+	margin-bottom: .5em;
+}
+
+/*BLUE BOX*/
+#blueBox span.question {
+	font-size: 0.75em;
+	color: #000;
+}
+
+#blueBox .boxHeader .blueBoxTitle {
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#blueBox .boxBody p.bodyText {
+	color: #000;
+	font-size: 0.75em;
+	margin-bottom: 10px;
+}
+
+#blueBox .boxBody p.disclaimer {
+	color: #000;
+	font-size: 0.60em;
+	margin-bottom: 10px;
+	line-height: 1.25;
+}
+	
+#blueBox div.itemDescription {
+	color: #000;
+	font-size: 0.6em;
+	line-height: 1.1;
+}
+
+#blueBox div.itemName,
+#blueBox div.itemValue {
+	color: #000;
+	font-size: 0.75em;
+}
+
+#blueBox div.changeLink {
+	color: #000;
+	font-size: 0.60em;
+}
+
+#blueBox div.total {
+	overflow:hidden;
+	font-size: 0.75em;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#blueBox div.totalName,
+#blueBox div.totalAmount {color:#000;}
+
+#blueBox div#totalDue {color:#F00;}
+
+/*HELP BOX*/
+div.helpTextMargin p.helpText {
+	color: #333333;
+	font-size: 0.75em;
+	margin-bottom: 5px;
+	line-height: 1.5;
+}
+
+/* Order Passes Text */
+
+.orderSelect {
+	color: #002e6e;
+	font-size: .8em;
+	font-weight: bold;
+	margin-top: -5px;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+.passType {
+	color: #404546;
+	font-size: .8em;
+	padding:10px 0px 2px 0px;
+	text-align:left;
+	line-height: 1.3em;
+}
+#dialogProductList label{
+	color: #404546;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding:10px 0px 2px 0px;
+	text-align:left;
+	line-height: 1.3em;
+}
+.autoText {
+	color: #404546;
+	font-size: .8em;
+	font-weight: bold;
+	padding:00px 0px 2px 0px;
+	text-align:left;
+}
+
+.autoSelect {
+	color: #002e6e;
+	font-size: .8em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+.passDesc {
+	color: #404546;
+	font-size: .7em;
+	padding:px 0px 2px 0px;
+	text-align:left;
+	line-height: 1.3em;
+}
+
+.passType a {
+	color:#ff0000;
+}
+
+.productAdd {
+	float:right;
+	margin-top:10px;
+	font-size:.8em;
+	color:#fff;
+	padding:8px 15px 8px 15px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	background-color:#023e7b;
+	-webkit-transition: opacity .5s ease-in-out;
+  	-moz-transition: opacity .5s ease-in-out;
+  	-ms-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+}
+
+.productAdd:hover {
+	opacity: .7;
+}
+
+.productAddLeft {
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+	font-size:.8em;
+	color:#fff;
+	padding:8px 15px 8px 15px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	background-color:#023e7b;
+	-webkit-transition: opacity .5s ease-in-out;
+  	-moz-transition: opacity .5s ease-in-out;
+  	-ms-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+}
+
+.productAddLeft:hover {
+	opacity: .7;
+}
+
+

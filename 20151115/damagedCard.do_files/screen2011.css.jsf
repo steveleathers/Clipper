@@ -1,0 +1,772 @@
+@charset "utf-8";
+/* CSS Document */
+
+.prop500 {
+	height:500px;
+	float:right;
+	width:1px;
+}
+.prop200 {
+	height:250px;
+	float:right;
+	width:1px;
+}
+
+body#myClipperPage #mainContent {
+	width: 366px;
+	float:left;
+	margin: 0 0 0 7px;
+}
+
+body#myClipperPage #mainContent.twocolumn {
+	width: 590px;
+}
+
+#rightCol216 {
+	margin: 35px 0 4px 9px;
+	float:left;
+	width: 234px;
+}
+
+li.navSelected {
+	background: #0068a6 url("/ClipperCard/javax.faces.resource/leftnav-color-button.gif.jsf?ln=images/global") repeat-x top;
+	border-top: 1px solid #8ebdd8;
+}
+
+/*PROCESS STEPS*/
+#mainContent .contentSubHeader {
+	height: 35px;
+}
+
+#mainContent .stepHeader {
+	height: 21px;
+	background: #1c95e4 url("/ClipperCard/javax.faces.resource/stepHeader.gif.jsf?ln=images/global") repeat-x;
+	line-height: 1em;
+	border-bottom: 2px solid #012f6d;
+	width: 365px;
+}
+
+#mainContent .stepHeader div.title {
+	float:left;
+	position:absolute;
+	width:200px;
+	height:21px;
+	overflow:hidden;
+	color: #FFF;
+}
+
+#mainContent .stepHeader div.policy {
+	float:right;
+	position:relative;
+	width:90px;
+	height:21px;
+	overflow:hidden;
+}
+
+#mainContent #navBar {
+	height: 21px;
+	line-height: 1em;
+	border-bottom: 2px solid #012f6d;
+	width: 365px;
+}
+
+#mainContent #navBar ul#navTabs {
+	overflow: hidden;
+	list-style-type: none;
+}
+
+#mainContent #navBar ul#navTabs li {
+	float: left;
+	margin: 0 2px 0 0;
+	height: 21px;
+	width: 85px;
+}
+
+#mainContent #navBar ul#navTabs li .textLink a {
+	display: block;
+	height:21px;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #86bde0;
+	padding-top: 2px;
+}
+
+#mainContent #navBar ul#navTabs li a.selected {
+	background-image: url("/ClipperCard/javax.faces.resource/stepHeader.gif.jsf?ln=images/global");
+	height: 21px;
+	background-repeat: repeat-x;
+}
+
+#mainContent .greyBox {
+	border: 1px solid #dbdcde;
+	border-top: none;
+	padding: 10px 10px 10px 20px;
+	width: 333px;
+	overflow: hidden;
+}
+
+#mainContent .greyBox2 {
+	border: 1px solid #dbdcde;
+	border-top: none;
+	padding: 10px 2px 10px 2px;
+	width: 359px;
+}
+
+#mainContent .topBorder {
+	border: 1px solid #dbdcde;
+}
+
+#mainContent .greyBox p {
+	margin: 0 0 10px 0;
+	padding: 0;
+	width: 330px;
+}
+
+#mainContent .greyBox2 p {
+	margin: 0 0 10px 18px;
+	padding: 0;
+	width: 330px;
+	color: #333333;
+}
+
+#mainContent .greyBox2 .radioQuestion p{
+	margin-left: 0;
+	width: 290px;
+}
+
+.helpContainer .helpTextMargin {
+	margin: 10px;
+}
+
+#mainContent .helpTextMargin p {
+	width: 204px;
+	padding: 0;
+}
+
+#mainContent hr {
+	width: 323px;
+	height: 1px;
+	background-color: #999999;
+	color: #999999;
+	margin: 20px 0 20px 0;
+	border: none;
+}
+
+#mainContent .greyBox .radioQuestion p {
+	width: 290px;
+}
+
+#mainContent .greyBox .radioQuestion label {
+	width: 290px;
+	color: inherit;
+	font-size: inherit;
+}
+
+.greyInside {
+	background-color:#e6e6e6;
+}
+
+.spacer {height: 5px;}
+.spacer10 {height: 10px;}
+
+#mainContent .greyBox .radioDiv,
+#mainContent .subDiv {
+	position: relative;
+	width: 343px;
+	overflow: hidden;
+}
+
+#mainContent .greyBox2 .radioDiv {
+	position: relative;
+	width: 323px;
+	overflow: hidden;
+	margin-left:20px;
+}
+
+#mainContent .infoDiv {
+	position: relative;
+	width: 333px;
+	overflow: hidden;	
+}
+
+#mainContent .infoDiv2 {
+	position: relative;
+	width: 353px;
+	overflow: hidden;	
+}
+
+#mainContent .subDiv .linkDiv {
+	width: 318px;
+	text-align: right;
+	height: 20px;
+}
+
+radioDiv input {
+	z-index: 8999;
+}
+
+/*Form Questions*/
+.radioBtn {
+	width:20px;
+	float:left;
+	position:relative;
+}
+
+.radioQuestion {
+	width:300px;
+	float:left;
+	position:relative;
+	margin-Left:10px;
+}
+
+.cardName {
+	width:140px;
+	float:left;
+	position:relative;
+	margin-Left:10px;
+}
+
+.greyBox2 .radioQuestion {
+	width:290px;
+}
+
+.radioDiv .textQuestion {
+	width:150px;
+	float:left;
+	position:relative;
+	margin-top: 3px;
+	height: 20px;
+}
+
+.subDiv .textQuestion {
+	width:140px;
+	float:left;
+	position:relative;
+	overflow: visible;
+	margin-top: 3px;
+	height: 20px;
+	margin-left: 30px;
+}
+
+/*ACCOUNT INFO*/
+.fieldName {
+	width:150px;
+	float:left;
+	position:relative;
+	margin-top: 3px;
+}
+
+.fieldData {
+	width:183px;
+	float:left;
+	position:relative;
+	margin-top: 3px;
+}
+
+.field90  {width:90px;}
+.field100  {width:100px;}
+.field200  {
+	width:200px;
+}
+
+
+.helpToggleInactive{
+	background-image: url("/ClipperCard/javax.faces.resource/QuestionMark_FullOpacity.png.jsf?ln=images/buttons");
+}
+
+.helpToggleActive{
+	background-image: url("/ClipperCard/javax.faces.resource/QuestionMark_LowOpacity.png.jsf?ln=images/buttons");
+}
+
+.helpToggle {
+	width: 21px;
+	height:18px;
+	top:-2px;
+	z-index: 80;
+	cursor:pointer;
+}
+
+
+
+.radioDiv .textAnswer {
+	float:left;
+	width:170px;
+	margin-bottom: 5px;
+	font-size:.75em;
+}
+
+.subDiv .textAnswer {
+	float:left;
+	width:150px;
+	margin-bottom: 5px;
+}
+
+
+.helpContainer {
+	width: 300px;
+	display:none;
+}
+
+.helpContainer .helpArrow {
+	background-image:url("/ClipperCard/javax.faces.resource/helpArrow.png.jsf?ln=images/global");
+	width: 8px;
+	height: 15px;
+	position: relative;
+	float: left;
+	z-index: 8999;
+}
+
+.margin5 {margin-top: 5px;}
+.margin10 {margin-top: 10px;}
+.margin20 {margin-top: 20px;}
+.margin30 {margin-top: 30px;}
+.margin40 {margin-top: 40px;}
+.margin60 {margin-top: 60px;}
+.margin80 {margin-top: 80px;}
+.margin100 {margin-top: 100px;}
+.margin105 {margin-top: 105px;}
+.margin150 {margin-top: 150px;}
+.margin155 {margin-top: 155px;}
+.margin165 {margin-top: 165px;}
+.margin170 {margin-top: 170px;}
+.margin180 {margin-top: 180px;}
+.margin200 {margin-top: 200px;}
+.margin400 {margin-top: 300px;}
+.margin555 {margin-top: 555px;}
+.margin560 {margin-top: 560px;}
+.margin575 {margin-top: 575px;}
+.margin600 {margin-top: 600px;}
+.margin700 {margin-top: 700px;}
+.margin800 {margin-top: 800px;}
+
+.input170 {width: 170px;}
+.input150 {width: 150px;}
+.input100 {width: 100px;}
+.input80 {width: 80px;}
+.input60 {width: 60px;}
+.input40 {width: 40px;}
+
+.helpContainer .helpBox {
+	background-color: #daedfa;
+	border: 1px solid #cecfd1;
+	width: 224px;
+	position: relative;
+	margin-left: 0px;
+	float: left;
+	z-index: 8990;
+	left: -1px;
+}
+
+.helpContainer .helpCloseX {
+	background-image: url("/ClipperCard/javax.faces.resource/closeX.jpg.jsf?ln=images/global");
+	height: 13px;
+	width: 14px;
+	float: right;
+	cursor:pointer;
+}
+
+.helpToggle a,
+.showHelpToggle a,
+.hideHelpToggle a,
+.helpContainer .helpCloseX a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+form select, 
+form input {
+	border: 1px solid #c3c3c3;
+	background: #ffffff;
+}
+
+.button69,
+.button120,
+.button150 {
+	cursor: pointer;
+	border: 0;
+	padding: 1px 0 2px 0;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.button69grey{
+	cursor: pointer;
+	border: 0;
+	padding: 1px 0 2px 0;
+	color: #FFFFFF;
+	font-weight: bold;
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_grey_69x20.gif.jsf?ln=images/buttons") no-repeat;
+	width: 69px;
+}
+.button69grey:hover {
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_grey_hover_69x20.gif.jsf?ln=images/buttons") no-repeat;
+}
+
+.button69 {
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_69x20.gif.jsf?ln=images/buttons") no-repeat;
+	width: 69px;
+}
+
+.button120 {
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_120x20.gif.jsf?ln=images/buttons") no-repeat;
+	width: 120px;
+}
+
+.button150 {
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_150x20.gif.jsf?ln=images/buttons") no-repeat;
+	width: 150px;
+}
+
+.button69:hover {
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_69x20_over.gif.jsf?ln=images/buttons") no-repeat;
+}
+
+.button120:hover {
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_120x20_over.gif.jsf?ln=images/buttons") no-repeat;
+}
+
+.button150:hover {
+	background: transparent url("/ClipperCard/javax.faces.resource/btn_150x20_over.gif.jsf?ln=images/buttons") no-repeat;
+}
+
+.boxCheck {
+	width:11px;
+	float: left;
+	height: 16px;
+	background-image: url("/ClipperCard/javax.faces.resource/boxCheck.gif.jsf?ln=images/global");
+	margin: 0 0 0 5px;
+}
+
+.boxX {
+	width:11px;
+	float: left;
+	height: 16px;
+	background-image: url("/ClipperCard/javax.faces.resource/boxX.gif.jsf?ln=images/global");
+	margin: 0 0 0 5px;
+}
+
+div.infoReview {
+	float:left;
+	width:210px;
+	overflow:visible;
+	position: relative;
+}
+
+div.infoEdit {
+	float:left;
+	position:relative;
+	width:110px;
+	overflow:visible;
+	text-align:right;
+}
+
+#mainContent .darkGreyBox {
+	background:#e6e6e6;
+	border: 1px solid #dbdcde;
+	width: 357px;
+	margin-bottom:10px;
+	overflow: hidden;
+}
+
+#mainContent .darkGreyCardHeader {
+	background:#e6e6e6;
+	border: 1px solid #dbdcde;
+	width: 357px;
+	overflow: hidden;
+}
+
+#mainContent .darkGreyBox p {
+	width: 300px;
+	margin: 0 0 10px 0;
+}
+
+#mainContent .darkGreyBox .orderTitle {
+	font-size:1.2em;
+	font-weight:bold;
+	color:#414042;
+	margin-bottom:0px;
+}
+
+
+#mainContent .darkGreyBox .innerBox {
+	margin:10px 0 10px 17px;
+}
+
+#mainContent .whiteGreyBox {
+	background:#FFFFFF; 
+	border: 1px solid #dbdcde; 
+	width: 357px;
+	margin-bottom:10px;
+	overflow: hidden;
+}
+
+#mainContent .whiteGreyCardBox {
+	background:#FFFFFF;
+	border: 1px solid #dbdcde;
+	border-top: none;
+	width: 357px;
+	overflow: hidden;
+}
+/* 
+---------------------------- 
+GET TAB
+TOP NAV
+---------------------------- 
+*/
+body.myClipper li#home a
+{ 
+	background-position: 0 -58px; 
+	width: 90px; 
+	left: 0; 
+}
+
+body.myClipper li#home a:hover
+{ 
+	background-position: 0 0px; 
+}
+
+body.myClipper li#about a
+{ 
+	background-position: -90px -0; 
+	width: 122px; 
+	left: 90px; 
+}
+
+body.myClipper li#about a:hover
+{ 
+	background-position: -90px -29px; 
+}
+
+body.myClipper li#use a
+{ 
+	background-position: -210px -0px; 
+	width: 122px; 
+	left: 210px; 
+}
+
+body.myClipper li#use a:hover
+{ 
+	background-position: -210px -58px; 
+}
+
+body.myClipper li#get a
+{ 
+	background-position: -331px -0px; 
+	left: 331px; 
+	width: 121px;
+}
+
+body.myClipper li#get a:hover
+{ 
+	background-position: -331px -87px; 
+}
+
+input.buttonSearch {
+	cursor: pointer;
+}
+
+
+#mainContent ul.orderCard {
+	font-size:0.9em;
+	list-style-type: disc;
+	padding-left: 10px;
+}
+
+#mainContent ul.orderCard li{
+	padding-top:0px;
+	padding-bottom:0px;
+	text-indent:0px;
+	padding-left: 0px;
+	margin: 0 0 5px 0;
+}
+
+#mainContent ul.bulletList {
+padding: 0 0 20px 50px;
+
+}
+
+#mainContent .bulletList li {
+	line-height: 0.8em;
+	padding: 0 0 10px 10px;
+	width: 300px;
+	background: transparent url(../images/bullets/blueSquare.gif) no-repeat 0 3px;
+	}
+	
+	
+
+
+.cardInfo {
+	margin: 10px 0 10px 10px;
+	position: relative;
+	float: left;
+}
+
+/*THICK BOX*/
+.thickbox {
+	
+}
+
+input[disabled="disabled"],input[disabled=""]{
+	background-color: #eeeeee;
+}
+
+.progress_bar	{
+	margin:10px 0 15px 0;
+	list-style:none;
+}
+
+.progress_bar li	{
+	height:28px;
+	padding:7px 5px 5px 32px;
+	display: inline;
+	color:#535353;
+	font-size:12px;
+}
+
+.progress_bar li.stepone	{
+	background-image: url("/ClipperCard/javax.faces.resource/one.gif.jsf?ln=images/bg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.progress_bar li.steptwo	{
+	background-image: url("/ClipperCard/javax.faces.resource/two.gif.jsf?ln=images/bg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.progress_bar li.stepthree	{
+	background-image: url("/ClipperCard/javax.faces.resource/three.gif.jsf?ln=images/bg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.progress_bar li.stepfour	{
+	background-image: url("/ClipperCard/javax.faces.resource/four.gif.jsf?ln=images/bg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.progress_bar li.stepfive	{
+	background-image: url("/ClipperCard/javax.faces.resource/five.gif.jsf?ln=images/bg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.progress_bar li.stepsix	{
+	background-image: url("/ClipperCard/javax.faces.resource/six.gif.jsf?ln=images/bg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.progress_bar li.on	{
+	color:#002e6e;
+	font-weight:bold;
+	background-position: 0 -27px;
+}
+
+.progress_bar li a	{
+	color:#0068a6;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.progress_bar li a:hover	{
+	color:#0068a6;
+	text-decoration:none;
+}
+
+.progress_bar li a:visited	{
+	color:#0068a6;
+}
+
+#loadingIcon{
+	padding:10px;
+	background-color:white;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border:1px solid black;
+	position: fixed;
+	left:50%;
+	top:50%;
+	display:none;
+}
+#loadingIcon2{
+	padding:10px;
+	background-color:white;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border:1px solid black;
+	position: fixed;
+	left:50%;
+	top:50%;
+	display:none;
+}
+#loadingIcon3{
+	padding:10px;
+	background-color:white;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border:1px solid black;
+	position: fixed;
+	left:50%;
+	top:50%;
+	display:none;
+}
+#searchText{
+	border: 1px solid #464646;
+    font-size: 0.75em;
+    width: 200px;
+}
+
+
+.bottom-left {
+    float: left;
+    margin: 10px 0 0 0;
+
+}
+
+.bottom-right {
+    float: right;
+    margin: 10px 0 0 0;
+
+}
+.ui-dialog-titlebar-close {
+	background: url("/ClipperCard/javax.faces.resource/css/images/ui-icons_2694e8_256x240.png.jsf");
+  	display:inline;
+  	border: 1px solid #dbdcde;
+}
+
+#newsFooter {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.customerServiceBox {
+    color: #0068A6;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 14px 0 15px;
+    width: 145px;
+}
+
+#newsFooter .box {
+    color: #686868;
+    float: left;
+    width: 187px;
+}
+
+#newsFooter .box .title {
+    color: #002E6E;
+}
+
+#newsFooter .middle {
+    margin-left: 20px;
+    margin-right: 20px;
+}
