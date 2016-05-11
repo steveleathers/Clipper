@@ -497,7 +497,7 @@ padding: 0 0 5px 50px;
 	width: 360px;
 	background: transparent url(../images/homepage/bullets/blueSquare.gif) no-repeat 0 7px;
 	}
-
+/* begin MIG edits 05/2016 */
 #mainContent ol.faqol {
 	list-style-type: decimal;
 	font-family: "Lucida Grande", Arial, Tahoma, Helvetica, sans-serif;
@@ -512,6 +512,9 @@ padding: 0 0 5px 50px;
 #mainContent .olLift{
 	padding-top: -25px;
 }
+
+/* end MIG edits 05/2016 */
+
 #contentcolumn_large ul.bulletList {
 padding: 0 0 20px 50px;
 
